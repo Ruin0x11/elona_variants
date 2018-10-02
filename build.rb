@@ -12,6 +12,8 @@ start_y = 50
 @space_for_year = 360
 @start = Date.new(2006, 01, 01)
 
+@y_positions = {}
+
 def discr(date_str)
   date = Date.parse(date_str)
   diff = (date - @start).to_f / 365.0
@@ -21,12 +23,13 @@ end
 @variants.each_with_index do |variant, i|
   pos = {}
 
-  variant["y_position"] = start_y + (i * @space_for_variant)
+  @y_positions[variant["name"]] = start_y + (i * @space_for_variant)
   variant["releases"].each do |release|
     # TODO version_kind
     next unless release["date"]
-    key = release["version"] or release["date"]
-    pos[key] = discr(release["date"])
+    x = discr(release["date"])
+    pos[release["date"]] = x
+    pos[release["version"]] = x
   end
 
   @positions[variant["name"]] = pos
@@ -72,6 +75,16 @@ def write_variant(svg, variant)
       next unless release["date"]
       cx = discr(release["date"])
       svg.line(stroke: "black", x1: cx, x2: cx, y1: "-5", y2: "10")
+      if release["port_of"]
+        release["port_of"].each do |port|
+          next unless port["version"]
+          x = @positions[port["name"]][port["version"]]
+          if x
+            svg.line(stroke: "#CDD", x1: cx, x2: x, y1: "-5", y2: (@y_positions[port["name"]] - @y_positions[variant["name"]]))
+            svg.circle(stroke: "#C00", cx: cx, r: "5")
+          end
+        end
+      end
       if false
         svg.text_(x: cx, y: "5") do
           svg.text release["version"] or release["date"]
@@ -87,7 +100,7 @@ def write_content(svg)
     svg.use(x: "60", y: "100%", transform: "translate(0, -20)", 'xlink:href' => "#yearlabels")
 
     @variants.each do |variant|
-      svg.use(y: variant["y_position"], 'xlink:href' => "##{variant["name"]}")
+      svg.use(y: @y_positions[variant["name"]], 'xlink:href' => "##{variant["name"]}")
     end
   end
 end
@@ -116,34 +129,9 @@ circle {
   text-anchor: middle;
 }
 
-.browser, .engine {
-	font-size: 12px;
-	font-family: sans-serif;
-}
-
-.engine {
-	text-anchor: end;
-	font-style: italic;
-	font-weight: bold;
-}
-
-.version {
-	font-family: sans-serif;
-	font-size: 14px;
-	text-anchor: middle;
-}
-
-.subversion {
-	font-family: sans-serif;
-	font-size: 8px;
-	color: black;
-	text-anchor: middle;
-}
-
 a:hover {
 	text-decoration: underline;
 }
-
 CDATA
   end
 end

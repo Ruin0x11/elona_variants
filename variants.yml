@@ -617,50 +617,50 @@ variants:
           port_of:
             - name: omake
               desc: 高速ロード実装。(omakeより)
-        - version: 2012/11/03- 2
+        - version: 2012/11/03-2
           date: 2012/11/03
         - date: 2012/11/04
         - date: 2012/11/06
           port_of:
-            name: elm
-            desc: 終了時にtmpフォルダの中身を削除するように。(elmより)
+            - name: elm
+              desc: 終了時にtmpフォルダの中身を削除するように。(elmより)
         - date: 2012/11/08
         - date: 2012/11/09
           port_of:
-            name: E3
-            desc: 装備の一括切替実装。(E3より,wikiのE3の欄には品質素材のみの判定の上に終了時に保存されないとあるが実際にはきちんと保存され、判定には品質素材の他エゴ,銘なども用いる)
-        - version: 2012/11/09- 2
+            - name: E3
+              desc: 装備の一括切替実装。(E3より,wikiのE3の欄には品質素材のみの判定の上に終了時に保存されないとあるが実際にはきちんと保存され、判定には品質素材の他エゴ,銘なども用いる)
+        - version: 2012/11/09-2
           date: 2012/11/09
         - date: 2012/11/11
           port_of:
-            name: omake
-            desc: 自宅警備員の移植。(omakeより)
+            - name: omake
+              desc: 自宅警備員の移植。(omakeより)
         - date: 2012/11/12
         - date: 2012/11/13
-        - version: 2012/11/13- 2
+        - version: 2012/11/13-2
           date: 2012/11/13
         - date: 2012/11/14
         - date: 2012/11/15
         - date: 2012/11/19
           port_of:
-            name: mewmew
-            desc: 好感度が魂の友以上の非敵対な非ユニークNPCは会話メニューからポートレートをランダムで変更できるように。(mewmew(MMA?)より)
+            - name: mewmew
+              desc: 好感度が魂の友以上の非敵対な非ユニークNPCは会話メニューからポートレートをランダムで変更できるように。(mewmew(MMA?)より)
         - date: 2012/11/23
           port_of:
-            name: ore_hack
-            desc: 非戦闘時、距離を取るタイプの仲間でも自キャラに近づくようにした。(orehackより)
-        - version: 2012/11/23- 2
+            - name: ore_hack
+              desc: 非戦闘時、距離を取るタイプの仲間でも自キャラに近づくようにした。(orehackより)
+        - version: 2012/11/23-2
           date: 2012/11/23
         - date: 2012/11/24
         - date: 2012/11/26
-        - version: 2012/11/26- 2
+        - version: 2012/11/26-2
           date: 2012/11/26
         - date: 2012/11/28
         - date: 2012/11/29
           port_of:
-            name: mma
-            version: 2012/10/10T(人柱)
-            desc: 連続魔法を強化。(いまいちどれくらい強化していいものか分からないのでとりあえずMMA基準。そのうち変更するかも)
+            - name: mma
+              version: 2012/10/10T(人柱)
+              desc: 連続魔法を強化。(いまいちどれくらい強化していいものか分からないのでとりあえずMMA基準。そのうち変更するかも)
         - date: 2012/12/02
         - date: 2012/12/04
         - date: 2012/12/08
@@ -672,13 +672,13 @@ variants:
         - date: 2012/12/13
         - date: 2012/12/14
           port_of:
-            name: omake
-            desc: configのpicknumberを1にすることでアイテムを拾うとき個数を指定できるように。(omakeより)
+            - name: omake
+              desc: configのpicknumberを1にすることでアイテムを拾うとき個数を指定できるように。(omakeより)
         - date: 2012/12/16
         - date: 2012/12/19
           port_of:
-            name: elx
-            desc: hspda.dllの最新版を同梱し、urwがそちらを読み込むように。(elxより,error1対策)
+            - name: elx
+              desc: hspda.dllの最新版を同梱し、urwがそちらを読み込むように。(elxより,error1対策)
         - date: 2012/12/24
         - date: 2012/12/26
         - version: 2012/12/26- 2
