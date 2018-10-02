@@ -1,0 +1,4095 @@
+variants:
+    - name: elona
+      long_name: Elona
+      author: Noa猫
+      desc: Original version.
+      info: ylvania.ne.jp
+      releases:
+          - version: <0.60
+            date: 2006/08/01
+          - version: 0.70
+            date: 2006/11/19
+          - version: 0.80b
+            date: 2007/03/24
+          - version: 0.80
+            date: 2007/04/04
+          - version: 0.90
+            date: 2007/04/19
+          - version: 0.91
+            date: 2007/04/24
+          - version: 0.92
+            date: 2007/04/28
+          - version: 0.93
+            date: 2007/05/06
+          - version: 0.94beta
+            date: 2007/05/16
+          - version: 0.94beta2
+            date: 2008/05/17
+          - version: 0.94beta3
+            date: 2007/05/20
+          - version: 0.941
+            date: 2007/05/27
+          - version: 0.942
+            date: 2007/05/28
+          - version: 0.943
+            date: 2007/05/29
+          - version: 0.950
+            date: 2007/06/08
+          - version: 0.951
+            date: 2007/06/09
+          - version: 0.952
+            date: 2007/06/09
+          - version: 0.953
+            date: 2007/06/13
+          - version: 0.954
+            date: 2007/06/16
+          - version: 0.960
+            date: 2007/07/21
+          - version: 0.961
+            date: 2007/07/24
+          - version: 0.970 beta 1
+          - version: 0.971 beta
+          - version: 0.972
+          - version: 0.973
+          - version: 0.974
+          - version: 0.975
+          - version: 1.000(開発版)
+            date: 2007/09/28
+          - version: 1.001(開発版)
+          - version: 1.002(開発版)
+            date: 2007/10/07
+          - version: 1.003(安定版)
+          - version: 1.010(開発版)
+            date: 2008/01/31
+          - version: 1.011(開発版)
+            date: 2008/02/07
+          - version: 1.02(開発版)
+          - version: 1.03(開発版)
+            date: 2008/03/29
+          - version: 1.04(安定版)
+          - version: 1.05beta
+          - version: 1.05beta2
+          - version: 1.06 beta1
+          - version: 1.07 (安定版)
+          - version: 1.08 (安定版)
+            date: 2008/06/21
+          - version: 1.10 (開発版)
+          - version: 1.11 (開発版)
+          - version: 1.12 (安定版)
+          - version: 1.13 (開発版)
+            date: 2008/07/18
+          - version: 1.14 (開発版)
+            date: 2008/08/03
+          - version: 1.14 fix1(開発版)
+            date: 2008/08/03
+          - version: 1.14 fix2(開発版)
+          - version: 1.14 fix3
+          - version: 1.14 fix4 (1.15)
+          - version: 1.14 fix5 (1.15)
+          - version: 1.16
+          - version: 1.16fix1
+          - version: 1.16fix2
+          - version: 1.16 final
+            date: 2009/05/17
+          - version: 1.16 reloaded
+            date: 2009/05/22
+          - version: 1.16 reloaded fix 1
+          - version: 1.16 reloaded fix 2
+          - version: 2009 Christmas Edition
+          - version: 2009 Christmas Edition fix 1
+          - version: 1.17(開発版)
+            date: 2010/04/10
+          - version: 1.18(開発版)
+            date: 2010/04/11
+          - version: 1.19(開発版)
+            date: 2010/04/12
+          - version: 1.20(開発版)
+          - version: 1.21(開発版)
+          - version: 1.22(開発版)
+
+    - name: plus
+      long_name: Elona+
+      author: Ano犬
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      releases:
+        - version: 0.63(開発版)
+        - version: 0.64(開発版)
+        - version: 0.65(開発版)
+        - version: 0.70(開発版)
+        - version: 0.71(開発版)
+        - version: 0.72(開発版)
+        - version: 0.73(開発版)
+        - version: 0.74(開発版)
+        - version: 0.75(開発版)
+        - version: 0.80(開発版)
+        - version: 0.81(開発版)
+        - version: 0.85(開発版)
+        - version: 0.90(開発版)
+        - version: 0.91(開発版)
+        - version: 0.92(開発版)
+        - version: 0.93(開発版)
+        - version: 0.94(開発版)
+        - version: 0.95(開発版)
+        - version: 0.96(開発版)
+        - version: 0.97(開発版)
+        - version: 0.98(開発版)
+        - version: 0.98 Valenteine Edition(開発版)
+        - version: 0.99(開発版)
+        - version: 1.00(開発版)
+        - version: 1.01(開発版)
+        - version: 1.02(開発版)
+        - version: 1.03(開発版)
+        - version: 1.04(開発版)
+        - version: 1.05(開発版)
+        - version: 1.06(開発版)
+        - version: 1.07(開発版)
+        - version: 1.08(開発版)
+        - version: 1.09(開発版)
+        - version: 1.10(安定版)
+        - version: 1.11(開発版)
+        - version: 1.12R(開発版)
+        - version: 1.13(開発版)
+        - version: 1.14(開発版)
+        - version: 1.15(開発版)
+        - version: 1.155(開発版)
+        - version: 1.15555(開発版)
+        - version: 1.16(開発版)
+        - version: 1.17(開発版)
+        - version: 1.17fix(開発版)
+        - version: 1.18(開発版)
+        - version: 1.18R(開発版)
+        - version: 1.19(開発版)
+        - version: 1.20(開発版)
+          date: 2013/05/19
+        - version: 1.21(開発版)
+          date: 2013/06/09
+        - version: 1.22(開発版)
+          date: 2013/07/01
+        - version: 1.23(開発版)
+          date: 2013/07/14
+        - version: 1.24(開発版)
+          date: 2013/08/04
+        - version: 1.25(開発版)
+          date: 2013/08/31
+        - version: 1.25R(開発版)
+          date: 2013/08/31
+        - version: 1.25Rfix(開発版)
+          date: 2013/08/31
+        - version: 1.26(開発版)
+          date: 2013/09/01
+        - version: 1.27(開発版)
+          date: 2013/09/01
+        - version: 1.27R(開発版)
+          date: 2013/09/05
+        - version: 1.28(開発版)
+          date: 2013/09/13
+        - version: 1.29(開発版)
+          date: 2013/09/29
+        - version: 1.30(開発版)
+          date: 2013/10/27
+        - version: 1.31(開発版)
+          date: 2013/11/24
+        - version: 1.31R(開発版)
+          date: 2013/11/25
+        - version: 1.32(開発版)
+          date: 2013/12/01
+        - version: 1.33(開発版)
+          date: 2013/12/21
+        - version: 1.33R(開発版)
+          date: 2013/12/27
+        - version: 1.34(開発版)
+          date: 2014/01/26
+        - version: 1.35(開発版)
+          date: 2014/02/22
+        - version: 1.35R(開発版)
+          date: 2014/02/23
+        - version: 1.35R2(開発版)
+          date: 2014/02/24
+        - version: 1.36(開発版)
+          date: 2014/03/30
+        - version: 1.36R(開発版)
+          date: 2014/04/06
+        - version: 1.36R2(開発版)
+          date: 2014/04/16
+        - version: 1.37(開発版)
+          date: 2014/05/05
+        - version: 1.38(開発版)
+          date: 2014/06/16
+        - version: 1.38R(開発版)
+          date: 2014/06/16
+        - version: 1.39(開発版)
+          date: 2014/08/31
+        - version: 1.40(開発版)
+          date: 2014/10/05
+        - version: 1.40fix(修正版)
+          date: 2014/10/05
+        - version: 1.40fix2(修正版)
+          date: 2014/10/10
+        - version: 1.41(開発版)
+          date: 2014/11/27
+        - version: 1.41fix(修正版)
+          date: 2014/11/30
+        - version: 1.42(開発版)
+          date: 2015/02/15
+        - version: 1.42fix(修正版)
+          date: 2015/02/21
+        - version: 1.42fix2(修正版)
+          date: 2015/02/21
+        - version: 1.43(開発版)
+          date: 2015/03/15
+        - version: 1.44(開発版)
+          date: 2015/04/26
+        - version: 1.45(開発版)
+          date: 2015/05/24
+        - version: 1.46(開発版)
+          date: 2015/06/28
+        - version: 1.47(開発版)
+          date: 2015/07/20
+        - version: 1.48(開発版)
+          date: 2015/08/12
+        - version: 1.49(開発版)
+          date: 2015/09/06
+        - version: 1.49fix(修正版)
+          date: 2015/09/06
+        - version: 1.50(開発版)
+          date: 2015/09/23
+        - version: 1.51(開発版)
+          date: 2015/11/01
+        - version: 1.51fix(修正版)
+          date: 2015/11/02
+        - version: 1.52(開発版)
+          date: 2015/12/06
+        - version: 1.52fix(修正版)
+          date: 2015/12/06
+        - version: 1.53(開発版)
+          date: 2015/12/25
+        - version: 1.54(開発版)
+          date: 2016/01/18
+        - version: 1.55(開発版)
+          date: 2016/02/14
+        - version: 1.56(開発版)
+          date: 2016/04/10
+        - version: 1.57(開発版)
+          date: 2016/04/18
+        - version: 1.58(開発版)
+          date: 2016/05/08
+        - version: 1.59(開発版)
+          date: 2016/06/18
+        - version: 1.60(開発版)
+          date: 2016/07/18
+        - version: 1.60fix(修正版)
+          date: 2016/07/18
+        - version: 1.61(開発版)
+          date: 2016/08/17
+        - version: 1.62(開発版)
+          date: 2016/09/25
+        - version: 1.63(開発版)
+          date: 2016/11/04
+        - version: 1.64(開発版)
+          date: 2016/12/18
+        - version: 1.65(開発版)
+          date: 2017/02/13
+        - version: 1.66(開発版)
+          date: 2017/03/12
+        - version: 1.67(開発版)
+          date: 2017/04/25
+        - version: 1.67fix(修正版)
+          date: 2017/04/29
+        - version: 1.67fix2(修正版)
+          date: 2017/05/02
+        - version: 1.67fix3test（試験版）
+          date: 2017/05/05
+        - version: 1.68(開発版)
+          date: 2017/05/28
+        - version: 1.69(開発版)
+          date: 2017/06/25
+        - version: 1.70(開発版)
+          date: 2017/07/24
+        - version: 1.71(開発版)
+          date: 2017/09/10
+        - version: 1.72(開発版)
+          date: 2017/10/07
+        - version: 1.73(開発版)
+          date: 2017/10/29
+        - version: 1.74(開発版)
+          date: 2017/12/18
+        - version: 1.74fix(修正版)
+          date: 2017/12/25
+        - version: 1.75(開発版)
+          date: 2018/01/08
+        - version: 1.76(開発版)
+          date: 2018/03/01
+        - version: 1.76fix(修正版)
+          date: 2018/03/02
+        - version: 1.77(開発版)
+          date: 2018/04/30
+        - version: 1.78(開発版)
+          date: 2018/06/30
+        - version: 1.79(開発版)
+          date: 2018/07/07
+        - version: 1.80(開発版)
+          date: 2018/07/16
+        - version: 1.81(開発版)
+          date: 2018/07/29
+        - version: 1.82(開発版) # TODO
+          date: 2018/08/26
+        - version: 1.83(開発版)
+          date: 2018/09/24
+
+    - name: custom
+      long_name: Elona+ Custom
+      author: AnnaBanana, Bloodyshade
+      derived_from:
+        - name: plus
+      releases:
+        - version: E+CU 1.65.1
+        - version: E+CU 1.66.3HF1
+        - version: E+CU 1.67.2
+        - version: E+CU 1.67fix.1
+        - version: E+CU 1.67fix2.1
+        - version: E+CU 1.67fix2.2
+        - version: E+C 1.68.1
+        - version: E+C 1.69.2
+        - version: E+C 1.69.3
+        - version: E+C 1.70.1
+        - version: E+C 1.71.1
+        - version: E+C 1.72.1
+        - version: E+C 1.73.1
+        - version: E+C 1.74.1
+        - version: E+C 1.74fix.1
+        - version: E+C 1.75.1
+        - version: E+C 1.76fix.1
+        - version: E+C 1.77.1
+        - version: E+C 1.80.4
+        - version: E+C 1.81.1
+        - version: E+C 1.81.2
+        - version: E+C 1.82.1
+        - version: E+C 1.82.2
+        - version: E+C 1.83.1
+          date: 2018/10/01 01:33
+          port_of:
+            - name: plus
+              version: 1.83(開発版)
+              desc: Ported 1.83 changes
+
+    - name: amylona
+      derived_from:
+        - name: custom # ???
+          version: E+C 1.71.1 # ???
+      releases:
+        - date: 2018/07/04
+        - date: 2018/08/18
+        - date: 2018/08/23
+
+    - name: AA
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      releases:
+        - version: 0.11
+          date: 2011/07/20
+        - version: 0.20
+          date: 2011/08/26
+        - version: 0.21
+          date: 2011/08/27
+        - version: 0.22
+          date: 2011/08/28
+        - version: 0.23
+          date: 2011/08/29
+        - version: 0.24
+          date: 2011/08/31
+        - version: 0.25
+          date: 2011/09/10
+
+    - name: m
+      long_name: elona_誰得ver # elona_m
+      releases:
+        - date: 2011/03/04 21:37:31
+        - date: 2011/03/05 17:54:19
+        - date: 2011/03/05 21:43:21
+        - date: 2011/03/12 18:08:24
+        - date: 2011/03/16 21:44:06
+        - date: 2011/03/20 14:21:39
+        - date: 2011/04/01 18:12:31
+
+    - name: URW
+      long_name: Unofficial Rough Work
+      derived_from:
+        - name: elona
+          version: 2009 Christmas Edition
+      version_type: date_with_slash
+      releases:
+        - date: 2012/08/06
+        - date: 2012/08/07
+        - version: 2012/08/07-2
+          date: 2012/08/07
+        - version: 2012/08/07-3
+          date: 2012/08/07
+        - date: 2012/08/08
+        - version: 2012/08/08-2
+          date: 2012/08/08
+        - date: 2012/08/09
+        - version: 2012/08/09-2
+          date: 2012/08/09
+        - date: 2012/08/10
+        - date: 2012/08/11
+        - date: 2012/08/12
+        - date: 2012/08/14
+        - date: 2012/08/15
+        - date: 2012/08/16
+        - date: 2012/08/17
+        - date: 2012/08/18
+        - version: 2012/08/18-2
+          date: 2012/08/18
+        - date: 2012/08/19
+        - version: 2012/08/19-2
+          date: 2012/08/19
+        - date: 2012/08/20
+        - date: 2012/08/25
+        - date: 2012/08/30
+        - date: 2012/09/01
+        - date: 2012/09/02
+        - version: 2012/09/02-2
+          date: 2012/09/02
+        - version: 2012/09/02-3
+          date: 2012/09/02
+        - date: 2012/09/03
+          port_of:
+            - name: omake
+              desc: omakeのuser_face1.bmpに対応。
+        - date: 2012/09/04
+        - date: 2012/09/05
+        - date: 2012/09/06
+        - version: 2012/09/06-2
+          date: 2012/09/06
+        - version: 2012/09/06-3
+          date: 2012/09/06
+        - date: 2012/09/07
+        - date: 2012/09/08
+          port_of:
+            - name: omake
+              desc: 「口調を変える」をomakeのカスタムトークに一部対応させた。
+        - date: 2012/09/12
+        - date: 2012/09/13
+        - date: 2012/09/15
+          port_of:
+            - name: omake
+              desc: 呪われた妹の日記を読むと変な色のプレデターな妹が仲間になるように。(omakeから)
+        - date: 2012/09/16
+          port_of:
+            - name: mma
+              version:
+                - 2012/08/24(人柱)
+                - 2012/08/23(人柱)
+              desc: 染料でキャラを染められるように。また、染料の色番号を表示するように。(MMAより)
+            - name: ore_hack
+              desc: ヘルメスの血を仲間が飲んだ時効果が２倍になるように。(orehackより)
+            - name: omake
+              desc: 遠隔武器の距離修正を威力修正と命中修正に分離して計算するように変更(omakeより)
+        - date: 2012/09/18
+          - name: ore_hack
+            desc: 筋力、耐久、器用に経験値が入った時、稀に速度にも経験値が入るようにしてみた。(orehackより)
+          - name: omake
+            desc: 治癒の雨は同じ関係の者だけを回復するように変更(omakeより)
+          - name: oo
+            desc: 免罪符を安く。また免罪符を買うとカルマが0になるように。(overhaulより)
+        - date: 2012/09/19
+          port_of:
+            - name: mma
+              version:
+                - 2012/08/04
+                - 2012/09/19T2(人柱)
+              desc:
+                - デバッグコマンド「elapse_day」「elapse_month」「elapse_year」を追加しました。それぞれ時間が1日、1ヶ月、1年経過します。(MMAより)
+                - 旅歩きで歩いた距離に応じて仲間の潜在能力が上がるように。(MMAより)
+            - name: AA
+              desc: ペットの潜在能力をプレイヤーに比べて下がり難くした。(AAより)
+        - date: 2012/09/21
+          port_of:
+            - name: omake
+              desc: 仲間は空腹になると自動で食事をするように。(omakeより)
+            - name: ore_hack
+              desc: 食べ物の消費期限を表示するように。(orehackより)
+        - date: 2012/09/22
+        - version: 2012/09/22-2
+          date: 2012/09/22
+        - date: 2012/09/23
+        - date: 2012/09/24
+        - date: 2012/09/25
+        - version: 2012/09/25-2
+          date: 2012/09/25
+        - date: 2012/09/26
+          port_of:
+            - name: omake
+              desc:
+                - pcとペットの歩行グラを原寸表示できるように。(omakeより,configのoriginalsizeを1にしてください。)
+                - 音を鳴らすならautopickseも1です。(omakeより,詳しくはomakeのreadmeを)
+        - date: 2012/09/27
+        - date: 2012/09/28
+        - date: 2012/09/29
+        - date: 2012/09/30
+        - date: 2012/10/01
+          port_of:
+            - name: omake
+              desc: カスタム口調をomakeの文字列置換に対応させた。
+        - date: 2012/10/02
+          port_of:
+            - name: omake
+              desc: omakeの台詞編集に対応。(詳しくはomake同梱の台詞の編集方法.txtを参照してください。)
+        - date: 2012/10/03
+        - date: 2012/10/05
+          port_of:
+            - name: omake
+              desc: なめらかにスクロールできるように。(omakeより,configのimprove_scrollを1にしてください。)
+        - date: 2012/10/06
+        - date: 2012/10/07
+        - date: 2012/10/08
+          port_of:
+            - name: omake
+              desc: 走っているときは敵対及びユニークキャラ以外と入れ替わるように。(omakeより)
+        - date: 2012/10/10
+        - date: 2012/10/11
+          port_of:
+            - name: omake
+              desc:
+                - gpとppに3桁ごとのコンマを挿入できるように。
+                - (omakeより,configのseparationに指定された数値ごとに区切ります)
+        - date: 2012/10/13
+        - version: 2012/10/13-2
+          date: 2012/10/13
+        - date: 2012/10/14
+        - date: 2012/10/16
+        - version: 2012/10/16-2
+          date: 2012/10/16
+        - date: 2012/10/17
+          port_of:
+            - name: mma
+              version: 2012/10/19T(人柱)
+              desc: 魔法をスキルトラックの対象に。(MMAより)
+            - name: omake_baby
+              desc:
+                - 手袋・軽手袋を投げられるように。
+                - (babyより,命中した相手と敵対状態になります)
+            - name: AA
+              desc: 呪われたオパートス像を使用するとワールドマップ上のランダムネフィアが全て一時消滅するように。(AAより)
+        - date: 2012/10/18
+          port_of:
+            - name: FFHP
+              desc: FFHP対応。(elona_FFHPのdata,graphic,userフォルダをURWのフォルダに入れると自動で適用されます)
+        - date: 2012/10/19
+        - version: 2012/10/19-2
+          date: 2012/10/19
+        - date: 2012/10/20
+        - date: 2012/10/21
+        - date: 2012/10/22
+          port_of:
+            - name: omake
+              desc:
+                - ペットの個別キャラチップ差し替えに対応。(omakeより)
+                - 仲間の重量挙げ,隠密が上昇するように。(omakeより)
+                - 仲間の自然鑑定が働くように。(omakeより)
+            - name: omake_baby
+              desc: フィート・変異・エーテル病を取得した際の主能力の上限を9999から9999999に変更。(babyより)
+        - date: 2012/10/24
+          port_of:
+            - name: ore_hack
+              desc: 迷子の子犬をクリア後子犬の洞窟が無限生成ダンジョンになるように。(orehackより,合言葉やアイテム没収ダンジョンは未実装)
+        - date: 2012/10/26
+        - date: 2012/10/27
+          port_of:
+            - name: ore_hack
+              desc: スキルの成長ログを表示できるように。(orehackより,configのskillogを1に)
+        - date: 2012/10/29
+        - date: 2012/10/30
+        - date: 2012/10/31
+        - date: 2012/11/02
+          port_of:
+            - name: mma
+              version: 2012/10/11T(人柱)
+              desc: またアイスドレイクは火炎属性が弱点になるように。(MMAより)
+            - name: omake
+              desc: アイテムの詳細画面で上下キーを押すと前後のアイテムの詳細に移動するように。(omakeより)
+        - date: 2012/11/03
+          port_of:
+            - name: omake
+              desc: 高速ロード実装。(omakeより)
+        - version: 2012/11/03-2
+          date: 2012/11/03
+        - date: 2012/11/04
+        - date: 2012/11/06
+          port_of:
+            name: elm
+            desc: 終了時にtmpフォルダの中身を削除するように。(elmより)
+        - date: 2012/11/08
+        - date: 2012/11/09
+          port_of:
+            name: E3
+            desc: 装備の一括切替実装。(E3より,wikiのE3の欄には品質素材のみの判定の上に終了時に保存されないとあるが実際にはきちんと保存され、判定には品質素材の他エゴ,銘なども用いる)
+        - version: 2012/11/09-2
+          date: 2012/11/09
+        - date: 2012/11/11
+          port_of:
+            name: omake
+            desc: 自宅警備員の移植。(omakeより)
+        - date: 2012/11/12
+        - date: 2012/11/13
+        - version: 2012/11/13-2
+          date: 2012/11/13
+        - date: 2012/11/14
+        - date: 2012/11/15
+        - date: 2012/11/19
+          port_of:
+            name: mewmew
+            desc: 好感度が魂の友以上の非敵対な非ユニークNPCは会話メニューからポートレートをランダムで変更できるように。(mewmew(MMA?)より)
+        - date: 2012/11/23
+          port_of:
+            name: ore_hack
+            desc: 非戦闘時、距離を取るタイプの仲間でも自キャラに近づくようにした。(orehackより)
+        - version: 2012/11/23-2
+          date: 2012/11/23
+        - date: 2012/11/24
+        - date: 2012/11/26
+        - version: 2012/11/26-2
+          date: 2012/11/26
+        - date: 2012/11/28
+        - date: 2012/11/29
+          port_of:
+            name: mma
+            version: 2012/10/10T(人柱)
+            desc: 連続魔法を強化。(いまいちどれくらい強化していいものか分からないのでとりあえずMMA基準。そのうち変更するかも)
+        - date: 2012/12/02
+        - date: 2012/12/04
+        - date: 2012/12/08
+        - date: 2012/12/09
+        - version: 2012/12/09-2
+          date: 2012/12/09
+        - date: 2012/12/10
+        - date: 2012/12/11
+        - date: 2012/12/13
+        - date: 2012/12/14
+          port_of:
+            name: omake
+            desc: configのpicknumberを1にすることでアイテムを拾うとき個数を指定できるように。(omakeより)
+        - date: 2012/12/16
+        - date: 2012/12/19
+          port_of:
+            name: elx
+            desc: hspda.dllの最新版を同梱し、urwがそちらを読み込むように。(elxより,error1対策)
+        - date: 2012/12/24
+        - date: 2012/12/26
+        - version: 2012/12/26-2
+          date: 2012/12/26
+        - date: 2012/12/27
+        - date: 2012/12/31
+        - date: 2013/01/03
+        - date: 2013/01/04
+        - version: 2013/01/04-2
+          date: 2013/01/04
+        - date: 2013/01/11
+          port_of:
+            - name: bra
+              desc:
+                - 元素保護,元素の傷跡の魔法が魔法レベルで効果が上昇/低下するようにまた(固定値で)魔法の属性耐性も上昇/低下するように
+                - (elonaBraからの取り込み,効果値は若干いじってます)
+                - 鈍足の魔法の速度の減少率を最大で相手速度の2/3に(elonaBraからの取り込み)
+            - name: mma
+              version:
+                - 2012/09/24T2(人柱)
+                - 2012/09/23T(人柱)
+              desc: リジェネレーションが魔法レベルで治癒力増加するようにまた出血を抑える効果を持つように(MMAより)
+        - date: 2013/01/12
+        - date: 2013/01/13
+        - version: 2013/01/13-2
+          date: 2013/01/13
+        - date: 2013/01/14
+        - date: 2013/01/15
+        - date: 2013/01/16
+        - version: 2013/01/16-2
+          date: 2013/01/16
+        - date: 2013/01/17
+        - date: 2013/01/25
+        - date: 2013/01/29
+          port_of:
+            - name: omake
+              desc: ネフィア生成時に稀に特殊なネフィアが生成されるように。(omakeより,サウスとの行き来での地殻変動が使えないので出現率は２倍にしてあります)
+        - date: 2013/02/03
+        - date: 2013/02/26
+        - date: 2013/02/27
+        - date: 2013/02/27
+          port_of:
+            - name: omake
+              desc:
+                - エロ本にキャラクター名がつくように。(omakeより)
+                - エロ本が読めるように。(omakeより)
+                - カスタムメッセージで%txtpornobook,%txtpornobookdefaultを使えるように。(omakeより)
+            - name: mma
+              desc: NPCのカスタムメッセージに{た}{よろしく}{どうぞ}{ありがとう}{やめて}が使用できるように。(MMAより)
+        - date: 2013/03/01
+        - date: 2013/03/03
+          port_of:
+            - name: mma
+              version:
+                - 2012/12/30T(人柱)
+                - 2012/12/24T(人柱)
+                - 2012/12/22T(人柱)
+              desc: カスタムメッセージで{psex}、{csex}、{tsex}、{ciname}、{tiname}、{ciname1}、{tiname1}が使えるように。(MMAより)
+            - name: ore_hack
+              desc: 別ウィンドウで仲間のＨＰ表示ができるように(拡張設定のペットのHP表示から,orehackより)
+        - date: 2013/03/06
+          port_of:
+            - name: omake
+              desc:
+                - ペットに回復ポーションを持たせておくと瀕死になったときに自動で服用するように。(omakeより)
+                - ペットに作戦を出せるように。(omakeより)
+        - date: 2013/03/13
+        - date: 2013/03/16
+        - date: 2013/03/22
+        - date: 2013/03/26
+        - date: 2013/03/30
+        - version: 2013/03/30-2
+          date: 2013/03/30
+        - date: 2013/03/31
+        - date: 2013/04/06
+          port_of:
+            - name: omake
+              desc:
+                - 果実の木の果物がどれだけ時間が経過していても一つしか増加しなかったのを経過した時間相応に増えるように。
+                - 果実の木になっている果物の種類を表示するように。
+                - 「性別変更　キャラ名」と願うとそのキャラを性転換するように。
+                - 願いの入力枠の拡張。
+                - プレイ中に「ゲームの設定」からanime_wait.を書き換えられるように。
+                - 話しかけた際に年齢も表示されるように。
+                - カメラを使うとそのマップの全体像を出力できるように。
+        - date: 2013/04/07
+        - date: 2013/04/14
+        - date: 2013/04/20
+          port_of:
+            - name: me
+              desc: プラチナ硬貨での訓練を連続で行えるように(elonaMeより)
+            - name: mma
+              version:
+                - 2012/11/19T(人柱)
+                - 2012/09/24T(人柱)
+              desc:
+                - 妹の作戦設定の呼び方をお姉ちゃんにも対応するように(MMAより)
+                - 鍵開けのスキルがあるPCは閉じている鍵のかかってない扉に対して[C]で鍵をかけられるように(MMAより)
+        - date: 2013/04/24
+        - date: 2013/05/01
+        - date: 2013/05/05
+        - date: 2013/06/22
+          port_of:
+            - name: AA
+              desc: AAの拡張mob取り込み。拡張設定からオンにしてください。(AAより,MMAのソースを参考にさせて頂きました,出来ればバックアップとっておいてください,人体錬成はそれなりにめんどくさそうだったので今回はとりあえずなしです)
+            - name: mma
+              desc: AAの拡張mob取り込み。拡張設定からオンにしてください。(AAより,MMAのソースを参考にさせて頂きました,出来ればバックアップとっておいてください,人体錬成はそれなりにめんどくさそうだったので今回はとりあえずなしです)
+        - date: 2013/06/23
+          port_of:
+            - name: omake
+              desc: カスタムトークでテキストの色を指定できるように。(omakeより,詳しくはomake同梱の台詞の編集方法.txtを)
+        - date: 2013/07/07
+        - date: 2013/07/11
+        - date: 2013/08/02
+        - date: 2013/08/09
+        - date: 2013/08/18
+          port_of:
+            - name: omake
+              desc: PCのレベルに近いレベルのランダムネフィアが生成されやすいように(omakeより)
+        - date: 2013/08/24
+          port_of:
+            - name: omake
+              desc:
+                - 演奏中におひねりとしてアイテムが生成された際、演奏中の楽器のアイテム番号を上書きしてしまうのを修正(omakeより)
+                - チュートリアル時、ラーネイレが死んでいる状態でロミアスをわが家から追い出そうとしてもロミアスが用意された台詞を喋らないのを修正(omakeより)
+                - %txtCalm,JPの直前の行に%txt_talk_orderと入れておくと話しかけた際にランダムではなく順番で話すように(omakeより)
+            - name: mma
+              desc: レベルが0のキャラのスキルが成長すると落ちるのを修正(MMAより)
+        - date: 2013/09/12
+          port_of:
+            - name: ore_hack
+              desc: アイテムメニュー時、中身がある箱系と空の箱系では中身がある方が上に表示されるように。(orehackより)
+        - date: 2013/09/14
+          port_of:
+            - name: ore_hack
+              desc: 牧場に入った時に家畜の数を表示するように(orehackより)
+        - date: 2014/01/28
+        - date: 2014/02/20
+        - date: 2014/02/28
+        - date: 2014/03/01
+
+    - name: E3
+      long_name: elona_E3
+      releases:
+        - date: 2011/04/12 20:50:45
+        - date: 2011/04/15 06:36:02
+        - date: 2011/04/22 20:17:30
+
+    - name: LOM
+      long_name: Lomias
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      releases:
+        - version: 0.10
+          date: 2012/03/10
+        - version: 0.20
+          date: 2012/03/13
+        - version: 0.30
+          date: 2012/03/16 22:10:58
+        - version: 0.301
+          date: 2012/03/17 00:08:55
+        - version: 0.31
+          date: 2012/03/17 19:23:51
+        - version: 0.40
+          date: 2012/03/26
+        - version: 0.41
+          date: 2012/03/27 22:48:58
+        - version: 0.42
+          date: 2012/03/31 15:37:14
+        - version: 0.43
+          date: 2012/04/10 16:00:31
+        - version: 0.44
+          date: 2012/04/14 13:28:54
+        - version: 0.45
+          date: 2012/04/29 12:05:19
+        - version: 0.50
+          date: 2012/05/03 21:44:45
+        - version: 0.51
+          date: 2012/05/10 00:15:56
+        - version: 0.52
+          date: 2012/05/20 14:16:13
+
+    - name: elx
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      releases:
+        - version: 0.001
+        - version: 0.002
+        - version: 0.003
+        - version: 0.004
+        - version: 0.005
+          date: 2012/03/02 21:47 # ???
+        - version: 0.006
+          date: 2012/03/03 14:28 # ???
+        - version: 0.007
+          date: 2012/03/04 04:59 # ???
+        - version: 0.007b
+          date: 2012/03/07 00:49
+        - version: 0.008
+          date: 2012/03/09 22:38
+        - version: 0.008b
+          date: 2012/03/10 09:18
+        - version: 0.009
+          date: 2012/03/10 22:25
+        - version: 0.009b
+          date: 2012/03/11 21:43
+        - version: 0.010
+          date: 2012/03/17 21:04
+        - version: 0.011
+          date: 2012/03/23 21:20
+        - version: 0.012
+          date: 2012/03/25 00:46
+        - version: 0.012b
+          date: 2012/03/25 01:26
+        - version: 0.013
+          date: 2012/03/25 18:21
+        - version: 0.014
+          date: 2012/03/25 20:31
+        - version: 0.014b
+          date: 2012/03/30 23:02
+        - version: 0.016
+          date: 2012/03/31 06:52
+        - version: 0.016b
+          date: 2012/04/01 19:27
+        - version: 0.016x
+          date: 2012/04/05 20:46
+        - version: 0.017
+          date: 2012/04/05 23:34
+        - version: 0.017b
+          date: 2012/04/08 02:33
+        - version: 0.018
+          date: 2012/04/09 21:27
+        - version: 0.018b
+          date: 2012/04/12 22:20
+        - version: 0.018x
+          date: 2012/04/14 22:17
+        - version: 0.019
+          date: 2012/04/15 07:53
+        - version: 0.019b
+          date: 2012/04/18 21:56
+        - version: 0.019x
+          date: 2012/04/24 21:51
+        - version: 0.020
+          date: 2012/05/05 10:24
+
+    - name: elm
+      long_name: Enhanced Love Miracle
+      derived_from:
+        name: ore_hack
+        version: 2011/02/27 20:45
+      releases:
+        - version: 1
+          date: 2011/03/06
+        - version: Rel.2c
+          date: 2011/03/18
+        - version: Rel.3
+          date: 2011/03/23
+        - version: Rel.4
+          date: 2011/03/23
+        - version: Rel.5
+          date: 2011/03/28
+        - version: Rel.5a
+          date: 2011/03/29
+        - version: Rel.7
+          date: 2011/04/08
+        - version: Rel.7a
+          date: 2011/04/09
+        - version: Rel.8
+          date: 2011/04/15
+          port_of:
+            - name: ore_hack
+              version: 2011/04/10 07:25
+              desc:
+                - ●ペットとセッションしたときに、そのペットに入る演奏スキル経験値が少なかったのを修正。
+                -　(ore_hack Apr. 10 07:25版に準拠)
+        - version: Rel.8b
+          date: 2011/04/17
+        - version: Rel.8c
+          date: 2011/04/20
+        - version: Rel.9
+          date: 2011/04/22
+          port_of:
+            - name: ore_hack
+              version: 2011/04/20 05:47
+              desc:
+                - ●ほかのアイテムと重なっている作物を収穫し続けるとスタックオーバーフローになるのを修正。
+                -　(ore_hack Apr. 20 05:47版に準拠)
+        - version: Rel.10
+          date: 2011/04/29
+        - version: Rel.11
+          date: 2011/05/06
+        - version: Rel.12
+          date: 2011/05/21
+        - version: Rel.13
+          date: 2011/05/27
+        - version: Rel.14
+          date: 2011/06/10
+        - version: Rel.15
+          date: 2011/07/04
+        - version: Rel.16
+          date: 2011/07/15
+        - version: Rel.16a
+          date: 2011/07/16
+        - version: Rel.16b
+          date: 2011/07/17
+        - version: Rel.16c
+          date: 2011/07/18
+        - version: Rel.17
+          date: 2011/08/04
+        - version: Rel.18
+          date: 2011/08/12
+        - version: Rel.19
+          date: 2011/08/20
+        - version: Rel.20
+          date: 2011/08/26
+        - version: Rel.21
+          date: 2011/09/02
+        - version: Rel.21a
+          date: 2011/09/04
+        - version: Rel.22
+          date: 2011/09/09
+        - version: Rel.22a
+          date: 2011/09/12
+        - version: Rel.23
+          date: 2011/09/16
+        - version: Rel.24
+          date: 2011/09/23
+          port_of:
+            - name: FFHP
+              version: v9
+              desc:
+                - ●調理済み食品と釣果の個別チップ表示(FFHP)に対応。必要なファイルは別途調達すべし。
+                - 　graphicフォルダにitemEx.bmpが存在すると自動的に有効になる。
+                - ・ついでにitem.bmpとitemEx.bmpの部分差し替えをサポート。後者はdataフォルダにitemEx.csvが必要。
+                - 　後者に関しては、箱類などの外部インベントリを開いている間、地面のアイテムの一部が別チップに化けることがあるかもしれない。
+                - 　これは地面と外部インベントリの領域が重複するため、メモリ上に共存できないのが原因。
+                - ・itemEx.csvの処理ルーチンのみFFHP v9からほぼ拝借。
+        - version: Rel.26
+          date: 2011/10/07
+        - version: Rel.27
+          date: 2011/10/14
+        - version: Rel.27a
+          date: 2011/10/15
+        - version: Rel.27b
+          date: 2011/10/17
+        - version: Rel.28
+          date: 2011/10/21
+          port_of:
+            - name: omake
+              desc: ●滑らかスクロールの手法をomakeのそれに合わせた。
+        - version: Rel.28a
+          date: 2011/10/23
+        - version: Rel.28b
+          date: 2011/10/23
+        - version: Rel.29
+          date: 2011/10/28
+        - version: Rel.29a
+          date: 2011/10/29
+        - version: Rel.30
+          date: 2011/11/04
+        - version: Rel.31
+          date: 2011/11/11
+        - version: Rel.32
+          date: 2011/11/26
+        - version: Rel.33
+          date: 2011/12/09
+        - version: Rel.34
+          date: 2011/12/17
+        - version: Rel.35
+          date: 2011/12/24
+        - version: Rel.35a
+          date: 2011/12/25
+        - version: Rel.35b
+          date: 2011/12/26
+        - version: Rel.36
+          date: 2012/01/01
+        - version: Rel.36a
+          date: 2012/01/03
+        - version: Rel.37
+          date: 2012/01/10
+        - version: Rel.38
+          date: 2012/02/03
+        - version: Rel.38a
+          date: 2012/02/05
+        - version: Rel.38b
+          date: 2012/02/08
+        - version: Rel.38c
+          date: 2012/02/09
+        - version: Rel.38d
+          date: 2012/02/10
+        - version: Rel.39
+          date: 2012/03/01
+        - version: Rel.39a
+          date: 2012/03/02
+        - version: Rel.39b
+          date: 2012/03/03
+        - version: Rel.40
+          date: 2012/03/30
+        - version: Rel.41
+          date: 2012/04/11
+        - version: Rel.42
+          date: 2012/04/28
+        - version: Rel.42a
+          date: 2012/04/29
+        - version: Rel.43
+          date: 2012/05/21
+        - version: Rel.44
+          date: 2012/06/14
+        - version: Rel.45
+          date: 2012/07/06
+        - version: Rel.46
+          date: 2012/08/04
+        - version: Rel.46a
+          date: 2012/08/05
+        - version: Rel.47
+          date: 2012/08/31
+        - version: Rel.48
+          date: 2012/09/07
+        - version: Rel.48a
+          date: 2012/09/08
+        - version: Rel.48b
+          date: 2012/09/09
+        - version: Rel.49
+          date: 2012/10/12
+        - version: Rel.49a
+          date: 2012/10/15
+        - version: Rel.50
+          date: 2012/12/29
+        - version: Rel.50a
+          date: 2012/12/31
+        - version: Rel.51
+          date: 2013/02/22
+        - version: Rel.51a
+          date: 2013/02/23
+        - version: Rel.51b
+          date: 2013/02/25
+        - version: Rel.52
+          date: 2013/02/28
+        - version: Rel.52a
+          date: 2013/03/02
+        - version: Rel.52b
+          date: 2013/03/04
+        - version: Rel.53
+          date: 2013/04/10
+        - version: Rel.53a
+          date: 2013/04/11
+        - version: Rel.54
+          date: 2013/05/09
+        - version: Rel.55
+          date: 2013/05/30
+        - version: Rel.56
+          date: 2013/06/03
+          port_of:
+            - name: omake
+              desc: ●紐をPCに使うと、結んであるペット全員を引き寄せられるように(omakeより)。
+        - version: Rel.57
+          date: 2013/07/07
+          port_of:
+            - name: omake
+              desc:
+                - ●omakeから以下の変更を輸入。
+                - ・マテリアルを使ったアイテム生産の品目。
+                - 　→媚薬の生産条件もomakeと同一になった。
+                - ・信仰の深さによる特殊能力の強化(マニの分解術、ルルウィの憑依、エヘカトル流魔術、オパートスの甲殻、生命の輪廻)。
+                - 　ルルウィの憑依については、持続ターン数も強化されるように。ほかはomake準拠。
+                - ・モンスターボールに捕獲されたユニットの経験レベル維持。
+                - 　支配禁止マップ(画面下のマップ名が赤文字)ではボールでの捕獲も禁止に。
+                - ・妹の初期装備に包丁。
+        - version: Rel.57a
+          date: 2013/07/08
+        - version: Rel.58
+          date: 2013/08/04
+        - version: Rel.58a
+          date: 2013/08/09
+
+    - name: BF
+      long_name: Bug Fix
+      releases: # TODO links
+      - version: v1
+        date: 2011/03/06
+      - version: v2
+        date: 2011/03/06
+      - version: v3_31
+        date: 2011/03/08
+      - version: v3
+        date: 2011/03/08
+      - version: v4
+        date: 2011/03/15
+      - version: v5
+        date: 2011/03/16
+      - version: v6
+        date: 2011/03/19
+      - version: v7
+        date: 2011/03/24
+      - version: v8
+        date: 2011/03/24
+      - version: v9
+        date: 2011/03/26
+      - version: v9hf3
+        date: 2011/03/26
+      - version: v9hf4
+        date: 2011/03/26
+      - version: v10
+        date: 2011/03/27
+      - version: v11
+        date: 2011/03/29
+      - version: v12
+        date: 2011/03/30
+      - version: v13
+        date: 2011/04/01
+      - version: v14
+        date: 2011/04/10
+      - version: v14_NoDiet
+        date: 2011/04/10
+      - version: v15
+        date: 2011/04/21
+      - version: v16
+        date: 2011/05/16
+      - version: v16fix1
+        date: 2011/06/03
+      - version: v17
+        date: 2011/07/28
+
+    - name: BF_CE
+      elonaval_page: BF_CE
+      derived_from:
+        - name: BF
+          version: v16
+      releases:
+      - version: v16fix1
+        date: 2011/06/03
+      - version: v17
+        date: 2011/06/27
+      - version: v17_fix1
+        date: 2011/06/27
+
+    - name: FFHP
+      long_name: Elona_FFH
+      elonaval_page: FFHP
+      valiant_page: 87
+      derived_from:
+        - name: BF
+          version: v17
+      releases:
+        - version: v9
+          date: 2011/07/28
+        - version: v8
+          date: 2011/06/03
+        - version: FFHP6
+          date: 2011/04/21
+        - version: FFHP5
+          date: 2011/04/20
+        - version: FFHP4
+          date: 2011/04/20
+        - version: FFHP3
+          date: 2011/04/20
+        - version: FFHP2
+          date: 2011/04/20
+        - version: FFHP
+          date: 2011/04/20
+        - version: FFH2
+          date: 2011/04/20
+        - version: FFH
+          date: 2011/04/18
+        - version: food
+          date: 2011/04/18
+
+    - name: ore_hack
+      elonaval_page: orehack
+      valiant_page: 31
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      elonaval_page: orehack
+      version_type: date_no_slash
+      releases:
+        - date: 2011/02/14
+        - date: 2011/02/19
+        - date: 2011/02/21
+        - date: 2011/02/25
+        - date: 2011/02/27
+        - date: 2011/02/27 20:45
+        - date: 2011/03/04
+        - date: 2011/03/07
+        - date: 2011/03/14
+        - date: 2011/03/19
+        - date: 2011/03/20
+        - date: 2011/03/26
+        - date: 2011/03/26
+        - date: 2011/03/26
+        - date: 2011/03/28
+        - date: 2011/04/01
+        - date: 2011/04/04
+        - date: 2011/04/08
+        - date: 2011/04/10
+        - date: 2011/04/10
+        - date: 2011/04/10
+        - date: 2011/04/10 07:25
+        - date: 2011/04/11
+        - date: 2011/04/12
+        - date: 2011/04/17
+        - date: 2011/04/18
+        - date: 2011/04/20 05:47
+        - date: 2011/04/23
+        - date: 2011/04/24
+        - date: 2011/04/30
+        - date: 2011/05/08
+        - date: 2011/05/08
+        - date: 2011/05/10
+        - date: 2011/05/15
+        - date: 2011/05/15
+        - date: 2011/05/21
+        - date: 2011/05/27
+        - date: 2011/05/28
+        - date: 2011/05/28
+        - date: 2011/05/31
+        - date: 2011/06/04
+        - date: 2011/06/08
+        - date: 2011/06/11
+        - date: 2011/06/18
+        - date: 2011/06/18
+        - date: 2011/06/18
+        - date: 2011/07/02
+        - date: 2011/07/11
+        - date: 2011/07/12
+        - date: 2011/07/13
+        - date: 2011/07/24
+        - date: 2011/07/31
+        - date: 2011/12/25
+        - date: 2012/01/01
+        - date: 2012/01/15
+        - date: 2012/02/05
+        - date: 2012/02/12
+        - version: 差分_20120213
+          date: 2012/02/13
+        - version: 差分_20120214
+          date: 2012/02/14
+        - date: 2012/02/19
+        - date: 2012/02/19
+        - date: 2012/02/26
+        - version: 差分20120229
+          date: 2012/02/29
+        - version: debug_20120229
+          date: 2012/02/29
+        - version: 差分_20120229
+          date: 2012/02/29
+        - version: 差分_20120229
+          date: 2012/02/29
+        - version: debug_20120302
+          date: 2012/03/02
+        - version: 差分_20120302
+          date: 2012/03/02
+        - version: debug_20120306
+          date: 2012/03/06
+        - date: 2012/03/06
+        - version: debug_20120311
+          date: 2012/03/11
+        - date: 2012/03/11
+        - version: debug_20120325
+          date: 2012/03/25
+        - date: 2012/03/25
+        - version: debug_20120401
+          date: 2012/04/01
+        - date: 2012/04/01
+        - version: debug_20120402
+          date: 2012/04/02
+        - version: 差分_20120402
+          date: 2012/04/02
+        - version: debug_20120409
+          date: 2012/04/09
+        - version: 差分_20120409
+          date: 2012/04/09
+        - version: debug_20120409
+          date: 2012/04/09
+        - version: 差分_20120409
+          date: 2012/04/09
+        - version: debug_20120416
+          date: 2012/04/16
+        - version: 差分_20120416
+          date: 2012/04/16
+        - version: debug_20120417
+          date: 2012/04/17
+        - version: 差分_20120417
+          date: 2012/04/17
+        - version: debug_20120512
+          date: 2012/05/12
+        - date: 2012/05/12
+        - version: debug_20120513
+          date: 2012/05/13
+        - version: 差分_20120513
+          date: 2012/05/13
+        - version: debug_20120513
+          date: 2012/05/13
+        - version: 差分_20120513
+          date: 2012/05/13
+        - version: debug_20120515
+          date: 2012/05/15
+        - version: 差分_20120515
+          date: 2012/05/15
+        - version: debug_20120520
+          date: 2012/05/20
+        - date: 2012/05/20
+        - version: debug_20120527
+          date: 2012/05/27
+        - date: 2012/05/27
+        - version: debug_20120529
+          date: 2012/05/29
+        - date: 2012/05/29
+        - version: debug_20120603
+          date: 2012/06/03
+        - date: 2012/06/03
+        - version: debug_20120606
+          date: 2012/06/06
+        - date: 2012/06/06
+        - version: debug_20120610
+          date: 2012/06/10
+        - date: 2012/06/10
+        - version: debug_20120616
+          date: 2012/06/16
+        - date: 2012/06/16
+        - version: debug_20120618
+          date: 2012/06/18
+        - date: 2012/06/18
+        - version: debug_20120619
+          date: 2012/06/19
+        - date: 2012/06/19
+        - version: debug_20120706
+          date: 2012/07/06
+        - date: 2012/07/06
+        - version: debug_20130209
+          date: 2013/02/09
+        - date: 2013/02/09
+        - version: debug_20130218
+          date: 2013/02/18
+        - date: 2013/02/18
+        - version: debug_20130302
+          date: 2013/03/02
+        - date: 2013/03/02
+        - version: debug_20130323
+          date: 2013/03/23
+        - date: 2013/03/23
+        - version: debug_20130330
+          date: 2013/03/30
+        - date: 2013/03/30
+        - version: debug_20130413
+          date: 2013/04/13
+        - date: 2013/04/13
+        - version: debug_20130610
+          date: 2013/06/10
+        - date: 2013/06/10
+        - version: debug_20130616
+          date: 2013/06/16
+        - date: 2013/06/16
+        - version: debug_20130721
+          date: 2013/07/21
+        - date: 2013/07/21
+        - version: debug_20130722
+          date: 2013/07/22
+        - date: 2013/07/22
+        - version: debug_20130811
+          date: 2013/08/11
+        - date: 2013/08/11
+        - version: debug_20130811
+          date: 2013/08/11
+        - date: 2013/08/11
+        - version: debug_20130813
+          date: 2013/08/13
+        - date: 2013/08/13
+        - version: debug_20130818
+          date: 2013/08/18
+        - date: 2013/08/18
+        - version: debug_20130901
+          date: 2013/09/01
+        - date: 2013/09/01
+        - version: debug_20131021
+          date: 2013/10/21
+        - date: 2013/10/21
+        - version: debug_20131103
+          date: 2013/11/03
+        - date: 2013/11/03
+        - date: 2013/11/23
+        - version: debug_20131123
+          date: 2013/11/23
+        - version: debug_20131125
+          date: 2013/11/25
+        - date: 2013/11/25
+        - version: debug_20131209
+          date: 2013/12/09
+        - date: 2013/12/09
+        - version: debug_20131213
+          date: 2013/12/13
+        - date: 2013/12/13
+        - version: debug_20131228
+          date: 2013/12/28
+        - date: 2013/12/28
+        - version: debug_20131229
+          date: 2013/12/29
+        - date: 2013/12/29
+        - version: debug_20140125
+          date: 2014/01/25
+        - date: 2014/01/25
+
+    - name: ADDT
+      valiant_page: 81
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      releases:
+        - date: 2012/10/13 #bbs
+        - date: 2012/10/14 #bbs
+        - version: Bug Fix 4 #bbs
+          date: 2012/10/14
+        - version: omake様 #bbs
+          date: 2012/10/14
+        - date: 2012/12/01
+        - date: 2012/12/09
+
+    - name: BCF
+      long_name: bugfix customtalk ffhp
+      author: elona_urw@yahoo.co.jp
+      valiant_page: 81
+      derived_from:
+        - name: elona
+          version: 1.16 #安定版
+      releases:
+        - date: 2012/10/24
+          port_of: #TODO
+            - name: ADDT
+              desc: ADDTのカスタムトーク条件分岐に対応
+        - date: 2012/10/25
+        - date: 2012/10/29
+        - date: 2012/10/31
+        - date: 2012/11/03
+        - date: 2012/11/03 #+2012-11-03_20121103
+        - date: 2012/11/24 #+2012-11-24_20121124
+        - date: 2012/12/02 #+2012-12-02_20121202
+        - date: 2012/12/10 #+2012-12-10_20121210
+        - date: 2012/12/11 #+2012-12-11_20121211
+
+    - name: me
+      long_name: ElonaMe
+      valiant_page: 81
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      version_type: date_no_slash
+      releases:
+        - date: 2013/03/06
+          port_of:
+            - name: FFHP
+              desc: 　・FFHP対応
+        - date: 2013/03/09
+        - date: 2013/03/11
+        - date: 2013/03/15
+        - date: 2013/03/16
+        - date: 2013/03/17
+        - date: 2013/03/24
+        - date: 2013/03/26
+        - date: 2013/03/28
+        - date: 2013/03/31
+        - date: 2013/04/02
+        - date: 2013/04/06
+        - date: 2013/04/08
+        - date: 2013/04/11
+        - date: 2013/04/13
+        - date: 2013/04/15
+        - date: 2013/04/24
+        - date: 2013/04/28
+        - date: 2013/05/02
+        - version: 20130502-2
+          date: 2013/05/02
+        - date: 2013/05/06
+        - date: 2013/05/14
+        - date: 2013/05/15
+        - date: 2013/05/19
+        - date: 2013/05/23
+        - date: 2013/05/29
+        - date: 2013/06/01
+        - date: 2013/06/07
+        - date: 2013/06/14
+        - date: 2013/06/23
+        - date: 2013/06/24
+        - date: 2013/06/29
+        - date: 2013/07/06
+        - date: 2013/07/12
+        - date: 2013/07/21
+        - date: 2013/07/27
+        - date: 2013/08/04
+        - date: 2013/08/13
+        - date: 2013/08/15
+        - date: 2013/08/20
+        - date: 2013/08/21
+        - date: 2013/08/22
+        - date: 2013/08/24
+        - date: 2013/09/01
+        - date: 2013/09/11
+        - date: 2013/09/25
+        - date: 2014/01/11
+        - date: 2014/03/01
+        - date: 2014/03/16
+        - date: 2014/03/23
+        - date: 2014/03/28
+        - date: 2014/04/02
+        - date: 2014/04/05
+        - date: 2014/05/06
+        - date: 2014/05/30
+        - version: 20140613test
+          date: 2014/06/13
+        - date: 2014/06/20
+        - date: 2014/06/28
+        - date: 2014/06/29
+
+    - name: sss fixed
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      releases:
+        - date: 2011/03/01 19:03:38
+        - date: 2011/03/01 19:42:43
+        - date: 2011/03/02 03:39:11
+        - date: 2011/03/02 10:55:01
+
+    - name: mewmew
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      releases:
+        - date: 2011/02/24 23:59:22
+        - date: 2011/02/25 17:47:10
+        - date: 2011/02/26 01:00:03
+        - date: 2011/02/27 20:26:14
+        - date: 2011/03/01 09:02:31
+        - date: 2011/03/01 22:04:13
+        - date: 2011/03/01 22:04:13
+        - date: 2011/03/03 18:23:54
+        - date: 2011/03/03 20:35:51
+        - date: 2011/03/05 16:12:44
+        - date: 2011/03/10 09:36:25
+        - date: 2011/03/12 15:40:19
+        - date: 2011/03/13 08:34:34
+        - date: 2011/03/14 10:18:18
+        - date: 2011/03/24 20:04:55
+        - date: 2011/03/28 18:09:13
+        - date: 2011/03/29 13:30:43
+        - date: 2011/03/30 05:43:07
+        - date: 2011/03/30 23:36:32
+        - date: 2011/04/02 23:55:58 # (?)
+        - date: 2011/07/04 22:30:17
+
+    - name: NS
+      author: bamboo_value
+      valiant_page: 81
+      releases:
+        - version: 0.01
+          date: 2013/02/28
+
+    - name: next
+      author: bamboo_value
+      valiant_page: 81
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      releases:
+        - date: 2013/02/21
+
+    - name: Alpha
+      valiant_page: 81
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      releases:
+        - date: 2012/11/04
+          port_of:
+            - name: FFHP
+              desc: > FFHPに対応しました FFHPについてはFFHPのreadmeを読んでください(FFHPからの取り込み)
+            - name: ADDT
+              desc: > ADDTに対応しました ADDTについては同梱の\"テキスト改造について\"を読んでください(ADDTからの取り込み)
+
+    - name: parasite
+      valiant_page: 81
+      releases:
+        - date: 2012/05/25
+
+    - name: etg
+      releases:
+        - version: 1.0
+          date: 2011/04/15
+        - version: 1.1
+          date: 2011/06/05
+
+    - name: mod
+      long_name: Elona_MOD
+      releases:
+        - date: 2011/03/29
+
+    - name: omake
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      version_type: date_with_slash
+      releases:
+        - date: 2012/03/14 01:22
+        - date: 2012/03/17 01:00
+        - date: 2012/03/27 21:51
+        - date: 2012/04/15 19:12
+        - date: 2012/06/17 13:45
+        - date: 2012/06/18 00:00
+        - date: 2012/08/08 07:20
+        - date: 2012/08/08 08:30
+        - date: 2012/08/20 00:35
+        - date: 2013/01/14 17:15
+        - date: 2013/01/26 08:00
+        - date: 2013/02/16 17:30
+        - date: 2013/03/09 15:22
+        - date: 2013/03/10 09:45
+        - date: 2013/03/11 05:40
+        - date: 2013/03/24 10:30
+        - date: 2013/05/25 21:37
+        - date: 2013/05/26 00:28
+        - date: 2013/05/26 19:55
+        - date: 2013/06/08 14:20
+        - date: 2013/08/19 18:30
+        - date: 2013/10/14 00:10
+        - date: 2013/12/24 22:25
+        - date: 2014/05/18 18:00
+        - date: 2014/05/18 22:40
+        - date: 2015/05/17 22:40
+        - date: 2015/06/20 19:10
+
+    - name: omake_baby
+      elonaval_page: baby
+      version_type: date_with_slash
+      derived_from:
+        - name: omake
+          version: 2012/04/15
+      releases:
+        - date: 2012/06/06
+        - date: 2012/06/10
+        - date: 2012/06/13
+        - date: 2012/06/15
+        - version: 2012/06/15_2
+          date: 2012/06/15
+        - date: 2012/06/16
+        - date: 2012/06/17
+        - date: 2012/06/20
+          port_of:
+            - name: omake
+              version: 2012/06/18 00:00
+              desc: - ベースを 2012/6/18 の omake に変更
+        - date: 2012/07/25
+        - date: 2012/07/27
+        - date: 2012/08/08
+        - date: 2012/08/12
+          port_of:
+            - name: omake
+              version: 2012/08/08 08:30 # 07:20?
+              desc: - ベースを 2012/8/8 の omake に変更
+        - date: 2012/08/13
+        - date: 2012/08/17
+        - date: 2012/09/28
+          port_of:
+            - name: omake
+              version: 2012/08/20 00:35
+              desc: - ベースを 2012/8/20 の omake に変更
+        - date: 2012/10/02
+        - date: 2012/10/07
+          port_of:
+            - name: mma
+              desc: - MMAから「omake_overhaulとの互換性を確保するためのテスト」を取り込み
+        - date: 2012/10/09
+        - date: 2012/10/11
+        - date: 2012/10/12
+        - date: 2012/10/18
+        - date: 2012/10/19
+        - date: 2012/10/20
+          port_of:
+            - name: mma
+              desc: - aplselの文字列をタイトルと同じに変更（MMA）
+        - date: 2012/10/21
+          port_of:
+            - name: omake_overhaul
+              desc: - omake_overhaul カスタムゴッドの聖地の同梱に対応
+        - date: 2012/10/22
+          port_of:
+            - name: mma
+              version: 2012/10/21T2(人柱)
+              desc: - MMAやAAとの互換性の調整（MMA 20121021T）
+        - date: 2012/10/25
+        - date: 2012/10/27
+          port_of:
+            - name: mma
+              desc:
+                - 祭壇の情報に不整合がある場合の処理を再修正（MMAより）
+                - 炎の巫女『フラメア』の特殊能力に対応（MMAより）
+            - name: omake_overhaul
+              desc:
+                -- カスタムゴッドの特殊能力のパワーに計算式と{attr}と{faith}を使えるように（omake_overhaulより）
+        - version: 2012/10/27-2
+          date: 2012/10/27
+        - date: 2012/10/29
+        - date: 2012/10/30
+        - date: 2012/11/04
+        - date: 2012/12/26
+          port_of:
+            - name: mma
+              desc: - %txtjigoの処理をomake_MMAの仕様に準拠
+        - date: 2012/12/27
+          port_of:
+            - name: mma
+              desc: - キャラ生成を願った場合のNPC生成位置もターゲットポイントになるように（MMAより）
+        - date: 2013/01/09
+
+    - name: omake_LSD
+      elonaval_page: LSD
+
+    - name: oo
+      long_name: omake_overhaul
+      elonaval_page: overhaul
+      derived_from:
+        - name: omake
+          version: 2015/06/20 19:10
+      version_type: date_with_slash
+      releases:
+        - date: 2012/01/06 21:29
+        - date: 2012/01/07 23:38
+        - date: 2012/01/08 13:56
+        - date: 2012/01/08 19:32
+        - date: 2012/01/12 20:29
+        - date: 2012/01/14 17:19
+        - date: 2012/01/15 23:49
+        - date: 2012/01/16 00:31
+        - date: 2012/01/19 20:39
+        - date: 2012/01/22 17:23
+        - date: 2012/01/24 22:32
+        - date: 2012/01/24 23:19
+        - date: 2012/01/25 08:17
+        - date: 2012/01/28 00:32
+        - date: 2012/01/28 11:54
+        - date: 2012/01/28 15:53
+        - date: 2012/01/29 20:12
+        - date: 2012/01/29 23:03
+        - date: 2012/01/30 18:59
+        - date: 2012/01/30 20:18
+        - date: 2012/02/04 16:49
+        - date: 2012/02/05 14:25
+        - date: 2012/02/06 21:43
+        - date: 2012/02/10 23:15
+        - date: 2012/02/12 09:57
+        - date: 2012/02/12 21:04
+        - date: 2012/02/15 21:43
+          port_of:
+            - name: omake
+              # version: 2012/02/13
+              desc: 	- baseをomake(2012/02/13)にアップデート
+        - date: 2012/02/15 22:55
+        - date: 2012/02/18 21:26
+        - date: 2012/02/18 23:52
+        - date: 2012/02/19 22:06
+        - date: 2012/02/21 21:41
+          port_of:
+            - name: omake
+              desc: 	- baseをomake(2/20)にアップグレード
+        - date: 2012/02/27 23:15
+        - date: 2012/03/01 19:57
+        - date: 2012/03/04 13:21
+        - date: 2012/03/04 14:38
+        - date: 2012/03/04 19:16
+        - date: 2012/03/04 19:47
+        - date: 2012/03/05 11:12
+        - date: 2012/03/06 22:54
+        - date: 2012/03/07 20:19
+        - date: 2012/03/13 18:40
+        - date: 2012/03/13 22:49
+        - date: 2012/03/15 00:38
+          port_of:
+            - name: omake
+              desc: 	- baseをomake(3/14)にアップグレード
+        - date: 2012/03/16 22:04
+        - date: 2012/03/17 22:35
+          port_of:
+            - name: omake
+              desc: 	- baseをomake(3/17)にアップグレードしました。
+        - date: 2012/03/18 14:55
+        - date: 2012/03/19 20:40
+        - date: 2012/03/19 21:52
+        - date: 2012/03/20 12:19
+        - date: 2012/03/20 21:34
+        - date: 2012/03/21 12:37
+        - date: 2012/03/21 17:41
+        - date: 2012/03/22 14:53
+        - date: 2012/03/24 18:48
+        - date: 2012/03/25 20:58
+        - date: 2012/03/28 19:29
+          port_of:
+            - name: omake
+              desc: 	- baseをomake(3/27)にアップグレードしました。
+        - date: 2012/04/01 00:06
+        - date: 2012/04/03 15:19
+        - date: 2012/04/06 21:14
+        - date: 2012/04/07 15:06
+        - date: 2012/04/08 23:50
+        - date: 2012/04/11 19:25
+        - date: 2012/04/15 15:10
+        - date: 2012/04/15 19:36
+        - date: 2012/04/16 18:40
+          port_of:
+            - name: omake
+              desc: 	- baseをomake(4/15)にアップグレード
+        - date: 2012/04/18 19:13
+        - date: 2012/04/18 20:21
+        - date: 2012/04/19 23:12
+        - date: 2012/04/21 22:15
+        - date: 2012/04/26 20:55
+        - date: 2012/04/27 12:39
+        - date: 2012/04/28 11:07
+        - date: 2012/05/06 15:10
+        - date: 2012/05/11 21:34
+        - date: 2012/05/12 20:46
+        - date: 2012/05/17 19:24
+        - date: 2012/05/18 23:17
+        - date: 2012/05/19 22:15
+        - date: 2012/05/20 22:16
+        - date: 2012/05/21 20:56
+        - date: 2012/05/23 22:05
+        - date: 2012/05/26 21:05
+        - date: 2012/05/30 20:29
+        - date: 2012/06/01 22:53
+        - date: 2012/06/03 13:57
+        - date: 2012/06/04 22:13
+        - date: 2012/06/06 21:53
+        - date: 2012/06/09 18:44
+          port_of:
+            - name: omake_baby
+              desc: 	- omake_babyの変更を取り込みしました。
+        - date: 2012/06/10 17:45
+        - date: 2012/06/11 18:43
+        - date: 2012/06/11 22:57
+        - date: 2012/06/14 21:07
+        - date: 2012/06/17 14:47
+          port_of:
+            - name: omake_baby
+              desc: 	- omake_babyの変更をマージしました。
+        - date: 2012/06/22 22:34
+          port_of:
+            - name: omake
+              desc: 	- baseをomake(6/18)にアップグレード
+        - date: 2012/06/23 20:53
+        - date: 2012/06/24 18:43
+        - date: 2012/06/26 23:04
+        - date: 2012/06/27 21:52
+        - date: 2012/06/30 14:52
+        - date: 2012/07/07 22:52
+        - date: 2012/07/12 22:01
+        - date: 2012/07/22 14:23
+        - date: 2012/07/24 19:25
+        - date: 2012/08/05 23:06
+        - date: 2012/08/08 18:32
+          port_of:
+            - name: omake
+              desc: 	- baseをomake(8/8)にアップグレード
+        - date: 2012/08/18 15:57
+        - date: 2012/08/19 16:15
+        - date: 2012/09/09 14:41
+          port_of:
+            - name: omake
+              desc: 	- baseをomake(8/20)にアップグレード
+        - date: 2012/09/14 23:17
+        - date: 2012/09/22 19:06
+        - date: 2012/09/23 18:21
+        - date: 2012/09/23 23:34
+        - date: 2012/09/29 20:05
+        - date: 2012/09/30 22:17
+        - date: 2012/10/06 15:24
+        - date: 2012/10/06 17:42
+          port_of:
+            - name: mma
+              desc:
+                -	- コンソールからshowfactionを実行する事でマップ内のNPCのfactionを確認できるようになりました。
+                -		- これはomake_MMAの変更です。　取り込ませてもらいました。
+        - date: 2012/10/07 23:06
+        - date: 2012/10/08 13:36
+        - date: 2012/10/08 20:31
+        - date: 2012/10/10 21:37
+        - date: 2012/10/13 21:34
+        - date: 2012/10/21 16:53
+          port_of:
+            - name: mma
+              desc:
+                -	- wizardモードで願う時に不正終了する問題を修正しました。
+                -		- これは、omake_MMAの変更です。　取り込ませてもらいました。
+        - date: 2012/10/21 22:24
+        - date: 2012/10/24 21:26
+        - date: 2012/10/27 13:10
+        - date: 2012/10/27 18:53
+        - date: 2012/10/29 20:23
+        - date: 2012/11/03 21:38
+        - date: 2012/11/06 20:37
+        - date: 2012/11/16 21:13
+        - date: 2013/01/13 17:34
+        - date: 2013/01/17 22:32
+        - date: 2013/01/26 21:42
+        - date: 2013/01/26 22:41
+        - date: 2013/02/10 17:52
+        - date: 2013/02/12 22:15
+          port_of:
+            - name: mma
+              desc:
+                -	- user\graphic\user_npcface*.bmpを使ってポートレイトを差し替えた時に着替えメニューの男性の未差し替えポートレイト1番がおかしくなる問題を修正しました。
+                -		- これはomake_MMAの変更です。　取り込ませてもらいました。
+        - date: 2013/02/16 18:50
+          port_of:
+            - name: mma
+              desc:
+                -	- user\graphic\user_npcface*.bmpを使ってポートレイトを差し替えた時に着替えメニューの男性の未差し替えポートレイト1番がおかしくなる問題を修正しました。
+                -		- これはomake_MMAの変更です。　取り込ませてもらいました。
+        - date: 2013/02/17 15:51
+        - date: 2013/02/17 18:10
+        - date: 2013/02/17 23:49
+        - date: 2013/02/18 21:14
+        - date: 2013/02/23 15:58
+        - date: 2013/02/24 17:36
+        - date: 2013/02/24 22:33
+        - date: 2013/02/26 22:06
+        - date: 2013/03/02 14:14
+        - date: 2013/03/03 12:04
+        - date: 2013/03/09 15:56
+        - date: 2013/03/16 19:23
+        - date: 2013/03/16 22:19
+        - date: 2013/03/20 19:23
+        - date: 2013/03/26 21:43
+        - date: 2013/03/31 12:43
+        - date: 2013/04/04 21:09
+        - date: 2013/04/11 20:44
+          port_of:
+            - name: omake
+              desc: 	- baseをomake(2013/01/14)にアップグレード
+        - date: 2013/04/20 15:43
+        - date: 2013/04/29 16:46
+        - date: 2013/05/06 18:29
+        - date: 2013/05/11 16:37
+        - date: 2013/05/19 18:37
+        - date: 2013/05/25 14:37
+        - date: 2013/06/02 21:25
+        - date: 2013/06/23 14:45
+          port_of:
+            - name: omake
+              desc: 	- baseをomake(2013/06/08)にアップグレード
+        - date: 2013/06/23 18:04
+        - date: 2013/07/06 17:22
+        - date: 2013/07/15 14:56
+        - date: 2013/07/21 17:24
+        - date: 2013/07/27 15:03
+        - date: 2013/07/30 21:47
+        - date: 2013/08/10 17:59
+        - date: 2013/08/17 20:49
+        - date: 2013/08/24 17:47
+        - date: 2013/09/01 17:22
+        - date: 2013/09/07 22:52
+        - date: 2013/09/08 14:52
+        - date: 2013/09/17 21:59
+          port_of:
+            - name: mma
+              desc:
+                -                	- omake_MMAから下記の変更を取り込ませてもらいました。
+                -		- カスタムゴッドの特殊能力にスキルを指定した場合、別名を設定できるように
+                -		- カスタムゴッドに神の化身が贈られた時の説明文を定義できるように
+
+        - date: 2013/11/05 22:08
+        - date: 2013/11/24 15:03
+        - date: 2013/11/29 20:59
+        - date: 2013/11/30 17:50
+        - date: 2013/12/08 13:50
+        - date: 2013/12/15 16:15
+        - date: 2013/12/21 16:27
+        - date: 2013/12/27 14:46
+        - date: 2013/12/31 17:07
+        - date: 2014/01/04 13:41
+        - date: 2014/01/10 21:21
+          port_of:
+            - name: omake
+              desc:
+                -	- baseをomake(2013/12/24)にアップグレード
+                -	- 職業の仕様をomake(2013/12/24)を準拠に変更しました。
+        - date: 2014/01/13 14:34
+        - date: 2014/01/25 16:32
+        - date: 2014/02/01 19:44
+        - date: 2014/02/07 21:52
+        - date: 2014/02/08 18:10
+        - date: 2014/02/09 20:10
+        - date: 2014/02/14 20:09
+        - date: 2014/02/20 21:26
+        - date: 2014/02/24 21:14
+        - date: 2014/02/26 21:49
+        - date: 2014/03/01 16:13
+        - date: 2014/03/03 20:15
+        - date: 2014/03/08 10:47
+        - date: 2014/03/09 21:31
+        - date: 2014/03/11 21:01
+        - date: 2014/03/14 20:54
+        - date: 2014/03/15 19:19
+        - date: 2014/04/06 13:34
+        - date: 2014/04/28 17:05
+        - date: 2014/05/03 19:52
+        - date: 2014/05/20 20:44
+        - date: 2014/06/29 19:29
+        - date: 2014/09/23 14:50
+        - date: 2014/09/23 19:20
+        - date: 2014/10/13 20:28
+        - date: 2014/10/23 22:01
+        - date: 2014/11/05 21:26
+        - date: 2014/11/06 20:46
+        - date: 2014/11/08 15:33
+        - date: 2014/12/07 16:40
+        - date: 2014/12/14 19:44
+        - date: 2015/01/12 14:46
+        - date: 2015/01/17 19:12
+        - date: 2015/01/24 17:31
+        - date: 2015/02/03 14:08
+        - date: 2015/02/09 20:17
+        - date: 2015/02/15 15:56
+        - date: 2015/02/21 14:46
+        - date: 2015/03/12 15:52
+        - date: 2015/03/22 15:39
+          port_of:
+            - name: omake
+              desc: 	- baseをomake(2014/05/18)にアップグレード
+        - date: 2015/05/18 16:53
+        - date: 2015/07/06 18:37
+        - date: 2015/07/12 16:21
+        - date: 2015/07/19 12:34
+        - date: 2015/09/12 15:54
+        - date: 2016/01/17 18:16
+        - date: 2016/02/07 13:57
+          port_of:
+            - name: omake
+              desc: 	- baseをomake(2015/06/20)にアップグレード。
+        - date: 2016/02/14 18:51
+        - date: 2016/02/27 19:33
+        - date: 2016/04/17 14:00
+
+    - name: oo_EN
+      short_name: omake_overhaul_English
+      author: Doorknob, KI
+      derived_from:
+        - name: oo
+          version: 2016/04/17 14:00
+      releases:
+        - date: 2018/07/03
+        - date: 2018/07/08
+        - date: 2018/07/12
+        - date: 2018/07/28
+
+    - name: oo_EN_hack
+      long_name: omake_overhaul_English_hack
+      author: KI
+      derived_from:
+        - name: oo_EN
+          version: 2018/07/12
+      releases:
+        - date: 2018/07/21
+        - date: 2018/07/22
+        - date: 2018/07/23
+          port_of:
+            - name: custom
+              desc: Port english Act 1 cutscenes from E+C.
+        - date: 2018/07/24
+        - date: 2018/07/26
+        - date: 2018/07/27
+        - date: 2018/07/28
+          port_of:
+            - name: oo_EN
+              version: 2018/07/28
+              desc: Port ooEn update.
+        - date: 2018/08/04
+
+    - name: oor
+      long_name: omake_overhaul_readjust
+      author: kaz_mighty
+      derived_from:
+        - name: oo
+          version: 2016/04/17
+      releases:
+        - date: 2017/09/14
+          port_of:
+            - name: oom
+              desc:
+                - 攻撃系魔法エンチャントが発動した後の追加攻撃の属性がそのままになっているらしいのを修正(参考:oom)
+                - ダメージポップアップ追加
+                - ターゲット指定情報を試験的に拡張
+                - 初期装備を調節。ついでにoomからequip11〜16番を輸入。
+            - name: mma
+              desc:
+                - ペットのHP数値表示機能を追加。
+        - date: 2017/09/23
+          port_of:
+            - name: oom
+              desc: 祝福された名前の巻物は最初にページ数を選べるように。(oomから輸入)
+
+        - date: 2017/10/07
+        - date: 2017/10/11
+          port_of:
+            - name: oom
+              desc:
+                - キャラクターシートの表示を拡張。
+                - 装備情報欄の拡張。
+                - ペットが敵を倒した時、たまに信仰の深さと経験値が取得できるように。
+        - date: 2017/10/20
+          port_of:
+            - name: oom
+              desc:
+                - Hキーを押すことで、壁に体当りすることで採掘を行えるように。(参考:oom)
+                - 装備をエンチャントでフィルタリングできるように。
+                - PCCが連番でなくても選択できるように。
+                - 封印した自作魔法はキャラクターシートで封印済みと表示されるように。(参考:oom)
+                - 願うことでペットのフィートを初期化を出来るように。
+            - name: mma_hack
+              desc: 牧場で増えたNPCの年齢が1歳になるように。(参考:MMAh)
+        - date: 2017/11/03
+          port_of:
+            - name: oom
+              desc: 物質感知を便利に。
+            - name: mma
+              desc:
+                - 妹の作戦設定の呼び方をお姉ちゃんや英語にも対応するように。
+                - 混沌の三神が時間経過(半月)でレベルアップして再生成されるように。
+                - soundフォルダにELMの音声ファイルがあるとき、設定により妹や妹猫の声が聞けるように。
+                - MMAのカスタムテキスト定義より、とりあえず{snd:*}, {bgm:*}だけ輸入。
+                - MMAのCNPC定義を輸入。マテリアルによる生産は除く。
+                - MMAのCItem定義を輸入。合わせて一部カスタムアイテムの仕様変更。
+        - date: 2017/11/05
+        - date: 2017/11/06
+        - date: 2017/11/18
+          port_of:
+            - name: oom
+              desc:
+                - フチ付き文字の表示方法を選べるように。
+                - 滞在者の移動で選択中のキャラの位置がミニマップに表示されるように。
+        - version: 2017/11/18 fix1
+          date: 2017/11/18
+        - version: 2017/11/18 fix2
+          date: 2017/11/18
+        - version: 2017/11/18 fix3
+          date: 2017/11/18
+
+    - name: oom
+      long_name: omake_overhaul_modify
+      derived_from:
+        - name: oo
+          version: 20150620
+      version_type: date_no_slash
+      releases:
+        - date: 2015/07/19
+        - version: 20150719fix
+          date: 2015/07/19
+        - version: 20150719fix2
+          date: 2015/07/19
+        - date: 2015/07/20
+        - date: 2015/07/23
+          port_of:
+            - name: oo
+              version: 20150719
+        - date: 2015/08/01
+        - date: 2015/09/19
+          port_of:
+            - name: oo
+              version: 20150912
+        - date: 2015/09/22
+        - date: 2015/10/12
+        - date: 2015/10/17
+        - date: 2015/11/07
+          port_of:
+            - name: mma
+              desc: MMAより装備セット、スキル重視のオート装備を実装
+        - date: 2016/01/24
+          port_of:
+            - name: oo
+              version: 20160117
+            - name: mma
+              desc:
+                - 炎の巫女『フラメア』
+                - 従属設定は未対応
+                - mmaよりctalkを2つ追加
+        - date: 2016/03/30
+          port_of:
+            - name: oo
+              version: 20160227
+        - version: 20160502β
+          date: 2016/05/02
+          port_of:
+            - name: oo
+              version: 20160417
+        - date: 2017/03/06
+        - version: 20170306fix
+          date: 2017/05/25
+        - date: 2018/03/30
+
+    - name: oom_Ex
+      short_name: oomEx
+      desc: Enhanced version of oom with convenience features. Was developed concurrently with oom.
+      derived_from:
+        - name: oom
+          version: 20150719
+      version_type: date_no_slash
+      releases:
+        - date: 2015/07/19
+        - version: 20150719fix
+          date: 2015/07/19
+        - date: 2015/07/20
+        - date: 2015/07/23
+        - version: 20150723fix
+          date: 2015/07/23
+        - date: 2015/08/01
+        - version: 20150801fix
+          date: 2015/08/01
+        - date: 2015/08/08
+        - version: 20150808fix
+          date: 2015/08/08
+        - date: 2015/08/11
+          port_of:
+            - name: ore_hack
+              desc: ore_hackのアイテムソートを参考にエンチャントでフィルタリングする機能を実装
+        - date: 2015/08/22
+          port_of:
+            - name: mmah
+              desc: 表示処理が多くなったので白抜き文字の処理方法を追加（MMAHより）
+        - date: 2015/09/05
+        - date: 2015/09/12
+        - date: 2015/09/19
+        - date: 2015/09/22
+        - date: 2015/10/12
+        - date: 2015/10/17
+        - date: 2015/11/07
+        - date: 2016/01/24
+        - version: 20160330fix
+          date: 2016/03/30
+        - version: 20160502β
+          date: 2016/05/02
+        - date: 2017/03/06
+        - date: 2018/03/30
+          port_of:
+            - name: ADDT
+              desc: ADDTに完全対応、したはず
+        - version: 20180330fix2
+          date: 2018/03/30
+        - version: 20180330fix3
+          date: 2018/03/30
+        - version: 20180330fix4
+          date: 2018/03/30
+        - version: 20180330fix5
+          date: 2018/03/30
+
+    - name: omod
+      long_name: Elona OMOD
+      author: ztjal.info
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      releases:
+        - version: 0.50
+          date: 2016/12/18
+        - version: 0.51
+        - version: 0.52
+          date: 2018/06/27
+
+    - name: hacked
+      long_name: ver1.22hacked Edition
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      releases:
+        - version: bugfix+errorignore
+          date: 2011/03/27 13:03 # from getuploader
+        - version: rev.11(87)
+        - version: rev.12(100)
+        - version: rev.13(46)
+        - version: rev.15(67)
+        - version: rev.16(156)
+        - version: rev.17(73+49)
+        - version: rev.18(-)
+        - version: rev.19(111)
+        - version: rev.20(63)
+        - version: rev.21(130)
+        - version: rev.22(106)
+        - version: rev.23(180+150)
+          date: 2011/03/27 13:03 # from getuploader
+
+    - name: hacked_PLUS
+      long_name: ver1.22hacked-rev23 PLUS
+      derived_from:
+        - name: hacked
+          version: rev.23(180+150)
+      releases:
+        - date: 2011/03/30 13:07 # from getuploader
+
+    - name: oomSE
+      short_name: oom_ex_sukutu_edition
+      author: ungoliant
+      derived_from:
+        - name: oom_Ex
+          version: 20170307fix
+      version_type: date_with_slash
+      releases:
+        - version: 2018/05/17 fix
+          date: 2018/05/17
+        - date: 2018/05/17
+        - date: 2018/05/13
+          port_of:
+            - name: oor
+              desc:
+               -・トラッシュカンにアイテムが放り込まれるのがPC、NPC、マップ上のどこかにトラッシュカンがあるときのみに(oorより)
+               -・トラッシュカンにアイテムが放り込まれるとき破壊判定回数を増やした(oorより)
+               -・自物件以外でも開封、使用出来るように(oorより)
+               -・トラッシュカンが破壊されにくくなるように(oorより)
+               -・称号を取得したときオフの状態で取得するように(oorより)
+               -・ポーション、杖を合成して強化するとき祝福や呪いがつかないように(oorより)
+        - version: 2018/04/30 fix2
+          date: 2018/04/30
+        - version: 2018/04/30 fix
+          date: 2018/04/30
+        - date: 2018/04/30
+          port_of:
+            - name: oor
+              desc: ・サンドバッグで吊られているNPCは敵対していてもハウスボードで移動させることができるように(oorより)
+        - version: 2018/04/16 fix3
+          date: 2018/04/16
+        - version: 2018/04/16 fix2
+          date: 2018/04/16
+        - version: 2018/04/16 fix
+          date: 2018/04/16
+        - date: 2018/04/16
+        - version: 2018/04/07 fix2
+          date: 2018/04/07
+        - version: 2018/04/07 fix
+          date: 2018/04/07
+        - date: 2018/04/07
+          port_of:
+            - name: me
+              desc: ・クミロミ信仰時の生命の輪廻が必ず発動するように(Meより)
+            - name: mma
+              desc:
+                -・召喚された神、神の下僕などが特定の神を信仰して生成されるように(MMAより)
+                -・CNPCの初期信仰を設定できるように(MMAより)
+            - name: elm
+              desc: ・BMのエンチャント強度が規模によって上がるように(elmより)
+            - name: oor
+              desc: ・各武器・乗馬・窃盗スキルのエンチャントが付与されるように(oorより)
+        - date: 2018/03/28
+        - version: 2018/03/26 テスト版
+          date: 2018/03/26
+          port_of:
+            - name: oor
+              desc:
+                - ・エンチャント「攻撃対象からマナを吸収する」を強化(oorより)
+                - ・称号が未取得でもカウントが表示されるように(oorより)
+                - ・カウントが表示される称号を増加(oorより)
+                - ・カウントが表示される称号を増加(oorより)
+            - name: elm
+              desc: ・相手が酔っている場合ユニークNPCとでも気持ちいいことができるように(elmより)
+        - version: 2018/03/23 fix
+          date: 2018/03/23
+        - date: 2018/03/23
+          port_of:
+            - name: oor
+              desc:
+                - ・日付更新時にトラッシュカンの中身が削除されないように(oorより)
+                - ・種族特攻エンチャントがエンチャント強度によって威力が上がるように(oorより)
+        - date: 2018/03/17
+        - date: 2018/03/16
+          port_of:
+            - name: mma
+              desc: ・妹の死体を食べたNPCは1/4の確率で妹になるように(MMAより)
+            - name: oor
+              desc:
+                - ・既に習得済みの魔法の効果・範囲・属性しか自作魔法を作成できない制限を撤廃(oorより)
+                - ・鈍足の効果の上限50を撤廃。代わりに元の速度の半分を上限に(oorより)
+        - date: 2018/03/13
+        - date: 2018/03/12
+        - date: 2018/03/10
+          port_of:
+            - name: mma
+              desc: ・設置可能なアイテム数の限界に由来するアイテム破壊が起きたときにトラッシュカンの中に格納されるように(MMAより)
+                -・レシマスの最下層にゼームが生成される条件にゲームフラグがメインシナリオ未終了の場合も含むように(MMAより)
+                -・メッセージ中の♪、♪1が改行で行頭に来る場合は」や！などと同じく行末に連結するように(MMAより)
+                -・ログメッセージ中の♪1が改行で分断されないように(MMAより)
+
+        - date: 2018/03/09
+          port_of:
+            - name: oor
+              desc: ・アイテムの個数がオーバーフローしないように(oorより)
+            - name: mma_hack
+              desc:
+                - ・ペットの特殊行動率を作戦から設定できるように(MMAhより)
+                - ・全員に命令するで作戦を開いたときは適正距離、移動率、特殊行動率、魔法書の使用率は設定できないように(MMAhより)
+        - version: 2018/03/03 fix
+          date: 2018/03/03
+        - date: 2018/03/03
+        - date: 2018/03/01
+          port_of:
+            - name: elm
+              desc:
+                -・既に持っているアイテムの納入依頼は星が黒表示に。素材を持っている納入依頼は灰色表示に(elmより)
+                -・演奏依頼が成功で終わったときは、拾い損ねたおひねりとNPCドロップアイテムをカジノっぽく回収できるように(elmより)
+
+        - date: 2018/02/28
+          port_of:
+            - name: mma
+              desc:
+                -・街の住民に対して依頼がない状態でもアイテム交換を申し込めるように(MMAより)
+                -・soundフォルダにelm(妹), MMA(妹猫)の音声ファイルが存在する場合、コンフィグから設定することで妹と妹猫の声が聞こえるように(elm, MMA, oorより)
+                -・コンソールでusergodコマンドを入力すると導入されているカスタムゴッドの一覧が出力されるように(MMAより)
+                -・コンソールでuserraceコマンドを入力すると導入されているカスタム種族の一覧が出力されるように(MMAより)
+                -・コンソールでuserclassコマンドを入力すると導入されているカスタム職業の一覧が出力されるように(MMAより)
+                -・MMAのカスタムテキスト定義の置換文字列{snd:*}, {bgm:*}を輸入(MMAより)
+            - name: elm
+              desc:
+                -・soundフォルダにelm(妹), MMA(妹猫)の音声ファイルが存在する場合、コンフィグから設定することで妹と妹猫の声が聞こえるように(elm, MMA, oorより)
+                -・elmのカスタムテキスト定義の{newline}, {onii}, {onii2}, {syujin}を輸入(elmより)
+            - name: oor
+              desc:
+                -・カスタムテキストの{***}に対応して無い文字列が入ってたとき、Unknown Codeに置き換えられないように(oorより)
+                -・開封済みの箱がスタックするように(oorより)
+                -・ペットがサンドバッグを押しのけないように(oorより)
+                -・釣具屋の店の規模によって入荷する餌の数が増加するように(oorを参考)
+                -・ハウスボードによる模様替えで使用できるマップチップを追加(oorより)
+            - name: mma_hack
+              desc:
+                -・消費期限のある食品に呪われていない加速のポーションを調合すると消費期限が近くなるように(MMAhより)
+                -・消費期限のある食品に呪われていない鈍足のポーションを調合すると腐らなくなるように(MMAhより)
+
+
+        - date: 2018/02/22
+          port_of:
+            - name: oor
+              desc: ・ペットに栽培を任せた時、畑マップを出たあと24時間以内に戻って収穫しても仕事しないのを修正(oorより)
+        - version: 2018/02/16 fix
+          date: 2018/02/16
+        - date: 2018/02/16
+        - version: 2018/02/15 fix2
+          date: 2018/02/15
+        - version: 2018/02/15 fix
+          date: 2018/02/15
+        - date: 2018/02/15
+          port_of:
+            - name: mma
+              desc:
+                -・ペットの適正距離、移動率を変更できるように(MMAより)
+                -・コンフィグから設定するとペットのHP数値表示機能(MMAより)
+            - name: oor
+              desc:
+                -・ペットが魔法書の魔法を使う確率を変更できるように(oorより)
+                -・依頼の報酬を拾う時、予め設置してあるイスやベッドの拾う順番を一番下に(oorより)
+                -・ハウスボードから倉庫、牧場、畑に設置できるアイテム数を拡張できるように(oorより)
+                -・祭壇に捧げる時、所持品より足元の祭壇を優先するように(oorより)
+                -・フィート「グッドコミュニケーション」の2, 3段階目を取ると上限が上がる代わりに確率が低下するのを修正(oorより)
+                -・エーテル病「あなたの体は獣に近づいた。」の音耐性弱体化に下限を設けた(oorより)
+                -・投擲の技能が十分高いときに投げたアイテムが必ず当たるように(oorより)
+                -・アニメーション14番(採掘、ツボ破壊、モンスターボール投擲)の表示位置が誤っていたのを修正(oorより)
+                -・フィート「酒場で歌い続けた経験が歌唱の技術を高める」を習得すると、技能の歌唱も習得するように(oorより)
+                -・フィート「軍人の知り合いから矢弾の倹約術を教わる」を銃器スキルが無くても習得できるように(oorより)
+            - name: URW
+              desc:
+                -・信仰していない神の祭壇に水を置くと呪われるように(URWより)
+        - date: 2018/02/12
+        - date: 2018/02/08
+          port_of:
+            - name: oor
+              desc: ・一部のフィートを強化(筋力、耐久、魅力、PV系のフィートの上昇量を経験レベル依存に)(oorより)
+        - date: 2018/02/07
+          port_of:
+            - name: oor
+              desc:
+                - ・ダメージOFを起こさないように(oorより)(まだ後でいじりたい)
+                - ・鍛冶のエンチャント継承にて、特定の条件下でエンチャントが継承されないことがあるのを修正(oorより)
+        - date: 2018/02/06
+        - version: 2018/02/05 fix
+          date: 2018/02/05
+          port_of:
+            - name: oor
+              desc:
+                - ・癒し手でバフ/デバフを解除できるように(oorより)
+        - date: 2018/02/05
+          port_of:
+            - name: oor
+              desc:
+                - ・所持金がオーバーフローしないように(oorより)
+                - ・称号[廃人]がONのときすくつの任意の階層に帰還できるように(oorより)
+        - date: 2018/02/03
+        - version: 2018/02/02 fix
+          date: 2018/02/02
+          port_of:
+            - name: oor
+              desc: ・魔物呼びのエンチャントのバグを修正(oorより)
+        - date: 2018/02/02
+        - version: 2018/02/01 fix
+          date: 2018/02/01
+        - date: 2018/02/01
+        - date: 2018/01/31
+          port_of:
+            - name: oor
+              desc:
+                -・自作魔法のストックがオーバーフローしないように(oorを参考)
+                -・Lv2000の鍛冶のハンマーにも経験値が入るように(oorより)
+                -・PCが対象だと、ランダムイベントで無い呪いに対して、祈祷師フィートと称号効果が発生しないのを修正(oorより)
+                -・聖なる武器がアイテムNo0にあると経験値が入らないのを修正(oorより)
+                -・公式版のように、すくつのヴェスダが篭手を落とすように(oorより)
+                -・混沌3神を初回撃破時、願いの杖を落とすように(oorより)
+                -・serverList.を1にしてるとやたらとダイアログが出るのを出ないように(oorより)
+                -・wizardモードのgain_spactで未定義のスキルまで覚えてしまうのを修正(oorより)
+                -・wizardモードのgain_spactで、omake以降のスキルを覚える際に公式版用の変数に書き込んでいたのを修正(oorより)
+                -・物理ダメージのOFが起こらないように(oorより)(OF対策できてなかった)
+                -・邪武器が解呪され消滅する際、ログとエフェクトで知らせるように(oorより)
+                -・聖武器を育成しやすいように(oorを参考に)
+
+        - version: 2018/01/30 fix
+          date: 2018/01/30
+        - date: 2018/01/30
+        - date: 2018/01/28
+        - date: 2018/01/27
+          port_of:
+            - name: oor
+              desc:
+                -・ミラルの小さなメダルの交換品の追加(oorより)
+                -・ミラルの小さなメダルの交換品に対してエンチャントフィルターを使用できるように(oorより)
+                -・エーテル病、フィートなどによる主能力、スキルの上限を999999に(oorを参考に)
+                -・家具に素材槌を使った場合、木製にならないように(oorより)
+
+    - name: oomSEST
+      long_name: oom_sukutu_edition_south_tyris
+      derived_from:
+        - name: oom_sukutu_edition
+      releases:
+        - date: 2018/07/24
+
+    - name: mma
+      long_name: MMA
+      derived_from:
+        - name: omake
+      version_type: date_with_slash
+      releases:
+        - date: 2012/07/31
+        - date: 2012/08/01
+        - date: 2012/08/02
+        - date: 2012/08/03
+        - date: 2012/08/04
+        - date: 2012/08/06
+        - date: 2012/08/08
+        - date: 2012/08/09
+        - date: 2012/08/10
+        - version: 2012/08/11(test)
+          date: 2012/08/11
+        - version: 2012/08/11(test2)
+          date: 2012/08/11
+        - date: 2012/08/12
+        - date: 2012/08/13
+        - date: 2012/08/14
+        - version: 2012/08/15(人柱)
+          date: 2012/08/15
+        - version: 2012/08/17(人柱)
+          date: 2012/08/17
+        - version: 2012/08/18(人柱)
+          date: 2012/08/18
+        - version: 2012/08/18B(人柱)
+          date: 2012/08/18
+        - version: 2012/08/19(人柱)
+          date: 2012/08/19
+        - version: 2012/08/20(人柱)
+          date: 2012/08/20
+          port_of:
+            - name: omake
+              version: 2012/08/20 00:35
+              desc:
+                -	・ベースバージョンをomake2012/08/20 0:35版に更新
+        - version: 2012/08/20B(人柱)
+          date: 2012/08/20
+        - version: 2012/08/21(人柱)
+          date: 2012/08/21
+        - version: 2012/08/21B(人柱)
+          date: 2012/08/21
+        - version: 2012/08/23(人柱)
+          date: 2012/08/23
+        - version: 2012/08/23B(人柱)
+          date: 2012/08/23
+        - version: 2012/08/23C(人柱)
+          date: 2012/08/23
+        - version: 2012/08/24(人柱)
+          date: 2012/08/24
+        - version: 2012/08/25(人柱)
+          date: 2012/08/25
+        - version: 2012/08/25B(人柱)
+          date: 2012/08/25
+        - version: 2012/08/25C(人柱)
+          date: 2012/08/25
+        - version: 2012/08/26(人柱)
+          date: 2012/08/26
+        - version: 2012/08/26B(人柱)
+          date: 2012/08/26
+        - version: 2012/08/26C(人柱)
+          date: 2012/08/26
+        - version: 2012/08/26D(人柱)
+          date: 2012/08/26
+        - version: 2012/08/26E(人柱)
+          date: 2012/08/26
+        - version: 2012/08/28(人柱)
+          date: 2012/08/28
+        - version: 2012/08/29(人柱)
+          date: 2012/08/29
+        - version: 2012/08/30(人柱)
+          date: 2012/08/30
+        - version: 2012/09/01(人柱)
+          date: 2012/09/01
+        - version: 2012/09/01B(人柱)
+          date: 2012/09/01
+        - version: 2012/09/02(人柱)
+          date: 2012/09/02
+        - version: 2012/09/02T(test)
+          date: 2012/09/02
+        - version: 2012/09/02T2(test)
+          date: 2012/09/02
+        - version: 2012/09/02B(人柱)
+          date: 2012/09/02
+        - version: 2012/09/04(人柱)
+          date: 2012/09/04
+        - version: 2012/09/04B(人柱)
+          date: 2012/09/04
+        - version: 2012/09/06(妹)
+          date: 2012/09/06
+        - version: 2012/09/05(人柱)
+          date: 2012/09/05
+        - version: 2012/09/06(人柱)
+          date: 2012/09/06
+        - version: 2012/09/06B(人柱)
+          date: 2012/09/06
+        - version: 2012/09/07(人柱)
+          date: 2012/09/07
+        - version: 2012/09/07B(人柱)
+          date: 2012/09/07
+        - version: 2012/09/07C(人柱)
+          date: 2012/09/07
+        - version: 2012/09/08(人柱)
+          date: 2012/09/08
+        - version: 2012/09/09(人柱)
+          date: 2012/09/09
+        - version: 2012/09/10(人柱)
+          date: 2012/09/10
+        - version: 2012/09/10B(人柱)
+          date: 2012/09/10
+        - version: 2012/09/10C(人柱)
+          date: 2012/09/10
+        - version: 2012/09/10D(人柱)
+          date: 2012/09/10
+        - version: 2012/09/11(人柱)
+          date: 2012/09/11
+        - version: 2012/09/11T(人柱)
+          date: 2012/09/11
+        - version: 2012/09/12T(人柱)
+          date: 2012/09/12
+        - version: 2012/09/12T2(人柱)
+          date: 2012/09/12
+        - version: 2012/09/13T(人柱)
+          date: 2012/09/13
+        - version: 2012/09/14T(人柱)
+          date: 2012/09/14
+        - version: 2012/09/14T2(人柱)
+          date: 2012/09/14
+        - version: 2012/09/15T(人柱)
+          date: 2012/09/15
+        - version: 2012/09/15T2(人柱)
+          date: 2012/09/15
+        - version: 2012/09/16T(人柱)
+          date: 2012/09/16
+        - version: 2012/09/17T(人柱)
+          date: 2012/09/17
+        - version: 2012/09/18T(人柱)
+          date: 2012/09/18
+        - version: 2012/09/18T2(人柱)
+          date: 2012/09/18
+        - version: 2012/09/19T(人柱)
+          date: 2012/09/19
+          port_of:
+            - name: oo
+              desc:
+                -	・畑で収穫された妹は職業が農民になるように(omake_overhaulからの取り込み)
+                -	・妹団の殺し屋は職業が機工兵に、妹団の術士は職業が神官になるように(omake_overhaulからの取り込み)
+        - version: 2012/09/19T2(人柱)
+          date: 2012/09/19
+        - version: 2012/09/19T3(人柱)
+          date: 2012/09/19
+        - version: 2012/09/20T(人柱)
+          date: 2012/09/20
+        - version: 2012/09/20T2(人柱)
+          date: 2012/09/20
+        - version: 2012/09/21T(人柱)
+          date: 2012/09/21
+        - version: 2012/09/23T(人柱)
+          date: 2012/09/23
+        - version: 2012/09/23T2(人柱)
+          date: 2012/09/23
+        - version: 2012/09/24T(人柱)
+          date: 2012/09/24
+        - version: 2012/09/24T2(人柱)
+          date: 2012/09/24
+        - version: 2012/09/26T(人柱)
+          date: 2012/09/26
+          port_of:
+            - name: omake_baby
+              desc: 	・自宅とダンジョンに住む店主など一部のNPCの会話メニューに「そこから動かないでほしい」が表示されるように(omake_babyからの取り込み)
+        - version: 2012/09/26T2(人柱)
+          date: 2012/09/26
+        - version: 2012/09/26T3(人柱)
+          date: 2012/09/26
+        - version: 2012/09/27T(人柱)
+          date: 2012/09/27
+        - version: 2012/09/29T(人柱)
+          date: 2012/09/29
+        - version: 2012/09/30T(人柱)
+          date: 2012/09/30
+        - version: 2012/10/03T(人柱)
+          date: 2012/10/03
+          port_of:
+            - name: oo
+              desc: 	・コンソールで\"fixcorrupt2\"を実行する事でマップ内のNPCの格闘スタイルと詠唱スタイルを初期化できるように(omake_overhaulからの取り込み)
+        - version: 2012/10/03T2(人柱)
+          date: 2012/10/03
+        - version: 2012/10/05T(人柱)
+          date: 2012/10/05
+        - version: 2012/10/05T2(人柱)
+          date: 2012/10/05
+        - version: 2012/10/06T(人柱)
+          date: 2012/10/06
+        - version: 2012/10/07T(人柱)
+          date: 2012/10/07
+        - version: 2012/10/08T(人柱)
+          date: 2012/10/08
+          port_of:
+            - name: omake_baby
+              desc: 	・NPCのカスタムメッセージに%txtmidare(みだれうち)を使用できるように(omake_babyからの取り込み)
+            - name: AA
+              desc: 	・願いのキーワード「ジュア」でAA仕様の《癒しのジュア》を降臨させられるように(AAからの取り込み)
+        - version: 2012/10/09T(人柱)
+          date: 2012/10/09
+        - version: 2012/10/09T2(人柱)
+          date: 2012/10/09
+        - version: 2012/10/09T3(人柱)
+          date: 2012/10/09
+        - version: 2012/10/10T(人柱)
+          date: 2012/10/10
+        - version: 2012/10/10T2(人柱)
+          date: 2012/10/10
+        - version: 2012/10/11T(人柱)
+          date: 2012/10/11
+        - version: 2012/10/13T(人柱)
+          date: 2012/10/13
+          port_of:
+            - name: elm
+              desc:
+                -	・アップライトピアノのサブカテゴリと対応スキルが設定されてないのを修正
+                -		・本家からの設定ミス(elmからの取り込み)
+            - name: AA
+              desc: ・街からの距離が遠い場合はドラゴン級以上の敵が襲撃してくるように(AAからの取り込み)
+        - version: 2012/10/13T2(人柱)
+          date: 2012/10/13
+          port_of:
+            - name: oo
+              desc: 	・ユニーク指定のCNPCはレベル上限100に制限されないように(omake_overhaulからの取り込み)
+        - version: 2012/10/14T(人柱)
+          date: 2012/10/14
+        - version: 2012/10/15T(人柱)
+          date: 2012/10/15
+          port_of:
+            - name: oo
+              desc: 	・冒険者一覧のPCのキャラチップが正常に表示されない場合にコンソールからfixpccを実行する事で解決できるように(omake_overhaulからの取り込み)
+            - name: AA
+              desc:
+                -	・エウダーナのブライからAAの拡張イベントを受けられるように(AAからの取り込み)
+                -	・エウダーナでは防衛戦、空襲警報、エイス・テールの遺産の依頼が発生するように(AAからの取り込み)
+                -	・巧妙に描かれた宝の地図、塔が描かれた宝の地図を使用できるように(AAからの取り込み)
+                -	・オリハルコンキングは駒召喚でオリハルコンシリーズの駒を召喚するように(AAからの取り込み)
+                -	・野外マップに砂漠が出現するように(AAからの取り込み)
+        - version: 2012/10/16T(人柱)
+          date: 2012/10/16
+          port_of:
+            - name: AA
+              desc:
+                -	・宝の地図の生成時に一定確率で巧妙に描かれた宝の地図、塔が描かれた宝の地図になるように(AAからの取り込み)
+                -	・NPCのランダムドロップアイテムに低確率で宝の地図と宝箱が出現するように(AAからの取り込み)
+                -	・呪われたオパートス像を使用するとワールドマップ上のランダムネフィアが全て一時消滅するように(AAからの取り込み)
+        - version: 2012/10/17T(人柱)
+          date: 2012/10/17
+        - version: 2012/10/18T(人柱)
+          date: 2012/10/18
+        - version: 2012/10/19T(人柱)
+          date: 2012/10/19
+          port_of:
+            - name: lom
+              desc: 	・すくつ外にいる時にすくつ探索許可証を消費してすくつ最深到達層を1000層にまでリセットできるように(LOMからの取り込み)
+        - version: 2012/10/21T(人柱)
+          date: 2012/10/21
+          port_of:
+            - name: oo
+              desc:
+                -	・祈る[p]を使った食べ物と信仰の巻物の祝福ができるように(omake_overhaulからの取り込み)
+                -	・神に祝福された食べ物は特別な効果を持つように(omake_overhaulからの取り込み)
+                -	・神に祝福された信仰の巻物をNPCが読むとその宗派に改宗するように(omake_overhaulからの取り込み)
+                -	・財のイナリのフィート、天候補正が適用されるように(omake_overhaulからの取り込み)
+                -	・水のダナリンの狂気度による補正が適用されるように(omake_overhaulからの取り込み)
+            - name: omake_baby
+              desc: ・呪いのフウリの呪い装備による補正が適用されるように(omake_babyからの取り込み)
+        - version: 2012/10/21T2(人柱)
+          date: 2012/10/21
+        - version: 2012/10/22T(人柱)
+          date: 2012/10/22
+        - version: 2012/10/22T2(人柱)
+          date: 2012/10/22
+        - version: 2012/10/23T(人柱)
+          date: 2012/10/23
+        - version: 2012/10/24T(人柱)
+          date: 2012/10/24
+          port_of:
+            - name: oo
+              desc: 	・浮気者の説明を「すべての神の信仰を〜」から「大神七柱の信仰を〜」に(omake_overhaulからの取り込み)
+        - version: 2012/10/25T(人柱)
+          date: 2012/10/25
+          port_of:
+            - name: oo
+              desc: 	・変化の術で黄金の騎士に変化した時に近接攻撃とリジェネレーションを行わない問題を修正(omake_overhaulからの取り込み)
+        - version: 2012/10/25T2(人柱)
+          date: 2012/10/25
+        - version: 2012/10/26T(人柱)
+          date: 2012/10/26
+          port_of:
+            - name: oo
+              desc: 	・F8のメニューからカスタムゴッドの作成ができるように(omake_overhaulからの取り込み)
+            - name: omake_baby
+              desc: 	・炯眼のマユマカのステータス画面とアイテムエンチャントの詳細表示効果が適用されるように(omake_babyからの取り込み)
+        - version: 2012/10/27T(人柱)
+          date: 2012/10/27
+        - version: 2012/10/28T(人柱)
+          date: 2012/10/28
+        - version: 2012/10/28T2(人柱)
+          date: 2012/10/28
+        - version: 2012/10/30T(人柱)
+          date: 2012/10/30
+          port_of:
+            - name: omake_baby
+              desc: 	・魔力の抽出・魔力の充填をしたときにも魔道具に経験値が入るように(omake_babyからの取り込み)
+        - version: 2012/10/30T2(人柱)
+          date: 2012/10/30
+          port_of:
+            - name: oo
+              desc: 	・ユニークNPCと入れ替われないように(omake_overhaulからの取り込み)
+        - version: 2012/10/31T(人柱)
+          date: 2012/10/31
+        - version: 2012/11/01T(人柱)
+          date: 2012/11/01
+        - version: 2012/11/03T(人柱)
+          date: 2012/11/03
+        - version: 2012/11/04T(人柱)
+          date: 2012/11/04
+          port_of:
+            - name: oo
+              desc: 	・dataフォルダ内にoo_class.csvがあればカスタム職業として読み込むように(omake_overhaulからの取り込み)
+        - version: 2012/11/07T(人柱)
+          date: 2012/11/07
+          port_of:
+            - name: oo
+              desc: 	・特別品質のカスタムアイテムは通常の固定アーティファクトと同じように複数所持で再生成されるように(omake_overhaulからの取り込み)
+        - version: 2012/11/08T(人柱)
+          date: 2012/11/08
+        - version: 2012/11/08T2(人柱)
+          date: 2012/11/08
+        - version: 2012/11/09T(人柱)
+          date: 2012/11/09
+        - version: 2012/11/10T(人柱)
+          date: 2012/11/10
+          port_of:
+            - name: oo
+              desc: 	・カスタムゴッドのspecialpowerに{faith}などを用いた計算式が使えるように(omake_overhaulからの取り込み)
+        - version: 2012/11/10T3(人柱)
+          date: 2012/11/10
+          port_of:
+            - name: oo
+              desc:
+                -	・omake_overhaulで生成された鉱石系アイテムの修飾子を表示するように(omake_overhaulからの取り込み)
+                -	・ハンマーの修飾子とレベル、経験値を表示するように(omake_overhaulからの取り込み)
+        - version: 2012/11/11T(人柱)
+          date: 2012/11/11
+        - version: 2012/11/14T(人柱)
+          date: 2012/11/14
+          port_of:
+            - name: oo
+              desc: 	・wizardモードと炯眼のマユマカ信仰中はステータス画面のスキル一覧に生命力とマナが表示されるように(omake_overhaulからの取り込み)
+        - version: 2012/11/16T(人柱)
+          date: 2012/11/16
+        - version: 2012/11/18T(人柱)
+          date: 2012/11/18
+          port_of:
+            - name: mewmew
+              desc: 	・自宅警備員はペットと冒険者以外のNPCが受ける最大HP、PV、DV補正の対象外に
+        - version: 2012/11/19T(人柱)
+          date: 2012/11/19
+          port_of:
+            - name: omake_baby
+              desc: 	・自分に口調を設定できるように(omake_babyからの取り込み)
+        - version: 2012/11/20T(人柱)
+          date: 2012/11/20
+        - version: 2012/11/23T(人柱)
+          date: 2012/11/23
+        - version: 2012/11/23T2(人柱)
+          date: 2012/11/23
+        - version: 2012/11/25T(人柱)
+          date: 2012/11/25
+        - version: 2012/11/26T(人柱)
+          date: 2012/11/26
+        - version: 2012/11/27T(人柱)
+          date: 2012/11/27
+          port_of:
+            - name: omake_baby
+              desc: 	・アニメウェイトが0waitの時は魔術師の収穫を高速化するように(omake_babyからの取り込み)
+        - version: 2012/11/28T(人柱)
+          date: 2012/11/28
+        - version: 2012/11/28T2(人柱)
+          date: 2012/11/28
+        - version: 2012/11/29T(人柱)
+          date: 2012/11/29
+        - version: 2012/12/01T(人柱)
+          date: 2012/12/01
+          port_of:
+            - name: elm
+              desc: 	・料理時と魔法書、杖などの回数付アイテムが消費された時に自動的にスタックし直すように(一部elmからの取り込み)
+        - version: 2012/12/03T(人柱)
+          date: 2012/12/03
+          port_of:
+            - name: oo
+              desc: 	・武器スキルと窃盗、乗馬の学習書が生成されるように(一部omake_overhaulからの取り込み)
+        - version: 2012/12/03T2(人柱)
+          date: 2012/12/03
+        - version: 2012/12/06T(人柱)
+          date: 2012/12/06
+        - version: 2012/12/08T(人柱)
+          date: 2012/12/08
+        - version: 2012/12/09T(人柱)
+          date: 2012/12/09
+        - version: 2012/12/11T(人柱)
+          date: 2012/12/11
+        - version: 2012/12/15T(人柱)
+          date: 2012/12/15
+        - version: 2012/12/17T(人柱)
+          date: 2012/12/17
+        - version: 2012/12/18T(人柱)
+          date: 2012/12/18
+        - version: 2012/12/22T(人柱)
+          date: 2012/12/22
+        - version: 2012/12/24T(人柱)
+          date: 2012/12/24
+        - version: 2012/12/24T2(人柱)
+          date: 2012/12/24
+        - version: 2012/12/26T(人柱)
+          date: 2012/12/26
+        - version: 2012/12/27T(人柱)
+          date: 2012/12/27
+          port_of:
+            - name: omake_baby
+              desc:
+                -	・%txtkuyasii2 をＮＰＣでも表示させるように(omake_babyからの取り込み)
+                -	・コンソールに showroom_edit_on と入力することでショウルーム作成モードを開始するように(omake_babyからの取り込み)
+            - name: elm
+              desc: 	・elonaフォルダにelmの拡張ファイルが導入されていてELM拡張設定の妹の音声が有効な場合に妹ボイスを再生するように(elmからの取り込み)
+        - version: 2012/12/27T2(人柱)
+          date: 2012/12/27
+        - version: 2012/12/30T(人柱)
+          date: 2012/12/30
+          port_of:
+            - name: oo
+              desc: 	・マテリアル採取ポイントに対応するスキルレベルに比例して一度に行う判定回数が増えるように(一部omake_overhaulからの取り込み)
+        - version: 2012/12/31T(人柱)
+          date: 2012/12/31
+        - version: 2013/01/07T(人柱)
+          date: 2013/01/07
+          port_of:
+            - name: oo
+              desc: 	・CNPCの.txtの設定にランダムネーム付加を指定できる「randomName.」を設定できるように(omake_overhaulからの取り込み)
+        - version: 2013/01/11T(人柱)
+          date: 2013/01/11
+        - version: 2013/01/14T(人柱)
+          date: 2013/01/14
+          port_of:
+            - name: omake_baby
+              desc: 	・拡張設定からショートカットをelona標準、omake用、baby拡張から選択できるように(omake_babyからの取り込み)
+            - name: AA
+              desc:
+                -	・ワールドマップ上の砂漠の移動時はターン数が多くかかるように(AAからの取り込み)
+                -	・ワールドマップ上の砂漠の移動時雨が降ってもすぐ止むように(AAからの取り込み)
+        - version: 2013/01/17T(人柱)
+          date: 2013/01/17
+        - version: 2013/01/18T(人柱)
+          date: 2013/01/18
+        - version: 2013/01/21T(人柱)
+          date: 2013/01/21
+        - version: 2013/01/22T(人柱)
+          date: 2013/01/22
+        - version: 2013/01/25T(人柱)
+          date: 2013/01/25
+          port_of:
+            - name: AA
+              desc: 	・巧妙に描かれた宝の地図、塔が描かれた宝の地図、リコールルーン、ブランクルーン、転職の巻物のアイテム説明文を効果に対応した内容に(AAからの取り込み)
+        - version: 2013/01/27T(人柱)
+          date: 2013/01/27
+        - version: 2013/01/30T(人柱)
+          date: 2013/01/30
+        - version: 2013/01/31T(人柱)
+          date: 2013/01/31
+        - version: 2013/02/07T(人柱)
+          date: 2013/02/07
+          port_of:
+             - name: ore_hack
+               desc: 	・PCの装備メニューから装備セット、オート装備が使用できるように(ore_hackからの取り込み)
+        - version: 2013/02/12T(人柱)
+          date: 2013/02/12
+          port_of:
+            - name: oo
+              desc: 	・o_race.csv、CNPCのuserRaceに設定されたageRndが0の場合に生成時やキャラメイク選択で落ちるのを修正(omakeからのバグ、omake_overhaulからの取り込み)
+            - name: ore_hack
+              desc: 	・ペット、自宅警備員の所持品メニューから装備選択が使用できるように(ore_hackからの取り込み)
+        - version: 2013/02/14T(人柱)
+          date: 2013/02/14
+          port_of:
+            - name: oo
+              desc: 	・変化の術でフリーズが発生する問題を修正(omake_overhaulからの取り込み)
+        - version: 2013/02/15T(人柱)
+          date: 2013/02/15
+        - version: 2013/02/17T(人柱)
+          date: 2013/02/17
+          port_of:
+            - name: oo
+              desc:
+                -	・能力獲得の巻物を読んだ時、4つの候補の中から獲得する技能を選択できるように(omake_overhaulからの取り込み)
+                -	・生きている武器にctalkを設定できるように(omake_overhaulからの取り込み)
+        - version: 2013/02/18T(人柱)
+          date: 2013/02/18
+          port_of:
+            - name: oo
+              desc: 	・PCとPCが装備する生きている武器のカスタムメッセージ発話判定で落ちる場合があるのを修正(omake_overhaulからの取り込み)
+        - version: 2013/02/21T(人柱)
+          date: 2013/02/21
+          port_of:
+            - name: oo
+              desc:
+                -	・カスタムゴッドの特殊能力にマニの分解術を使用できないように(omake_overhaulからの取り込み)
+                -	・カスタムゴッドを信仰するNPCがspecialpowerに定義されたスキルを使用するように(一部omake_overhaulからの取り込み)
+        - version: 2013/02/23T(人柱)
+          date: 2013/02/23
+          port_of:
+            - name: oo
+              desc: 	・カスタムメッセージで{snd:*}(*は音声ファイル名)で音声を再生できるように(elmからの取り込み)
+        - version: 2013/02/25T(人柱)
+          date: 2013/02/25
+        - version: 2013/03/03T(人柱)
+          date: 2013/03/03
+        - version: 2013/03/05T(人柱)
+          date: 2013/03/05
+        - version: 2013/03/14T(人柱)
+          date: 2013/03/14
+        - version: 2013/03/24T(人柱)
+          date: 2013/03/24
+        - version: 2013/03/24T2(人柱)
+          date: 2013/03/24
+        - version: 2013/03/24T3(人柱)
+          date: 2013/03/24
+        - version: 2013/03/25T(人柱)
+          date: 2013/03/25
+        - version: 2013/04/01T(人柱)
+          date: 2013/04/01
+          port_of:
+            - name: oo
+              desc:
+                -	・職業名が長い場合、全角カナを半角カナで表示するように(omake_overhaulからの取り込み)
+                -	・神に祝福された食べ物はどの神に祝福されているのか一目で分かるように(omake_overhaulからの取り込み)
+        - version: 2013/04/04T(人柱)
+          date: 2013/04/04
+        - version: 2013/04/08T(人柱)
+          date: 2013/04/08
+        - version: 2013/04/10T(人柱)
+          date: 2013/04/10
+        - version: 2013/04/12T(人柱)
+          date: 2013/04/12
+        - version: 2013/04/14T(人柱)
+          date: 2013/04/14
+        - version: 2013/04/19T(人柱)
+          date: 2013/04/19
+          port_of:
+            - name: me
+              desc: 	・プラチナ硬貨による訓練をボーナスポイントのように連続で訓練できるように(elonaMeからの取り込み)
+        - version: 2013/06/09T(人柱)
+          date: 2013/06/09
+        - version: 2013/06/10T(人柱)
+          date: 2013/06/10
+        - version: 2013/06/15T(人柱)
+          date: 2013/06/15
+        - version: 2013/06/16T(人柱)
+          date: 2013/06/16
+        - version: 2013/06/21T(人柱)
+          date: 2013/06/21
+        - version: 2013/06/23T(人柱)
+          date: 2013/06/23
+        - version: 2013/06/28T(人柱)
+          date: 2013/06/28
+        - version: 2013/06/29T(人柱)
+          date: 2013/06/29
+        - version: 2013/07/06T(人柱)
+          date: 2013/07/06
+        - version: 2013/07/11T(人柱)
+          date: 2013/07/11
+        - version: 2013/07/14T(人柱)
+          date: 2013/07/14
+        - version: 2013/07/15T(人柱)
+          date: 2013/07/15
+        - version: 2013/07/17T(人柱)
+          date: 2013/07/17
+        - version: 2013/07/18T(人柱)
+          date: 2013/07/18
+        - version: 2013/07/19T(人柱)
+          date: 2013/07/19
+        - version: 2013/07/21T(人柱)
+          date: 2013/07/21
+          port_of:
+            - name: elm
+              desc: 	・soundフォルダにelmの妹猫voiceファイルが導入されていてELM拡張設定の妹の音声が有効な場合に妹猫ボイスを再生するように(elmからの取り込み)
+        - version: 2013/07/23T(人柱)
+          date: 2013/07/23
+        - version: 2013/07/26T(人柱)
+          date: 2013/07/26
+        - version: 2013/07/29T(人柱)
+          date: 2013/07/29
+        - version: 2013/08/02T(人柱)
+          date: 2013/08/02
+        - version: 2013/08/04T(人柱)
+          date: 2013/08/04
+        - version: 2013/08/20T(人柱)
+          date: 2013/08/20
+          port_of:
+            - name: oo
+              desc: 	・omake_overhaulで生成された大いなる○○の祖霊が透過表示されるように(omake_overhaulからの取り込み)
+        - version: 2013/08/21T(人柱)
+          date: 2013/08/21
+        - version: 2013/08/22T(人柱)
+          date: 2013/08/22
+        - version: 2013/08/24T(人柱)
+          date: 2013/08/24
+        - version: 2013/08/26T(人柱)
+          date: 2013/08/26
+        - version: 2013/08/27T(人柱)
+          date: 2013/08/27
+        - version: 2013/08/29T(人柱)
+          date: 2013/08/29
+        - version: 2013/09/06T(妹)
+          date: 2013/09/06
+        - version: 2013/09/08T(人柱)
+          date: 2013/09/08
+        - version: 2013/09/10T(人柱)
+          date: 2013/09/10
+        - version: 2013/09/13T(人柱)
+          date: 2013/09/13
+        - version: 2013/09/17T(人柱)
+          date: 2013/09/17
+          port_of:
+            - name: oo
+              desc:
+                -	・初期装備として生成される固定装備の生成レベルや品質が所持キャラにそぐわないのを修正(omake_overhaulからの取り込み)
+                -	・CNPCの.txtの設定に「initEquip.」を追加しCNPCの初期装備を細かく指定できるように(omake_overhaulからの取り込み)
+        - version: 2013/09/18T(人柱)
+          date: 2013/09/18
+        - version: 2013/09/19T(人柱)
+          date: 2013/09/19
+        - version: 2013/09/19T2(人柱)
+          date: 2013/09/19
+        - version: 2013/09/23T(人柱)
+          date: 2013/09/23
+        - version: 2013/09/28T(人柱)
+          date: 2013/09/28
+
+    - name: MMA/TrashThrow
+      short_name: mma/tt
+      desc: Developed concurrently with MMA.
+      derived_from:
+        - name: mma
+      version_type: date_no_slash_t
+      releases:
+        - version: 2012/08/11(test)
+          date: 2012/08/11
+        - version: 2012/08/11(test2)
+          date: 2012/08/11
+        - version: 2012/08/15(人柱)
+          date: 2012/08/15
+        - version: 2012/08/17(人柱)
+          date: 2012/08/17
+        - version: 2012/08/18(人柱)
+          date: 2012/08/18
+        - version: 2012/08/18B(人柱)
+          date: 2012/08/18
+        - version: 2012/08/19(人柱)
+          date: 2012/08/19
+        - version: 2012/08/20(人柱)
+          date: 2012/08/20
+        - version: 2012/08/21(人柱)
+          date: 2012/08/21
+        - version: 2012/09/02T(test)
+          date: 2012/09/02
+        - version: 2012/09/02T2(test)
+          date: 2012/09/02
+        - version: 2012/09/07B(人柱)
+          date: 2012/09/07
+        - version: 2012/09/10C(人柱)
+          date: 2012/09/10
+        - version: 2012/09/10D(人柱)
+          date: 2012/09/10
+        - version: 2012/09/11(人柱)
+          date: 2012/09/11
+        - version: 2012/09/23(人柱)
+          date: 2012/09/23
+        - version: 2012/09/30T(人柱)
+          date: 2012/09/30
+          port_of:
+            - name: omake_baby
+              desc: 	・自宅とダンジョンに住む店主など一部のNPCの会話メニューに「そこから動かないでほしい」が表示されるように(omake_babyからの取り込み)
+        - version: 2012/10/03T(人柱)
+          date: 2012/10/03
+          port_of:
+            - name: oo
+              desc: 	・コンソールで\"fixcorrupt2\"を実行する事でマップ内のNPCの格闘スタイルと詠唱スタイルを初期化できるように(omake_overhaulからの取り込み)
+        - version: 2012/10/03T2(人柱)
+          date: 2012/10/03
+        - version: 2012/10/05T(人柱)
+          date: 2012/10/05
+        - version: 2012/10/06T(人柱)
+          date: 2012/10/06
+        - version: 2012/10/07T(人柱)
+          date: 2012/10/07
+        - version: 2012/10/08T(人柱)
+          date: 2012/10/08
+          port_of:
+            - name: omake_baby
+              desc: 	・NPCのカスタムメッセージに%txtmidare(みだれうち)を使用できるように(omake_babyからの取り込み)
+        - version: 2012/10/09T(人柱)
+          date: 2012/10/09
+          port_of:
+            - name: AA
+              desc: 	・願いのキーワード「ジュア」でAA仕様の《癒しのジュア》を降臨させられるように(AAからの取り込み)
+        - version: 2012/10/10T(人柱)
+          date: 2012/10/10
+        - version: 2012/10/10T2(人柱)
+          date: 2012/10/10
+        - version: 2012/10/11T(人柱)
+          date: 2012/10/11
+        - version: 2012/10/13T(人柱)
+          date: 2012/10/13
+          port_of:
+            - name: elm
+              desc:
+                -	・アップライトピアノのサブカテゴリと対応スキルが設定されてないのを修正
+                -		・本家からの設定ミス(elmからの取り込み)
+            - name: AA
+              desc: 	・街からの距離が遠い場合はドラゴン級以上の敵が襲撃してくるように(AAからの取り込み)
+        - version: 2012/10/13T2(人柱)
+          date: 2012/10/13
+          port_of:
+            - name: oo
+              desc: 	・ユニーク指定のCNPCはレベル上限100に制限されないように(omake_overhaulからの取り込み)
+        - version: 2012/10/14T(人柱)
+          date: 2012/10/14
+        - version: 2012/10/15T(人柱)
+          date: 2012/10/15
+          port_of:
+            - name: AA
+              desc:
+                -	・エウダーナのブライからAAの拡張イベントを受けられるように(AAからの取り込み)
+                -	・エウダーナでは防衛戦、空襲警報、エイス・テールの遺産の依頼が発生するように(AAからの取り込み)
+                -	・巧妙に描かれた宝の地図、塔が描かれた宝の地図を使用できるように(AAからの取り込み)
+                -	・オリハルコンキングは駒召喚でオリハルコンシリーズの駒を召喚するように(AAからの取り込み)
+                -	・野外マップに砂漠が出現するように(AAからの取り込み)
+            - name: oo
+              desc: 	・冒険者一覧のPCのキャラチップが正常に表示されない場合にコンソールからfixpccを実行する事で解決できるように(omake_overhaulからの取り込み)
+        - version: 2012/10/16T(人柱)
+          date: 2012/10/16
+          port_of:
+            - name: AA
+              desc:
+                -	・宝の地図の生成時に一定確率で巧妙に描かれた宝の地図、塔が描かれた宝の地図になるように(AAからの取り込み)
+                -	・NPCのランダムドロップアイテムに低確率で宝の地図と宝箱が出現するように(AAからの取り込み)
+                -	・呪われたオパートス像を使用するとワールドマップ上のランダムネフィアが全て一時消滅するように(AAからの取り込み)
+        - version: 2012/10/17T(人柱)
+          date: 2012/10/17
+        - version: 2012/10/18T(人柱)
+          date: 2012/10/18
+        - version: 2012/10/19T(人柱)
+          date: 2012/10/19
+          port_of:
+            - name: lom
+              desc: 	・すくつ外にいる時にすくつ探索許可証を消費してすくつ最深到達層を1000層にまでリセットできるように(LOMからの取り込み)
+
+        - version: 2012/10/22T(人柱)
+          date: 2012/10/22
+          port_of:
+            - name: oo
+              desc:
+                 -	・財のイナリのフィート、天候補正が適用されるように(omake_overhaulからの取り込み)
+                 -	・水のダナリンの狂気度による補正が適用されるように(omake_overhaulからの取り込み)
+                 -	・wizardモードではコンソールコマンド「gain_faith」で信仰ポイントが得られるように(omake_overhaulからの取り込み)
+            - name: omake_baby
+              desc: 	・呪いのフウリの呪い装備による補正が適用されるように(omake_babyからの取り込み)
+        - version: 2012/10/22T2(人柱)
+          date: 2012/10/22
+        - version: 2012/10/23T(人柱)
+          date: 2012/10/23
+        - version: 2012/10/24T(人柱)
+          date: 2012/10/24
+          port_of:
+            - name: oo
+              desc: 	・浮気者の説明を「すべての神の信仰を〜」から「大神七柱の信仰を〜」に(omake_overhaulからの取り込み)
+        - version: 2012/10/25T(人柱)
+          date: 2012/10/25
+          port_of:
+            - name: oo
+              desc: 	・変化の術で黄金の騎士に変化した時に近接攻撃とリジェネレーションを行わない問題を修正(omake_overhaulからの取り込み)
+        - version: 2012/10/25T2(人柱)
+          date: 2012/10/25
+        - version: 2012/10/26T(人柱)
+          date: 2012/10/26
+          port_of:
+            - name: oo
+              desc: 	・F8のメニューからカスタムゴッドの作成ができるように(omake_overhaulからの取り込み)
+            - name: omake_baby
+              desc: 	・炯眼のマユマカのステータス画面とアイテムエンチャントの詳細表示効果が適用されるように(omake_babyからの取り込み)
+
+        - version: 2012/10/27T(人柱)
+          date: 2012/10/27
+        - version: 2012/10/28T(人柱)
+          date: 2012/10/28
+        - version: 2012/10/28T2(人柱)
+          date: 2012/10/28
+        - version: 2012/10/30T(人柱)
+          date: 2012/10/30
+        - version: 2012/10/30T2(人柱)
+          date: 2012/10/30
+          port_of:
+            - name: oo
+              desc: 	・ユニークNPCと入れ替われないように(omake_overhaulからの取り込み)
+        - version: 2012/10/31T(人柱)
+          date: 2012/10/31
+        - version: 2012/11/01T(人柱)
+          date: 2012/11/01
+        - version: 2012/11/03T(人柱)
+          date: 2012/11/03
+        - version: 2012/11/04T(人柱)
+          date: 2012/11/04
+          port_of:
+            - name: oo
+              desc: 	・dataフォルダ内にoo_class.csvがあればカスタム職業として読み込むように(omake_overhaulからの取り込み)
+
+        - version: 2012/11/07T(人柱)
+          date: 2012/11/07
+          port_of:
+            - name: oo
+              desc: 	・特別品質のカスタムアイテムは通常の固定アーティファクトと同じように複数所持で再生成されるように(omake_overhaulからの取り込み)
+        - version: 2012/11/08T(人柱)
+          date: 2012/11/08
+        - version: 2012/11/08T2(人柱)
+          date: 2012/11/08
+        - version: 2012/11/09T(人柱)
+          date: 2012/11/09
+        - version: 2012/11/10T(人柱)
+          date: 2012/11/10
+          port_of:
+            - name: oo
+              desc: 	・カスタムゴッドのspecialpowerに{faith}などを用いた計算式が使えるように(omake_overhaulからの取り込み)
+        - version: 2012/11/10T2(人柱)
+          date: 2012/11/10
+        - version: 2012/11/10T3(人柱)
+          date: 2012/11/10
+          port_of:
+            - name: oo
+              desc:
+                -	・omake_overhaulで生成された鉱石系アイテムの修飾子を表示するように(omake_overhaulからの取り込み)
+                -	・ハンマーの修飾子とレベル、経験値を表示するように(omake_overhaulからの取り込み)
+        - version: 2012/11/11T(人柱)
+          date: 2012/11/11
+        - version: 2012/11/14T(人柱)
+          date: 2012/11/14
+          port_of:
+            - name: oo
+              desc: 	・wizardモードと炯眼のマユマカ信仰中はステータス画面のスキル一覧に生命力とマナが表示されるように(omake_overhaulからの取り込み)
+        - version: 2012/11/16T(人柱)
+          date: 2012/11/16
+        - version: 2012/11/18T(人柱)
+          date: 2012/11/18
+        - version: 2012/11/19T(人柱)
+          date: 2012/11/19
+          port_of:
+            - name: omake_baby
+              desc: 	・自分に口調を設定できるように(omake_babyからの取り込み)
+
+        - version: 2012/11/20T(人柱)
+          date: 2012/11/20
+        - version: 2012/11/23T(人柱)
+          date: 2012/11/23
+        - version: 2012/11/23T2(人柱)
+          date: 2012/11/23
+        - version: 2012/11/25T(人柱)
+          date: 2012/11/25
+        - version: 2012/11/26T(人柱)
+          date: 2012/11/26
+        - version: 2012/11/27T(人柱)
+          date: 2012/11/27
+          port_of:
+            - name: omake_baby
+              desc: 	・アニメウェイトが0waitの時は魔術師の収穫を高速化するように(omake_babyからの取り込み)
+        - version: 2012/11/28T(人柱)
+          date: 2012/11/28
+        - version: 2012/11/28T2(人柱)
+          date: 2012/11/28
+        - version: 2012/11/29T(人柱)
+          date: 2012/11/29
+        - version: 2012/12/01T(人柱)
+          date: 2012/12/01
+          port_of:
+            - name: elm
+              desc: 	・料理時と魔法書、杖などの回数付アイテムが消費された時に自動的にスタックし直すように(一部elmからの取り込み)
+        - version: 2012/12/06T(人柱)
+          date: 2012/12/06
+        - version: 2012/12/08T(人柱)
+          date: 2012/12/08
+        - version: 2012/12/09T(人柱)
+          date: 2012/12/09
+        - version: 2012/12/11T(人柱)
+          date: 2012/12/11
+        - version: 2012/12/15T(人柱)
+          date: 2012/12/15
+        - version: 2012/12/17T(人柱)
+          date: 2012/12/17
+        - version: 2012/12/18T(人柱)
+          date: 2012/12/18
+        - version: 2012/12/22T(人柱)
+          date: 2012/12/22
+        - version: 2012/12/24T(人柱)
+          date: 2012/12/24
+        - version: 2012/12/26T(人柱)
+          date: 2012/12/26
+        - version: 2012/12/27T(人柱)
+          date: 2012/12/27
+        - version: 2012/12/27T2(人柱)
+          date: 2012/12/27
+          port_of:
+             - name: elm
+               desc: 	・elonaフォルダにelmの拡張ファイルが導入されていてELM拡張設定の妹の音声が有効な場合に妹ボイスを再生するように(elmからの取り込み)
+             - name: omake_baby
+               desc:
+                 -	・%txtkuyasii2 をＮＰＣでも表示させるように(omake_babyからの取り込み)
+                 -	・コンソールに showroom_edit_on と入力することでショウルーム作成モードを開始するように(omake_babyからの取り込み)
+
+        - version: 2012/12/30T(人柱)
+          date: 2012/12/30
+        - version: 2012/12/31T(人柱)
+          date: 2012/12/31
+        - version: 2013/01/07T(人柱)
+          date: 2013/01/07
+          port_of:
+             - name: oo
+               desc: 	・CNPCの.txtの設定にランダムネーム付加を指定できる「randomName.」を設定できるように(omake_overhaulからの取り込み)
+        - version: 2013/01/11T(人柱)
+          date: 2013/01/11
+        - version: 2013/01/14T(人柱)
+          date: 2013/01/14
+          port_of:
+            - name: omake_baby
+              desc: 	・拡張設定からショートカットをelona標準、omake用、baby拡張から選択できるように(omake_babyからの取り込み)
+            - name: AA
+              desc:
+                -	・ワールドマップ上の砂漠の移動時はターン数が多くかかるように(AAからの取り込み)
+                -		・ランダムで発生する足止めはオーロラリングなどで軽減できる
+                -	・ワールドマップ上の砂漠の移動時雨が降ってもすぐ止むように(AAからの取り込み)
+
+        - version: 2013/01/17T(人柱)
+          date: 2013/01/17
+        - version: 2013/01/18T(人柱)
+          date: 2013/01/18
+        - version: 2013/01/21T(人柱)
+          date: 2013/01/21
+        - version: 2013/01/25T(人柱)
+          date: 2013/01/25
+          port_of:
+            - name: AA
+              desc: 	・巧妙に描かれた宝の地図、塔が描かれた宝の地図、リコールルーン、ブランクルーン、転職の巻物のアイテム説明文を効果に対応した内容に(AAからの取り込み)
+        - version: 2013/01/27T(人柱)
+          date: 2013/01/27
+        - version: 2013/01/30T(人柱)
+          date: 2013/01/30
+        - version: 2013/01/31T(人柱)
+          date: 2013/01/31
+        - version: 2013/02/07T(人柱)
+          date: 2013/02/07
+          port_of:
+            - name: ore_hack
+              desc: 	・PCの装備メニューから装備セット、オート装備が使用できるように(ore_hackからの取り込み)
+        - version: 2013/02/12T(人柱)
+          date: 2013/02/12
+          port_of:
+            - name: oo
+              desc: 	・o_race.csv、CNPCのuserRaceに設定されたageRndが0の場合に生成時やキャラメイク選択で落ちるのを修正(omakeからのバグ、omake_overhaulからの取り込み)
+            - name: ore_hack
+              desc: ・ペット、自宅警備員の所持品メニューから装備選択が使用できるように(ore_hackからの取り込み)
+        - version: 2013/02/14T(人柱)
+          date: 2013/02/14
+          port_of:
+            - name: oo
+              desc: 	・変化の術でフリーズが発生する問題を修正(omake_overhaulからの取り込み)
+        - version: 2013/02/17T(人柱)
+          date: 2013/02/17
+          port_of:
+            - name: oo
+              desc: 	・生きている武器にctalkを設定できるように(omake_overhaulからの取り込み)
+        - version: 2013/02/18T(人柱)
+          date: 2013/02/18
+          port_of:
+            - name: oo
+              desc: 	・PCとPCが装備する生きている武器のカスタムメッセージ発話判定で落ちる場合があるのを修正(omake_overhaulからの取り込み)
+        - version: 2013/02/21T(人柱)
+          date: 2013/02/21
+          port_of:
+            - name: oo
+              desc: 	・カスタムゴッドの特殊能力にマニの分解術を使用できないように(omake_overhaulからの取り込み)
+        - version: 2013/02/23T(人柱)
+          date: 2013/02/23
+          port_of:
+            - name: elm
+              desc: 	・カスタムメッセージで{snd:*}(*は音声ファイル名)で音声を再生できるように(elmからの取り込み)
+        - version: 2013/02/25T(人柱)
+          date: 2013/02/25
+        - version: 2013/03/03T(人柱)
+          date: 2013/03/03
+        - version: 2013/03/05T(人柱)
+          date: 2013/03/05
+        - version: 2013/03/14T(人柱)
+          date: 2013/03/14
+        - version: 2013/03/24T(人柱)
+          date: 2013/03/24
+        - version: 2013/03/24T2(人柱)
+          date: 2013/03/24
+        - version: 2013/03/24T3(人柱)
+          date: 2013/03/24
+        - version: 2013/03/25T(人柱)
+          date: 2013/03/25
+        - version: 2013/04/01T(人柱)
+          date: 2013/04/01
+          port_of:
+            - name: oo
+              desc:
+                -	・職業名が長い場合、全角カナを半角カナで表示するように(omake_overhaulからの取り込み)
+                -	・神に祝福された食べ物はどの神に祝福されているのか一目で分かるように(omake_overhaulからの取り込み)
+        - version: 2013/04/04T(人柱)
+          date: 2013/04/04
+        - version: 2013/04/08T(人柱)
+          date: 2013/04/08
+        - version: 2013/04/10T(人柱)
+          date: 2013/04/10
+        - version: 2013/04/12T(人柱)
+          date: 2013/04/12
+        - version: 2013/04/14T(人柱)
+          date: 2013/04/14
+        - version: 2013/04/19T(人柱)
+          date: 2013/04/19
+          port_of:
+            - name: me
+              desc: 	・プラチナ硬貨による訓練をボーナスポイントのように連続で訓練できるように(elonaMeからの取り込み)
+        - version: 2013/06/09T(人柱)
+          date: 2013/06/09
+        - version: 2013/06/10T(人柱)
+          date: 2013/06/10
+        - version: 2013/06/15T(人柱)
+          date: 2013/06/15
+        - version: 2013/06/16T(人柱)
+          date: 2013/06/16
+        - version: 2013/06/21T(人柱)
+          date: 2013/06/21
+        - version: 2013/06/23T(人柱)
+          date: 2013/06/23
+        - version: 2013/06/28T(人柱)
+          date: 2013/06/28
+        - version: 2013/06/29T(人柱)
+          date: 2013/06/29
+        - version: 2013/07/06T(人柱)
+          date: 2013/07/06
+        - version: 2013/07/11T(人柱)
+          date: 2013/07/11
+        - version: 2013/07/14T(人柱)
+          date: 2013/07/14
+        - version: 2013/07/15T(人柱)
+          date: 2013/07/15
+        - version: 2013/07/17T(人柱)
+          date: 2013/07/17
+        - version: 2013/07/18T(人柱)
+          date: 2013/07/18
+        - version: 2013/07/19T(人柱)
+          date: 2013/07/19
+        - version: 2013/07/21T(人柱)
+          date: 2013/07/21
+          port_of:
+            - name: elm
+              desc: 	・soundフォルダにelmの妹猫voiceファイルが導入されていてELM拡張設定の妹の音声が有効な場合に妹猫ボイスを再生するように(elmからの取り込み)
+        - version: 2013/07/23T(人柱)
+          date: 2013/07/23
+        - version: 2013/07/26T(人柱)
+          date: 2013/07/26
+        - version: 2013/07/29T(人柱)
+          date: 2013/07/29
+        - version: 2013/08/02T(人柱)
+          date: 2013/08/02
+        - version: 2013/08/04T(人柱)
+          date: 2013/08/04
+        - version: 2013/08/20T(人柱)
+          date: 2013/08/20
+          port_of:
+            - name: oo
+              desc: 	・omake_overhaulで生成された大いなる○○の祖霊が透過表示されるように(omake_overhaulからの取り込み)
+        - version: 2013/08/21T(人柱)
+          date: 2013/08/21
+        - version: 2013/08/22T(人柱)
+          date: 2013/08/22
+        - version: 2013/08/24T(人柱)
+          date: 2013/08/24
+        - version: 2013/08/26T(人柱)
+          date: 2013/08/26
+        - version: 2013/08/27T(人柱)
+          date: 2013/08/27
+        - version: 2013/08/29T(人柱)
+          date: 2013/08/29
+        - version: 2013/09/06T(人柱)
+          date: 2013/09/06
+        - version: 2013/09/08T(人柱)
+          date: 2013/09/08
+        - version: 2013/09/08P(人柱)
+          date: 2013/09/08
+        - version: 2013/09/10T(人柱)
+          date: 2013/09/10
+        - version: 2013/09/13T(人柱)
+          date: 2013/09/13
+        - version: 2013/09/17T(人柱)
+          date: 2013/09/17
+          port_of:
+            - name: oo
+              desc:
+               -	・初期装備として生成される固定装備の生成レベルや品質が所持キャラにそぐわないのを修正(omake_overhaulからの取り込み)
+               -	・CNPCの.txtの設定に「initEquip.」を追加しCNPCの初期装備を細かく指定できるように(omake_overhaulからの取り込み)
+
+        - version: 2013/09/18T(人柱)
+          date: 2013/09/18
+        - version: 2013/09/19T(人柱)
+          date: 2013/09/19
+        - version: 2013/09/19T2(人柱)
+          date: 2013/09/19
+        - version: 2013/09/23T(人柱)
+          date: 2013/09/23
+        - version: 2013/09/28T(人柱)
+          date: 2013/09/28
+
+    - name: mma_hack
+      author: ????
+      desc: Enhanced version of MMA.
+      derived_from:
+        - name: mma
+          version: 20130906
+      version_type: date_no_slash
+      releases:
+        - date: 2018/07/21 22:56
+        - date: 2018/07/08 23:54
+          link: https://drive.google.com/open?id=1ZgEP8frAfXsO8CO1HjKKZwrUN9GmTP10
+          port_of:
+            - name: oom_Ex
+              desc:
+                - 　・user/graphicフォルダにfruitTrees.bmpがあれば果実の木を実る果実ごとに差し替えられるように(oomExより)
+        - date: 2018/07/07 18:24
+          link: https://drive.google.com/open?id=1WwYhHwP2_ZYX1G83G29PaQM1hkaY-Z7e
+        - date: 2018/07/03 23:53
+          link: https://drive.google.com/open?id=15P91KBMynRj_2K7gBtCOh1rUyPOKisRF
+          port_of:
+            - name: oo
+              desc:
+                - 　・カスタムアイテムの不確定名が正式名称になってしまう問題を修正(omake_overhaulより)
+                - 　・CNPCの「userSpact.」で定義されたスキルを読み込むように(omake_overhaulより)
+            - name: oor
+              desc:
+                -　・カスタムゴッドの「specialpoweralias.」で英語名のみを定義したとき日本語環境下でも英語名を定義するように(oorより)
+                - 　・CNPCの「userSpact.」で定義されたスキルの使用を作戦から指示できるように(oorより)
+                - 　・[z]でアイテムの情報を切り替えたとき技能, 能力, 維持, 一部の無効のエンチャントを表示できるように(ore_hack, oorより)
+            - name: ore_hack
+              desc:
+                - 　・[z]でアイテムの情報を切り替えたとき技能, 能力, 維持, 一部の無効のエンチャントを表示できるように(ore_hack, oorより)
+        - date: 2018/06/30 20:08
+          link: https://drive.google.com/open?id=1yCjHmPTDazy2E89oYfuqf9XNQj-5TIGR
+          port_of:
+            - name: oo
+              desc:
+                -　・死亡回数を日誌[j]で確認できるように(omake_overhaulより)
+                -　・作戦に陣形の項目を追加し前衛と後衛を指示できるように(omake_overhaul, oorより)
+            - name: oor
+              desc:
+                -　・作戦に陣形の項目を追加し前衛と後衛を指示できるように(omake_overhaul, oorより)
+                - 　・ペットはサンドバッグに吊るされたNPCを押しのけないように(oorより)
+                - 　・マテリアルの表示順を変更した(oorより)
+        - version: 20180624.1 11:49
+          date: 2018/06/24 11:49
+          link: https://drive.google.com/open?id=1IP9Mfm4uS_8V5OkRks1HkudldvS2bKNg
+        - date: 2018/06/24 01:02
+        - date: 2018/06/23 23:19
+        - date: 2018/06/22 23:46
+          link: https://drive.google.com/open?id=1zRCLVJTePTmoh9u7ddHSBNBnZW5Yx6YN
+        - date: 2018/06/18 23:38
+          link: https://drive.google.com/open?id=1EmwEGXmSdSgYimbUiG-Ki5GLtvaZiY-i
+        - date: 2018/06/14 19:38
+          link: https://drive.google.com/open?id=1Y7c015XhX0R3M1Mpz5KOUXpEf2vJLRbP
+        - date: 2018/06/13 18:46
+          link: https://drive.google.com/open?id=1u1HebUiWFL5VeR2xJHVYC-h6TUkFuZBH
+        - date: 2018/06/10 21:25
+        - date: 2018/06/09 07:13
+        - date: 2018/06/08 21:06
+        - date: 2018/06/04 18:19
+          port_of:
+            - name: oor
+              desc:
+                - 　・Ctrlキーを押しながら果実の木の上に移動したとき自動で体当たりするように(oorより)
+        - date: 2018/06/03 03:08
+        - date: 2018/06/02 18:30
+          port_of:
+            - name: foobar
+              desc:
+                - 　・NPCがポーションを飲むと同時にポーションを盗むとポーションの効果を得つつポーションを盗める問題を修正(foobarより)
+        - date: 2018/05/16 21:52
+          link: https://drive.google.com/open?id=1Lzv0n-mBMqyEQbn_J9K4M8OsPigYZKzk
+        - date: 2018/05/15 23:14
+          link: https://drive.google.com/open?id=16U947swjI4vUXezn9d16EORh9vXWWj7u
+          port_of:
+            - name: oor
+              desc:
+                -　・同種ポーション調合で強化されたポーションは祝福や呪いが付かないように(oorより)
+        - date: 2018/05/05 16:02
+          link: https://drive.google.com/open?id=1vLWiVw6rt_QiK8WOkKKVSTdg8xH838po
+        - date: 2018/05/01 23:31
+          port_of:
+            - name: oor
+              desc:
+                -　・素材箱を開けたときスタックオーバーフローが発生する可能性があった問題を修正(oorより)
+                -　・主能力0の状態で主能力が下がるとフリーズする問題を修正(oorより)
+                -　・吊るされた又はダメージ無効化した自爆生物が誘爆する問題を修正(oorより)
+                -　・サンドバッグに吊るされたNPCは敵対状態でもハウスボードで移動できるように(oorより)
+                -　・称号の獲得判定はPCのターン開始時のみ行なうように(oorより)
+        - date: 2018/04/22 22:48
+        - date: 2018/04/09 23:22
+        - date: 2018/04/03 23:39
+        - date: 2018/03/28 17:56
+        - date: 2018/03/26 23:33
+        - version: 20180318.1 21:35
+          date: 2018/03/18 21:35
+        - date: 2018/03/18 18:51
+        - version: 20180315.2 19:26
+          date: 2018/03/15 19:26
+        - version: 20180315.1 15:18
+          date: 2018/03/15 15:18
+        - date: 2018/03/15 01:18
+        - date: 2018/03/14 18:16
+        - date: 2018/03/10 21:22
+        - date: 2018/03/07 19:22
+          port_of:
+            - name: ore_hack
+              desc:
+                - 　・設定からペットの空腹を「知らせる」にしたとき以下のメッセージを表示するように(ore_hackより)
+        - date: 2018/03/01 02:57
+        - date: 2018/02/28 04:12
+        - date: 2018/02/23 23:20
+          port_of:
+            - name: oom_Ex
+              desc:
+                - 　・新しい冒険者を作成するとき、最初に異名を選ぶように(oomExより)
+        - date: 2018/02/11 23:10
+        - date: 2018/02/07 14:18
+        - date: 2018/02/04 01:34
+        - date: 2018/02/03 02:00
+        - date: 2018/02/02 22:27
+          port_of:
+            - name: oom_Ex
+              desc:
+                - 　・祝福された名前の巻物では最初にページ数を選べるように(oomExより)
+            - name: omake_LSD
+              desc:
+                -　・CNPC生成時の年齢、身長、体重、口調を固定できるように(omake_LSDより)
+        - date: 2018/01/12 22:55
+          link: https://www.axfc.net/u/3879842/elona
+          port_of:
+            - name: oom_Ex
+              desc:
+                - 　・ダメージ表示とポップアップが掲示板の依頼とカジノの画面に被らないように(oomExより)
+        - date: 2017/12/02 22:17
+          link: https://www.axfc.net/u/3867724/elona
+          port_of:
+            - name: oo
+              desc:
+                - 　・新しい冒険者を作成時、マイナスフィート「無魔法」と「清廉潔白」を取得できるように(omake_overhaulより、フィートポイントは増えません)
+                - 　・ペットがホイッスルを使って敵のヘイトを取るように(omake_overhaulより)
+            - name: oom_Ex
+              desc:
+                - 　・称号「お父様」を獲得するとレシピのアイテム製作時、一度に100個まで作れるように(oomExより)
+        - date: 2017/11/02 22:22
+          link: https://www.axfc.net/u/3859314/elona
+        - date: 2017/09/01 22:28
+          link: https://www.axfc.net/u/3840720/elona
+        - date: 2017/08/10 21:27
+          link: https://www.axfc.net/u/3833047/elona
+        - date: 2017/08/06 22:23
+        - date: 2017/07/25 00:45
+        - date: 2017/07/24 01:18
+        - date: 2017/07/23 02:52
+        - date: 2017/07/22 21:29
+          port_of:
+            - name: oo
+              desc:
+                - 　・内蔵のo_class.csvにtraitの列を追加(omake_overhaulより)
+                - 　　・ペットもフィートを取得できるように(omake_overhaulより)
+                -　　・探知、見切り、回避、詠唱、交渉、信仰のスキルが上昇するフィートはスキルレベルではなくスキルの潜在能力が伸びやすくなるように(omake_overhaulより)
+                -　　・格闘家のフィートはスキルの上昇ではなく格闘ダメージに補正がかかるように(omake_overhaulより、ランク2までで倍率はランク毎に+20%になってます)
+            - name: oor
+              desc:
+                - 　　・「ペットフィート」又は「petfeat」を願うとペットのフィート(faction)を初期化できるように(oomExより、取得できるフィート数も初期化されます)
+        - date: 2017/06/30 23:42
+          link: https://www.axfc.net/u/3820437/elona
+        - date: 2017/04/16 11:07
+        - date: 2017/04/12 23:55
+        - date: 2017/04/07 22:55
+        - date: 2017/04/02 04:13
+        - date: 2017/03/10 22:35
+        - date: 2017/03/02 03:57
+        - date: 2017/02/23 18:43
+        - date: 2017/02/20 01:24
+        - date: 2017/02/19 22:31
+        - date: 2017/02/18 12:46
+        - date: 2017/02/17 17:19
+        - date: 2017/02/15 21:38
+          port_of:
+            - name: oo
+              desc:
+                - 　・探知スキルがあるとき周囲を調べる(s)事で敵の気配が分かるように(omake_overhaulより)
+        - date: 2017/02/04 22:46
+          link: https://www.axfc.net/u/3772022/elona
+          port_of:
+            - name: oo
+              desc:
+                -　・一部のネフィアのNPCが派閥の範囲内で出現するように(omake_overhaulより)
+                -　　・不思議のネフィアが生成されるように(omake_overhaulより)
+                -　　・生き武器の成長の選択肢を増やした(omake_overhaulより)
+        - date: 2017/01/22 22:48
+          link: https://www.axfc.net/u/3767678/elona
+          port_of:
+            - name: oo
+              desc:
+                - 　・凄腕の黒天使の出現条件を変更した(omake_overhaulより)
+            - name: oom
+              desc:
+                - 　・omakeショートカットと凄腕の黒天使のキルカウンターの格納領域が被っている問題を修正(oomより)
+        - date: 2016/12/23 03:09
+          link: https://www.axfc.net/u/3755442/elona
+        - date: 2016/12/04 22:37
+          link: https://www.axfc.net/u/3748503/elona
+        - date: 2016/10/02 22:56
+          link: https://www.axfc.net/u/3725107/elona
+        - date: 2016/01/27 21:53
+          link: http://www1.axfc.net/u/3608780.zip/elona
+        - date: 2016/01/17 01:05
+          link: http://www1.axfc.net/u/3602318.zip
+        - date: 2015/11/24 22:17
+          link: http://www1.axfc.net/u/3572464.zip/elona
+          port_of:
+            - name: mma
+              desc:
+                - 　・襲撃イベントの敵レベルを再調整。MMAの計算式と同じでキャラクターレベルの代わりに名声レベルを使用するように
+        - date: 2015/11/14 05:59
+          link: http://www1.axfc.net/u/3566497.zip/elona
+        - date: 2015/11/13 20:50
+        - date: 2015/10/31 09:57
+          link: http://www1.axfc.net/u/3558582.zip/elona
+        - date: 2015/10/30 21:50
+        - date: 2015/10/29 18:23
+        - date: 2015/10/09 19:28
+          link: http://www1.axfc.net/u/3547221.zip/elona
+          port_of:
+            - name: ore_hack
+              desc:
+                -　・お店に名前を付けられるように(ore_hackより)
+                -　・お店の商品を重ねずに置くと少し高く売れるように(ore_hackより)
+                -　・お店に非売品エリアを設けられるように(ore_hackより)
+                -　・お店にベッドを置くと宿泊料が取れるように(ore_hackより)
+            - name: omake_baby
+              desc:
+                -　・ゲーム内時間またはリアル時間で7/24の間はベイベーの日になるように(omake_babyより)
+                - 　・稀に行商ベイベーとベイベー団に遭遇するように(omake_babyより)
+            - name: oo
+              desc:
+                - 　・ベイベーの日にパーティー場へ行くと吟遊詩人が多く生成されるように(omake_overhaulより)
+                - 　・妹の日には謎の種の実から高確率で妹が収穫できるように(omake_overhaulより)
+        - date: 2015/10/02 21:11
+          link: http://www1.axfc.net/u/3543793.zip/elona
+        - date: 2015/09/23 05:32
+          link: http://www1.axfc.net/u/3538476.zip/elona
+        - date: 2015/09/18 20:11
+          link: http://www1.axfc.net/u/3535890.zip/elona
+          port_of:
+            - name: URW
+              version: 2012/11/13
+              desc:
+                - 　・祝福された*鑑定*の巻物でバックパックのアイテムを全て鑑定するように(URWより)
+        - date: 2015/09/12 11:35
+        - date: 2015/09/12 01:00
+          link: http://www1.axfc.net/u/3532613.zip/elona
+        - date: 2015/09/11 22:53
+          port_of:
+            - name: omake
+              version: 20150620
+              desc:
+                - ベースにするomakeのバージョンを20130819から20150620へ
+            - name: ore_hack
+              desc:
+                - 　・大事なものはふかふかパンの材料、魔力の抽出、錬金術の杖等の対象に表示しないように(ore_hackより)
+        - date: 2015/09/05 14:45
+          link: http://www1.axfc.net/u/3529385.zip/elona
+        - date: 2015/09/05 13:16
+          port_of:
+            - name: ore_hack
+              desc:
+                - 　・空っぽの箱は中身のある箱よりリストの下に表示されるように(ore_hackより)
+        - date: 2015/08/27 21:41
+          link: http://www1.axfc.net/u/3524700.zip/elona
+        - date: 2015/08/25 23:38
+        - date: 2015/08/25 20:27
+          port_of:
+            - name: ore_hack
+              desc:
+                - 　・スキルの成長ログを表示できるように(ore_hackより)
+        - date: 2015/08/14 20:56
+          port_of:
+            - name: oo
+              desc:
+                - 　・神々の休戦地の祭壇は乗っ取れないように(omake_overhaulより)
+        - date: 2015/08/13 23:37
+          link: http://www1.axfc.net/u/3517052
+        - date: 2015/08/12 21:55
+          port_of:
+            - name: ore_hack
+              desc:
+                - 　・お店の販売ログをジャーナルから見られるように(ore_hackより)
+        - date: 2015/08/06 17:38
+        - date: 2015/08/05 19:07
+        - date: 2015/08/04 11:46
+        - date: 2015/08/04 05:11
+        - date: 2015/08/04 03:32
+        - date: 2015/08/03 23:32
+          port_of:
+            - name: ore_hack
+              desc:
+                -　　　・食品の消費期限を表示できるように(ore_hackより)
+                -　　　・一部の依頼で残り時間と達成状況を表示できるように(ore_hackより)
+                -　　　・店の次の入荷日時を表示できるように(ore_hackより)
+                -　　　・牧場に入った時に家畜の数を表示するように(ore_hackより)
+                -　　　・情報屋でネフィアの一覧を見られるように(ore_hackより一部取り込み)
+            - name: oom
+              desc:
+                -　　　・ターゲット時の相手のバフ/デバフ状態や速度、属性耐性を表示できるように(omake_overhaul_modifyより) 　　　・スキルトラックの文字に色をつけられるように(omake_overhaul_modifyより)
+            - name: omake
+              desc:
+                -　　　・「性別変更」とだけ願うとそのマップにいるキャラ一覧から選択できるように(omakeより)
+                -　　　・自宅を建て替えるときに現在の自宅と同じ場所に建て替えられるように(omakeより)
+                -　　　・祝福された妹の日記を読むと光る妹が仲間になるように(omakeより)
+                -　　　・終末エンチャント等によって発生する妹の日では、変な色の妹、光る妹が生成されるように(omakeより)
+                -　　　・低確率でハードゲイ（プレミアム）が出現するように(omakeより)
+                -　　　・冷蔵庫の容量を50に拡張(omakeより)
+            - name: oo
+              desc:
+                -　　　・少女騎士団と微笑む斬殺者と無邪気な妹猫と凄腕の黒天使のイベントを移植した(omake_overhaulより)
+                -　　　・盗賊団の頭領を倒したとき名声が上昇するように(omake_overhaulより)
+                -　　・omake_overhaulの名声システムの一部取り込んだ
+                -　　・omake_overhaulの特殊ネフィアの一部取り込んだ(仕様が違うネフィアもあります)
+
+    - name: foobar
+      author: KI, Ruin0x11
+      derived_from:
+        - name: elona
+          version: 1.22(開発版)
+      releases:
+        - version: <0.1.0
+          date: 2018/01/29
+        - version: 0.1.0
+          date: 2018/04/06
+        - version: 0.2.0
+          date: 2018/05/01
+        - version: 0.2.1
+          date: 2018/05/03
+        - version: 0.2.2
+          date: 2018/05/05
+        - version: 0.2.3
+          date: 2018/05/19
+        - version: 0.2.4
+          date: 2018/05/20
+        - version: 0.2.5
+          date: 2018/06/10
+        - version: 0.2.6
+          date: 2018/06/19
+        - version: 0.2.7
+          date: 2018/09/05
+        - version: 0.2.8
+          date: 2018/09/15
