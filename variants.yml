@@ -1792,7 +1792,79 @@ variants:
         - date: 2013/01/09
 
     - name: omake_LSD
+      long_name: Elona omake LSD
       elonaval_page: LSD
+      derived_from:
+        - name: omake
+          version: 2013/12/24
+      releases:
+        - version: 1
+          date: 2014/03/11
+          port_of:
+            - name: ADDT
+              desc: ADDTの導入(ADDT Modまで)(ADDTより)
+            - name: mma
+              desc:
+                - MMA条件分岐に対応(MMAより)
+                - カスタムテキストタグ内に[MMA]が入っている場合も発話できるように(MMAより)
+                - ペットのHPゲージの上に数値でHPを表示できるように(MMAより)
+            - name: elx
+              desc: セリフをポップアップ表示できるように(elxより)
+            - name: ore_hack
+              desc: 店の入荷予定を表示できるように(orehackより)
+        - version: 2
+          date: 2014/03/13
+          port_of:
+            - name: ore_hack
+              desc:
+                - ダメージやバフなどを画面上に表示できるように(orehackより)
+            - name: elm
+              desc:
+                - 演奏依頼が成功した時に拾い損ねたおひねりを回収できるように(elmより)
+            - name: me
+              desc:
+                - ペット加入イベントで「人違いだ！」を選択すると加入を回避できるように(Meより)
+        - version: 3
+          date: 2014/03/15
+          port_of:
+            - name: elx
+              desc: セリフポップアップの表示をよりelxに近づけるように(elxより)
+            - name: mma
+              desc:
+                - アイテム情報が多すぎる際に過剰分をトラッシュカンに移動させるように(MMAより)
+                - 収納系の家具にアイテムを出し入れできるように(MMAより)
+            - name: omake_baby
+              desc: 依頼達成後に依頼主の居場所をガードが教えてくれるように(babyより)
+            - name: ore_hack
+              desc:
+                - 食品の消費期限を表示できるように(orehackより)
+                - 装備セットで装備を一括変更できるように(orehackより)
+        - version: 4
+          date: 2014/03/16
+          port_of:
+            - name: ore_hack
+              desc:
+                - 装備の補正値を表示できるように(orehackより)
+                - スキルの成長ログを表示できるように(orehackより)
+        - version: 5
+          date: 2014/03/23
+          port_of:
+            - name: oo
+              desc:
+                - カスタムゴッドに対応(overhaul,MMAより)
+                - Factionデータの互換性をできるだけ保持するように(overhaul,MMAより)
+            - name: mma
+                - カスタムゴッドに対応(overhaul,MMAより)
+                - Factionデータの互換性をできるだけ保持するように(overhaul,MMAより)
+                - 染料の染料番号を表示するように(MMAより)
+        - version: 5 改訂1
+          date: 2014/03/27
+        - version: 6
+          date: 2014/12/08
+          port_of:
+            - name: omake
+              version: 2014/05/18 22:40 # ???
+              desc: omake最新版に対応(omakeより)
 
     - name: oo
       long_name: omake_overhaul
