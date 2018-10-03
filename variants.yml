@@ -71,11 +71,15 @@ variants:
           - version: 1.05beta2
           - version: 1.06 beta1
           - version: 1.07 (安定版)
+            date: 2008/06/16
           - version: 1.08 (安定版)
             date: 2008/06/21
           - version: 1.10 (開発版)
+            date: 2008/06/30
           - version: 1.11 (開発版)
+            date: 2008/07/02
           - version: 1.12 (安定版)
+            date: 2008/07/05
           - version: 1.13 (開発版)
             date: 2008/07/18
           - version: 1.14 (開発版)
@@ -83,19 +87,31 @@ variants:
           - version: 1.14 fix1(開発版)
             date: 2008/08/03
           - version: 1.14 fix2(開発版)
+            date: 2008/08/05
           - version: 1.14 fix3
-          - version: 1.14 fix4 (1.15)
-          - version: 1.14 fix5 (1.15)
+            date: 2009/03/29
+          - version: 1.14 fix4 # (1.15)
+            date: 2009/04/01
+          - version: 1.14 fix5 # (1.15)
+            date: 2009/04/02
           - version: 1.16
+            date: 2009/04/11
           - version: 1.16fix1
+            date: 2009/05/11
           - version: 1.16fix2
+            date: 2009/05/15
           - version: 1.16 final
             date: 2009/05/17
           - version: 1.16 reloaded
             date: 2009/05/22
           - version: 1.16 reloaded fix 1
+            date: 2009/06/20
           - version: 1.16 reloaded fix 2
+            date: 2009/08/07
+          - version: 1.16 reloaded fix 2b # Stable
+            date: 2009/08/12
           - version: 2009 Christmas Edition
+            date: 2009/12/24
           - version: 2009 Christmas Edition fix 1
           - version: 1.17(開発版)
             date: 2010/04/10
@@ -104,15 +120,19 @@ variants:
           - version: 1.19(開発版)
             date: 2010/04/12
           - version: 1.20(開発版)
+            date: 2010/05/08 # ?
           - version: 1.21(開発版)
+            date: 2010/05/08 # ?
           - version: 1.22(開発版)
+            date: 2010/05/08 # ?
+          - version: 1.23(開発版)
 
     - name: plus
       long_name: Elona+
       author: Ano犬
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       releases:
         - version: 0.63(開発版)
         - version: 0.64(開発版)
@@ -333,7 +353,7 @@ variants:
           date: 2018/07/16
         - version: 1.81(開発版)
           date: 2018/07/29
-        - version: 1.82(開発版) # TODO
+        - version: 1.82(開発版)
           date: 2018/08/26
         - version: 1.83(開発版)
           date: 2018/09/24
@@ -342,7 +362,7 @@ variants:
       long_name: Elona+ Custom
       author: AnnaBanana, Bloodyshade
       derived_from:
-        - name: plus
+        name: plus
       releases:
         - version: E+CU 1.65.1
         - version: E+CU 1.66.3HF1
@@ -377,8 +397,8 @@ variants:
     - name: amylona
       long_name: Amylona
       derived_from:
-        - name: custom # ???
-          version: E+C 1.71.1 # ???
+        name: custom # ???
+        version: E+C 1.71.1 # ???
       releases:
         - date: 2018/07/04
         - date: 2018/08/18
@@ -386,8 +406,8 @@ variants:
 
     - name: AA
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       releases:
         - version: 0.11
           date: 2011/07/20
@@ -418,21 +438,21 @@ variants:
     - name: URW
       long_name: Unofficial Rough Work
       derived_from:
-        - name: elona
-          version: 2009 Christmas Edition
+        name: elona
+        version: 2009 Christmas Edition
       version_type: date_with_slash
       releases:
         - date: 2012/08/06
         - date: 2012/08/07
-        - version: 2012/08/07- 2
+        - version: 2012/08/07-2
           date: 2012/08/07
-        - version: 2012/08/07- 3
+        - version: 2012/08/07-3
           date: 2012/08/07
         - date: 2012/08/08
-        - version: 2012/08/08- 2
+        - version: 2012/08/08-2
           date: 2012/08/08
         - date: 2012/08/09
-        - version: 2012/08/09- 2
+        - version: 2012/08/09-2
           date: 2012/08/09
         - date: 2012/08/10
         - date: 2012/08/11
@@ -442,19 +462,19 @@ variants:
         - date: 2012/08/16
         - date: 2012/08/17
         - date: 2012/08/18
-        - version: 2012/08/18- 2
+        - version: 2012/08/18-2
           date: 2012/08/18
         - date: 2012/08/19
-        - version: 2012/08/19- 2
+        - version: 2012/08/19-2
           date: 2012/08/19
         - date: 2012/08/20
         - date: 2012/08/25
         - date: 2012/08/30
         - date: 2012/09/01
         - date: 2012/09/02
-        - version: 2012/09/02- 2
+        - version: 2012/09/02-2
           date: 2012/09/02
-        - version: 2012/09/02- 3
+        - version: 2012/09/02-3
           date: 2012/09/02
         - date: 2012/09/03
           port_of:
@@ -463,9 +483,9 @@ variants:
         - date: 2012/09/04
         - date: 2012/09/05
         - date: 2012/09/06
-        - version: 2012/09/06- 2
+        - version: 2012/09/06-2
           date: 2012/09/06
-        - version: 2012/09/06- 3
+        - version: 2012/09/06-3
           date: 2012/09/06
         - date: 2012/09/07
         - date: 2012/09/08
@@ -515,12 +535,12 @@ variants:
             - name: ore_hack
               desc: 食べ物の消費期限を表示するように。(orehackより)
         - date: 2012/09/22
-        - version: 2012/09/22- 2
+        - version: 2012/09/22-2
           date: 2012/09/22
         - date: 2012/09/23
         - date: 2012/09/24
         - date: 2012/09/25
-        - version: 2012/09/25- 2
+        - version: 2012/09/25-2
           date: 2012/09/25
         - date: 2012/09/26
           port_of:
@@ -559,11 +579,11 @@ variants:
                 - gpとppに3桁ごとのコンマを挿入できるように。
                 - (omakeより,configのseparationに指定された数値ごとに区切ります)
         - date: 2012/10/13
-        - version: 2012/10/13- 2
+        - version: 2012/10/13-2
           date: 2012/10/13
         - date: 2012/10/14
         - date: 2012/10/16
-        - version: 2012/10/16- 2
+        - version: 2012/10/16-2
           date: 2012/10/16
         - date: 2012/10/17
           port_of:
@@ -581,7 +601,7 @@ variants:
             - name: FFHP
               desc: FFHP対応。(elona_FFHPのdata,graphic,userフォルダをURWのフォルダに入れると自動で適用されます)
         - date: 2012/10/19
-        - version: 2012/10/19- 2
+        - version: 2012/10/19-2
           date: 2012/10/19
         - date: 2012/10/20
         - date: 2012/10/21
@@ -665,7 +685,7 @@ variants:
         - date: 2012/12/04
         - date: 2012/12/08
         - date: 2012/12/09
-        - version: 2012/12/09- 2
+        - version: 2012/12/09-2
           date: 2012/12/09
         - date: 2012/12/10
         - date: 2012/12/11
@@ -681,13 +701,13 @@ variants:
               desc: hspda.dllの最新版を同梱し、urwがそちらを読み込むように。(elxより,error1対策)
         - date: 2012/12/24
         - date: 2012/12/26
-        - version: 2012/12/26- 2
+        - version: 2012/12/26-2
           date: 2012/12/26
         - date: 2012/12/27
         - date: 2012/12/31
         - date: 2013/01/03
         - date: 2013/01/04
-        - version: 2013/01/04- 2
+        - version: 2013/01/04-2
           date: 2013/01/04
         - date: 2013/01/11
           port_of:
@@ -703,12 +723,12 @@ variants:
               desc: リジェネレーションが魔法レベルで治癒力増加するようにまた出血を抑える効果を持つように(MMAより)
         - date: 2013/01/12
         - date: 2013/01/13
-        - version: 2013/01/13- 2
+        - version: 2013/01/13-2
           date: 2013/01/13
         - date: 2013/01/14
         - date: 2013/01/15
         - date: 2013/01/16
-        - version: 2013/01/16- 2
+        - version: 2013/01/16-2
           date: 2013/01/16
         - date: 2013/01/17
         - date: 2013/01/25
@@ -750,7 +770,7 @@ variants:
         - date: 2013/03/22
         - date: 2013/03/26
         - date: 2013/03/30
-        - version: 2013/03/30- 2
+        - version: 2013/03/30-2
           date: 2013/03/30
         - date: 2013/03/31
         - date: 2013/04/06
@@ -830,8 +850,8 @@ variants:
     - name: LOM
       long_name: Lomias
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       releases:
         - version: 0.10
           date: 2012/03/10
@@ -864,8 +884,8 @@ variants:
 
     - name: elx
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       releases:
         - version: 0.001
         - version: 0.002
@@ -1207,8 +1227,8 @@ variants:
     - name: BF_CE
       elonaval_page: BF_CE
       derived_from:
-        - name: BF
-          version: v16
+        name: BF
+        version: v16
       releases:
       - version: v16fix1
         date: 2011/06/03
@@ -1222,8 +1242,8 @@ variants:
       elonaval_page: FFHP
       valiant_page: 87
       derived_from:
-        - name: BF
-          version: v17
+        name: BF
+        version: v17
       releases:
         - version: v9
           date: 2011/07/28
@@ -1252,8 +1272,8 @@ variants:
       elonaval_page: orehack
       valiant_page: 31
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       elonaval_page: orehack
       version_type: date_no_slash
       releases:
@@ -1486,8 +1506,8 @@ variants:
     - name: ADDT
       valiant_page: 81
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       releases:
         - date: 2012/10/13 #bbs
         - date: 2012/10/14 #bbs
@@ -1503,8 +1523,8 @@ variants:
       author: elona_urw@yahoo.co.jp
       valiant_page: 81
       derived_from:
-        - name: elona
-          version: 1.16 #安定版
+        name: elona
+        version: 1.16 #安定版
       releases:
         - date: 2012/10/24
           port_of: #TODO
@@ -1524,8 +1544,8 @@ variants:
       long_name: ElonaMe
       valiant_page: 81
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       version_type: date_no_slash
       releases:
         - date: 2013/03/06
@@ -1595,8 +1615,8 @@ variants:
 
     - name: sss fixed
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       releases:
         - date: 2011/03/01 19:03:38
         - date: 2011/03/01 19:42:43
@@ -1605,8 +1625,8 @@ variants:
 
     - name: mewmew
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       releases:
         - date: 2011/02/24 23:59:22
         - date: 2011/02/25 17:47:10
@@ -1641,16 +1661,16 @@ variants:
       author: bamboo_value
       valiant_page: 81
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       releases:
         - date: 2013/02/21
 
     - name: Alpha
       valiant_page: 81
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       releases:
         - date: 2012/11/04
           port_of:
@@ -1678,8 +1698,8 @@ variants:
 
     - name: omake
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       version_type: date_with_slash
       releases:
         - date: 2012/03/14 01:22
@@ -1714,8 +1734,8 @@ variants:
       elonaval_page: baby
       version_type: date_with_slash
       derived_from:
-        - name: omake
-          version: 2012/04/15
+        name: omake
+        version: 2012/04/15
       releases:
         - date: 2012/06/06
         - date: 2012/06/10
@@ -1797,8 +1817,8 @@ variants:
       long_name: Elona omake LSD
       elonaval_page: LSD
       derived_from:
-        - name: omake
-          version: 2013/12/24
+        name: omake
+        version: 2013/12/24
       releases:
         - version: 1
           date: 2014/03/11
@@ -1872,8 +1892,8 @@ variants:
       long_name: omake_overhaul
       elonaval_page: overhaul
       derived_from:
-        - name: omake
-          version: 2015/06/20 19:10
+        name: omake
+        version: 2015/06/20 19:10
       version_type: date_with_slash
       releases:
         - date: 2012/01/06 21:29
@@ -2197,8 +2217,8 @@ variants:
       short_name: omake_overhaul_English
       author: Doorknob, KI
       derived_from:
-        - name: oo
-          version: 2016/04/17 14:00
+        name: oo
+        version: 2016/04/17 14:00
       releases:
         - date: 2018/07/03
         - date: 2018/07/08
@@ -2209,8 +2229,8 @@ variants:
       long_name: omake_overhaul_English_hack
       author: KI
       derived_from:
-        - name: oo_EN
-          version: 2018/07/12
+        name: oo_EN
+        version: 2018/07/12
       releases:
         - date: 2018/07/21
         - date: 2018/07/22
@@ -2232,8 +2252,8 @@ variants:
       long_name: omake_overhaul_readjust
       author: kaz_mighty
       derived_from:
-        - name: oo
-          version: 2016/04/17
+        name: oo
+        version: 2016/04/17
       releases:
         - date: 2017/09/14
           port_of:
@@ -2300,8 +2320,8 @@ variants:
     - name: oom
       long_name: omake_overhaul_modify
       derived_from:
-        - name: oo
-          version: 20150620
+        name: oo
+        version: 20150620
       version_type: date_no_slash
       releases:
         - date: 2015/07/19
@@ -2353,8 +2373,8 @@ variants:
       short_name: oomEx
       desc: Enhanced version of oom with convenience features. Was developed concurrently with oom.
       derived_from:
-        - name: oom
-          version: 20150719
+        name: oom
+        version: 20150719
       version_type: date_no_slash
       releases:
         - date: 2015/07/19
@@ -2408,8 +2428,8 @@ variants:
       long_name: Elona OMOD
       author: ztjal.info
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       releases:
         - version: 0.50
           date: 2016/12/18
@@ -2420,8 +2440,8 @@ variants:
     - name: hacked
       long_name: ver1.22hacked Edition
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       releases:
         - version: bugfix+errorignore
           date: 2011/03/27 13:03 # from getuploader
@@ -2442,8 +2462,8 @@ variants:
     - name: hacked_PLUS
       long_name: ver1.22hacked- rev23 PLUS
       derived_from:
-        - name: hacked
-          version: rev.23(180+150)
+        name: hacked
+        version: rev.23(180+150)
       releases:
         - date: 2011/03/30 13:07 # from getuploader
 
@@ -2451,8 +2471,8 @@ variants:
       short_name: oom_ex_sukutu_edition
       author: ungoliant
       derived_from:
-        - name: oom_Ex
-          version: 20170307fix
+        name: oom_Ex
+        version: 20170307fix
       version_type: date_with_slash
       releases:
         - version: 2018/05/17 fix
@@ -2680,16 +2700,32 @@ variants:
                 - ・家具に素材槌を使った場合、木製にならないように(oorより)
 
     - name: oomSEST
-      long_name: oom_sukutu_edition_south_tyris
+      long_name: Elona omake overhaul modify Sukutu Edition South Tyris
       derived_from:
-        - name: oom_sukutu_edition
+        name: oomSE
+      version_type: date_with_slash
       releases:
         - date: 2018/07/24
+        - date: 2018/07/25
+        - version: 2018/07/25 fix
+          date: 2018/07/25
+        - date: 2018/07/26
+        - version: 2018/07/28T
+          date: 2018/07/28
+        - date: 2018/07/29
+        - date: 2018/08/05
+        - date: 2018/08/22
+        - date: 2018/08/24
+        - date: 2018/09/06
+        - date: 2018/09/21
+        - date: 2018/09/30
+        - version: 2018/09/30 fix
+          date: 2018/09/30
 
     - name: mma
       long_name: MMA
       derived_from:
-        - name: omake
+        name: omake
       version_type: date_with_slash
       releases:
         - date: 2012/07/31
@@ -2946,7 +2982,7 @@ variants:
         - version: 2012/10/19T(人柱)
           date: 2012/10/19
           port_of:
-            - name: lom
+            - name: LOM
               desc: ・すくつ外にいる時にすくつ探索許可証を消費してすくつ最深到達層を1000層にまでリセットできるように(LOMからの取り込み)
         - version: 2012/10/21T(人柱)
           date: 2012/10/21
@@ -3337,7 +3373,7 @@ variants:
       short_name: mma/tt
       desc: Developed concurrently with MMA.
       derived_from:
-        - name: mma
+        name: mma
       version_type: date_no_slash_t
       releases:
         - version: 2012/08/11(test)
@@ -3449,7 +3485,7 @@ variants:
         - version: 2012/10/19T(人柱)
           date: 2012/10/19
           port_of:
-            - name: lom
+            - name: LOM
               desc: ・すくつ外にいる時にすくつ探索許可証を消費してすくつ最深到達層を1000層にまでリセットできるように(LOMからの取り込み)
 
         - version: 2012/10/22T(人柱)
@@ -3820,8 +3856,8 @@ variants:
       author: ????
       desc: Enhanced version of MMA.
       derived_from:
-        - name: mma
-          version: 20130906
+        name: mma
+        version: 20130906
       version_type: date_no_slash
       releases:
         - date: 2018/07/21 22:56
@@ -4142,8 +4178,8 @@ variants:
     - name: foobar
       author: KI, Ruin0x11
       derived_from:
-        - name: elona
-          version: 1.22(開発版)
+        name: elona
+        version: 1.22(開発版)
       releases:
         - version: <0.1.0
           date: 2018/01/29

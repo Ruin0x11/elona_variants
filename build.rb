@@ -50,6 +50,16 @@ def start_pos(variant)
   nil
 end
 
+def end_pos(variant)
+  variant["releases"].reverse.each do |release|
+    if release and release["date"]
+      return discr(release["date"])
+    end
+  end
+
+  nil
+end
+
 def write_years(svg, first, last)
   (last-first).times do |n|
     x = @start_x + n * @space_for_year
@@ -71,6 +81,26 @@ def write_variant(svg, variant)
       end
     end
 
+    derived = variant["derived_from"]
+    if derived
+      i = @variants.index { |v| v["name"] == derived["name"] }
+      if i
+        dx = if derived["version"]
+               @positions[derived["name"]][derived["version"]]
+             end
+        dx ||= start_pos(@variants[i])
+        dy = @y_positions[@variants[i]["name"]]
+        mx = start_pos(variant)
+        my = @y_positions[variant["name"]]
+        svg.line(stroke: "#0A0", x1: mx, x2: dx, y1: 0, y2: dy - my)
+        svg.circle(stroke: "#0A0", cx: mx, r: "10")
+      end
+    end
+
+    sp = start_pos(variant)
+    ep = end_pos(variant)
+    svg.rect(x: sp, y: "-5", width: ep - sp, height: 15, fill: "#AE9A00")
+
     variant["releases"].each do |release|
       next unless release["date"]
       cx = discr(release["date"])
@@ -78,11 +108,13 @@ def write_variant(svg, variant)
       if release["port_of"]
         release["port_of"].each do |port|
           next unless port["version"]
-          x = @positions[port["name"]][port["version"]]
-          if x
-            svg.line(stroke: "#CDD", x1: cx, x2: x, y1: "-5", y2: (@y_positions[port["name"]] - @y_positions[variant["name"]]))
-            svg.circle(stroke: "#C00", cx: cx, r: "5")
-          end
+          tx = if port["version"]
+                @positions[port["name"]][port["version"]]
+              end
+          tx ||= cx
+          ty = @y_positions[port["name"]] - @y_positions[variant["name"]]
+          svg.line(stroke: "#44F", x1: cx, x2: tx, y1: "-5", y2: ty)
+          svg.circle(stroke: "#C00", cx: cx, r: "5")
         end
       end
       if false
