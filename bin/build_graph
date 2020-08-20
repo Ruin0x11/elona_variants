@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'date'
+require 'nokogiri'
+require 'yaml'
+
+require_relative "../lib/elona_variants"
+
+variants = ElonaVariants.load(File.join(__dir__, "../data/variants.yml"))
+graph = ElonaVariants::Graph.new variants
+
+puts graph.build.to_xml

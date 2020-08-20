@@ -1,0 +1,8 @@
+details:
+  plus:
+  custom:
+    features:
+      - name: Custom Pet AI
+      - desc: In Custom, you can customize how pets behave through a new menu.
+      - images:
+          - data/images/custom/pet_ai.png
