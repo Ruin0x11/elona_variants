@@ -1,13 +1,15 @@
 # lib/detail.rb
 
 class ElonaVariants::Detail
-  attr_accessor :features
+  attr_accessor :desc, :features
 
   def initialize
   end
 
   def self.from_yaml(variant_name, yaml)
     detail = ElonaVariants::Detail.new
+
+    detail.desc = yaml["desc"]
 
     if yaml["features"]
       detail.features = yaml["features"].map do |feature|

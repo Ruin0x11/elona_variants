@@ -1,7 +1,6 @@
 require 'bundler/setup'
 $:.unshift File.expand_path('../lib', __FILE__)
 
-# rake console
 task :console do
   require "pry"
   require_relative "lib/elona_variants"
@@ -9,8 +8,7 @@ task :console do
   Pry.start
 end
 
-# rake build
-task :build do
+task :generate do
   out = `bin/build_summary`
   File.write("data/variant_overview.md", out)
 

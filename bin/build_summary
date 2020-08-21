@@ -25,16 +25,16 @@ def format_date(date)
 end
 
 def write_info(doc)
-  latest_date = @variants.filter_map { |v| v.latest_release.date }.max
+  latest_date = @variants.filter_map { |v| v.last_updated }.max
 
   doc.h1 "Elona Variants"
 
   doc.p do
-    doc.text "This page will attempt to collect the major features of each Elona variant in one place. This is to better understand what features across all the variants could be ported OpenNefia through its mod system."
+    doc.text "This page will attempt to collect the major features of each variant of Elona in one place. This is to better understand what features across all the variants could be ported OpenNefia through its mod system, without having to constantly jump between various wikis and changelogs."
   end
 
   doc.p do
-    doc.text "Because each variant has so many changes, it's probably impractical to list them all here. For now I'll focus on the features that seem to have the most importance to people."
+    doc.text "Because each variant has so many changes, it's probably impractical to list them all here. For now I'll focus on the features that seem to have the most importance to people. For the same reason, this list excludes things like added spells or items."
   end
 
   doc.p do
@@ -64,7 +64,7 @@ def write_variant_table(doc)
         doc.th { doc.text "Last updated" }
         doc.th { doc.text "Latest version" }
         doc.th { doc.text "Derived from" }
-        doc.th { doc.text "Website" }
+        doc.th { doc.text "Webpage" }
         doc.th { doc.text "Wikia" }
       end
     end
@@ -85,23 +85,20 @@ def write_variant_table(doc)
             end
           end
 
-          first = variant.earliest_release
-          last = variant.latest_release
-
           doc.th do
-            if first.date
-              doc.text format_date(first.date)
+            if variant.created_on
+              doc.text format_date(variant.created_on)
             end
           end
 
           doc.th do
-            if last.date
-              doc.text format_date(last.date)
+            if variant.last_updated
+              doc.text format_date(variant.last_updated)
             end
           end
 
           doc.th do
-            doc.text last.version
+            doc.text variant.latest_version
           end
 
           doc.th do
@@ -111,8 +108,8 @@ def write_variant_table(doc)
           end
 
           doc.th do
-            if variant.website
-              doc.a(href: variant.website) { doc.text "Link" }
+            if variant.webpage
+              doc.a(href: variant.webpage) { doc.text "Link" }
             end
           end
 
@@ -137,13 +134,15 @@ def write_variant_lineage(doc)
   doc.text " for a graph showing the release history of each variant."
 end
 
-def write_variant_details(doc)
-  doc.h1 "Variant Details"
+def write_variant_features(doc)
+  doc.h1 "Variant Features"
 
   @details.each do |variant_name, detail|
-    variant = @lookup[variant_name]
+    doc.h2 variant_name
 
-    doc.h2 variant.name
+    if detail.desc
+      doc.text detail.desc
+    end
 
     doc.table do
       doc.thead do
@@ -196,7 +195,7 @@ def write_body(doc)
   write_info(doc)
   write_variant_table(doc)
   write_variant_lineage(doc)
-  write_variant_details(doc)
+  write_variant_features(doc)
 end
 
 builder = Nokogiri::HTML::Builder.new do |doc|

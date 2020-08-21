@@ -1,7 +1,7 @@
 # lib/variant.rb
 
 class ElonaVariants::Variant
-  attr_accessor :name, :long_name, :authors, :desc, :info, :releases, :derived_from, :website, :elonaval_page, :wikia_page
+  attr_accessor :name, :long_name, :authors, :desc, :info, :releases, :derived_from, :webpage, :elonaval_page, :wikia_page
 
   def initialize
   end
@@ -14,7 +14,7 @@ class ElonaVariants::Variant
     variant.authors = yaml["authors"]
     variant.desc = yaml["desc"]
     variant.info = yaml["info"]
-    variant.website = yaml["website"]
+    variant.webpage = yaml["webpage"]
     variant.elonaval_page = yaml["elonaval_page"]
     variant.wikia_page = yaml["wikia_page"]
 
@@ -34,12 +34,16 @@ class ElonaVariants::Variant
     @long_name || @name
   end
 
-  def earliest_release
-    @releases.first
+  def created_on
+    @releases.filter_map { |r| r.date }.min
   end
 
-  def latest_release
-    @releases.last
+  def last_updated
+    @releases.filter_map { |r| r.date }.max
+  end
+
+  def latest_version
+    @releases.filter_map { |r| r.version }.last
   end
 
   def wikia_link
@@ -47,6 +51,6 @@ class ElonaVariants::Variant
   end
 
   def link
-    @website || wikia_link
+    @webpage || wikia_link
   end
 end

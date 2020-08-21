@@ -4,7 +4,7 @@ variants:
       authors:
         - Noa 猫
       desc: Original version.
-      website: http://ylvania.org/en/elona
+      webpage: http://ylvania.org/en/elona
       wikia_page: Elona
       releases:
           - version: <0.60
@@ -133,7 +133,7 @@ variants:
       long_name: Elona+
       authors:
         - Ano 犬
-      website: https://wikiwiki.jp/elonaplus/
+      webpage: https://wikiwiki.jp/elonaplus/
       wikia_page: Elona%2B
       derived_from:
         name: elona
@@ -421,7 +421,7 @@ variants:
         - AnnaBanana
         - Bloodyshade
         - Sableye
-      website: https://elona.fandom.com/wiki/Thread:29851
+      webpage: https://elona.fandom.com/wiki/Thread:29851
       wikia_page: Elona%2B_Custom
       derived_from:
         name: plus
@@ -480,7 +480,7 @@ variants:
 
     - name: plus_custom-g
       long_name: Elona+ Custom-G
-      website: https://elona.fandom.com/wiki/Thread:29336
+      webpage: https://elona.fandom.com/wiki/Thread:29336
       derived_from:
         name: plus_custom
         version: 1.90.4
@@ -2315,7 +2315,7 @@ variants:
       long_name: omake overhaul English
       authors:
         - Doorknob, KI
-      website: https://elona.fandom.com/wiki/Thread:28909
+      webpage: https://elona.fandom.com/wiki/Thread:28909
       wikia_page: Omake_Overhaul_English
       derived_from:
         name: oo
@@ -2330,7 +2330,7 @@ variants:
       long_name: omake overhaul English hack
       authors:
         - KI
-      website: https://elona.fandom.com/wiki/Thread:28909
+      webpage: https://elona.fandom.com/wiki/Thread:28909
       wikia_page: Omake_Overhaul_English_hack
       derived_from:
         name: oo_EN
@@ -4347,7 +4347,7 @@ variants:
       authors:
         - KI
         - Ruin0x11
-      website: https://elonafoobar.com/
+      webpage: https://elonafoobar.com/
       wikia_page: Elona_Foobar
       derived_from:
         name: elona

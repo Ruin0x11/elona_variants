@@ -7,5 +7,5 @@ Click [here](https://github.com/Ruin0x11/elona_variants/blob/master/data/variant
 ## Usage
 
 ```sh
-rake build # Generate out/variant_overview.md and out/lineage.svg
+bundle exec rake generate # Generate out/variant_overview.md and out/lineage.svg
 ```
