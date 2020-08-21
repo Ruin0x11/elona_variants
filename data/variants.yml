@@ -5,6 +5,7 @@ variants:
         - Noa 猫
       desc: Original version.
       website: http://ylvania.org/en/elona
+      wikia_page: Elona
       releases:
           - version: <0.60
             date: 2006/08/01
@@ -133,6 +134,7 @@ variants:
       authors:
         - Ano 犬
       website: https://wikiwiki.jp/elonaplus/
+      wikia_page: Elona%2B
       derived_from:
         name: elona
         version: 1.22(開発版)
@@ -413,18 +415,20 @@ variants:
         - version: 1.995R(修正版)
           date: 2020/06/28
 
-    - name: custom
+    - name: plus_custom
       long_name: Elona+ Custom
       authors:
         - AnnaBanana
         - Bloodyshade
         - Sableye
       website: https://elona.fandom.com/wiki/Thread:29851
+      wikia_page: Elona%2B_Custom
       derived_from:
         name: plus
         version: 1.65(開発版)
       releases:
         - version: E+CU 1.65.1
+          date: 2017/04/26 # date of earliest comment
         - version: E+CU 1.66.3HF1
         - version: E+CU 1.67.2
         - version: E+CU 1.67fix.1
@@ -474,11 +478,11 @@ variants:
           date: 2019/07/30 06:12
           link: https://drive.google.com/open?id=1IsTb5Frz28jM9UWjPkHrRE09PURn9mwe
 
-    - name: custom-g
+    - name: plus_custom-g
       long_name: Elona+ Custom-G
       website: https://elona.fandom.com/wiki/Thread:29336
       derived_from:
-        name: custom
+        name: plus_custom
         version: 1.90.4
       authors:
         - Sableye
@@ -490,7 +494,7 @@ variants:
     - name: amylona
       long_name: Amylona
       derived_from:
-        name: custom # ???
+        name: plus_custom # ???
         version: E+C 1.71.1 # ???
       releases:
         - date: 2018/07/04
@@ -498,6 +502,7 @@ variants:
         - date: 2018/08/23
 
     - name: AA
+      wikia_page: AA
       derived_from:
         name: elona
         version: 1.22(開発版)
@@ -528,8 +533,44 @@ variants:
         - date: 2011/03/20 14:21:39
         - date: 2011/04/01 18:12:31
 
+    - name: omake
+      wikia_page: Omake
+      derived_from:
+        name: elona
+        version: 1.22(開発版)
+      version_type: date_with_slash
+      releases:
+        - date: 2012/03/14 01:22
+        - date: 2012/03/17 01:00
+        - date: 2012/03/27 21:51
+        - date: 2012/04/15 19:12
+        - date: 2012/06/17 13:45
+        - date: 2012/06/18 00:00
+        - date: 2012/08/08 07:20
+        - date: 2012/08/08 08:30
+        - date: 2012/08/20 00:35
+        - date: 2013/01/14 17:15
+        - date: 2013/01/26 08:00
+        - date: 2013/02/16 17:30
+        - date: 2013/03/09 15:22
+        - date: 2013/03/10 09:45
+        - date: 2013/03/11 05:40
+        - date: 2013/03/24 10:30
+        - date: 2013/05/25 21:37
+        - date: 2013/05/26 00:28
+        - date: 2013/05/26 19:55
+        - date: 2013/06/08 14:20
+        - date: 2013/08/19 18:30
+        - date: 2013/10/14 00:10
+        - date: 2013/12/24 22:25
+        - date: 2014/05/18 18:00
+        - date: 2014/05/18 22:40
+        - date: 2015/05/17 22:40
+        - date: 2015/06/20 19:10
+
     - name: URW
       long_name: Unofficial Rough Work
+      wikia_page: URW
       derived_from:
         name: elona
         version: 2009 Christmas Edition
@@ -942,6 +983,7 @@ variants:
 
     - name: LOM
       long_name: Lomias
+      wikia_page: Lom
       derived_from:
         name: elona
         version: 1.22(開発版)
@@ -975,72 +1017,9 @@ variants:
         - version: 0.52
           date: 2012/05/20 14:16:13
 
-    - name: elx
-      derived_from:
-        name: elona
-        version: 1.22(開発版)
-      releases:
-        - version: 0.001
-        - version: 0.002
-        - version: 0.003
-        - version: 0.004
-        - version: 0.005
-          date: 2012/03/02 21:47 # ???
-        - version: 0.006
-          date: 2012/03/03 14:28 # ???
-        - version: 0.007
-          date: 2012/03/04 04:59 # ???
-        - version: 0.007b
-          date: 2012/03/07 00:49
-        - version: 0.008
-          date: 2012/03/09 22:38
-        - version: 0.008b
-          date: 2012/03/10 09:18
-        - version: 0.009
-          date: 2012/03/10 22:25
-        - version: 0.009b
-          date: 2012/03/11 21:43
-        - version: 0.010
-          date: 2012/03/17 21:04
-        - version: 0.011
-          date: 2012/03/23 21:20
-        - version: 0.012
-          date: 2012/03/25 00:46
-        - version: 0.012b
-          date: 2012/03/25 01:26
-        - version: 0.013
-          date: 2012/03/25 18:21
-        - version: 0.014
-          date: 2012/03/25 20:31
-        - version: 0.014b
-          date: 2012/03/30 23:02
-        - version: 0.016
-          date: 2012/03/31 06:52
-        - version: 0.016b
-          date: 2012/04/01 19:27
-        - version: 0.016x
-          date: 2012/04/05 20:46
-        - version: 0.017
-          date: 2012/04/05 23:34
-        - version: 0.017b
-          date: 2012/04/08 02:33
-        - version: 0.018
-          date: 2012/04/09 21:27
-        - version: 0.018b
-          date: 2012/04/12 22:20
-        - version: 0.018x
-          date: 2012/04/14 22:17
-        - version: 0.019
-          date: 2012/04/15 07:53
-        - version: 0.019b
-          date: 2012/04/18 21:56
-        - version: 0.019x
-          date: 2012/04/24 21:51
-        - version: 0.020
-          date: 2012/05/05 10:24
-
     - name: elm
       long_name: Enhanced Love Miracle
+      wikia_page: Elm
       derived_from:
         name: ore_hack
         version: 2011/02/27 20:45
@@ -1269,8 +1248,74 @@ variants:
         - version: Rel.58a
           date: 2013/08/09
 
+    - name: elx
+      wikia_page: Elx
+      derived_from:
+        name: elona
+        version: 1.22(開発版)
+      releases:
+        - version: 0.001
+        - version: 0.002
+        - version: 0.003
+        - version: 0.004
+        - version: 0.005
+          date: 2012/03/02 21:47 # ???
+        - version: 0.006
+          date: 2012/03/03 14:28 # ???
+        - version: 0.007
+          date: 2012/03/04 04:59 # ???
+        - version: 0.007b
+          date: 2012/03/07 00:49
+        - version: 0.008
+          date: 2012/03/09 22:38
+        - version: 0.008b
+          date: 2012/03/10 09:18
+        - version: 0.009
+          date: 2012/03/10 22:25
+        - version: 0.009b
+          date: 2012/03/11 21:43
+        - version: 0.010
+          date: 2012/03/17 21:04
+        - version: 0.011
+          date: 2012/03/23 21:20
+        - version: 0.012
+          date: 2012/03/25 00:46
+        - version: 0.012b
+          date: 2012/03/25 01:26
+        - version: 0.013
+          date: 2012/03/25 18:21
+        - version: 0.014
+          date: 2012/03/25 20:31
+        - version: 0.014b
+          date: 2012/03/30 23:02
+        - version: 0.016
+          date: 2012/03/31 06:52
+        - version: 0.016b
+          date: 2012/04/01 19:27
+        - version: 0.016x
+          date: 2012/04/05 20:46
+        - version: 0.017
+          date: 2012/04/05 23:34
+        - version: 0.017b
+          date: 2012/04/08 02:33
+        - version: 0.018
+          date: 2012/04/09 21:27
+        - version: 0.018b
+          date: 2012/04/12 22:20
+        - version: 0.018x
+          date: 2012/04/14 22:17
+        - version: 0.019
+          date: 2012/04/15 07:53
+        - version: 0.019b
+          date: 2012/04/18 21:56
+        - version: 0.019x
+          date: 2012/04/24 21:51
+        - version: 0.020
+          date: 2012/05/05 10:24
+
     - name: BF
       long_name: Bug Fix
+      wikia_page: BF
       releases: # TODO links
       - version: v1
         date: 2011/03/06
@@ -1319,6 +1364,7 @@ variants:
 
     - name: BF_CE
       elonaval_page: BF_CE
+      wikia_page: BF_CE
       derived_from:
         name: BF
         version: v16
@@ -1333,6 +1379,7 @@ variants:
     - name: FFHP
       long_name: Elona_FFH
       elonaval_page: FFHP
+      wikia_page: FFHP
       valiant_page: 87
       derived_from:
         name: BF
@@ -1638,6 +1685,7 @@ variants:
     - name: me
       long_name: ElonaMe
       valiant_page: 81
+      wikia_page: ME
       derived_from:
         name: elona
         version: 1.22(開発版)
@@ -1718,33 +1766,6 @@ variants:
         - date: 2011/03/02 03:39:11
         - date: 2011/03/02 10:55:01
 
-    - name: mewmew
-      derived_from:
-        name: elona
-        version: 1.22(開発版)
-      releases:
-        - date: 2011/02/24 23:59:22
-        - date: 2011/02/25 17:47:10
-        - date: 2011/02/26 01:00:03
-        - date: 2011/02/27 20:26:14
-        - date: 2011/03/01 09:02:31
-        - date: 2011/03/01 22:04:13
-        - date: 2011/03/01 22:04:13
-        - date: 2011/03/03 18:23:54
-        - date: 2011/03/03 20:35:51
-        - date: 2011/03/05 16:12:44
-        - date: 2011/03/10 09:36:25
-        - date: 2011/03/12 15:40:19
-        - date: 2011/03/13 08:34:34
-        - date: 2011/03/14 10:18:18
-        - date: 2011/03/24 20:04:55
-        - date: 2011/03/28 18:09:13
-        - date: 2011/03/29 13:30:43
-        - date: 2011/03/30 05:43:07
-        - date: 2011/03/30 23:36:32
-        - date: 2011/04/02 23:55:58 # (?)
-        - date: 2011/07/04 22:30:17
-
     - name: NS
       authors:
         - bamboo_value
@@ -1782,6 +1803,7 @@ variants:
         - date: 2012/05/25
 
     - name: etg
+      wikia_page: Etg
       releases:
         - version: 1.0
           date: 2011/04/15
@@ -1793,42 +1815,9 @@ variants:
       releases:
         - date: 2011/03/29
 
-    - name: omake
-      derived_from:
-        name: elona
-        version: 1.22(開発版)
-      version_type: date_with_slash
-      releases:
-        - date: 2012/03/14 01:22
-        - date: 2012/03/17 01:00
-        - date: 2012/03/27 21:51
-        - date: 2012/04/15 19:12
-        - date: 2012/06/17 13:45
-        - date: 2012/06/18 00:00
-        - date: 2012/08/08 07:20
-        - date: 2012/08/08 08:30
-        - date: 2012/08/20 00:35
-        - date: 2013/01/14 17:15
-        - date: 2013/01/26 08:00
-        - date: 2013/02/16 17:30
-        - date: 2013/03/09 15:22
-        - date: 2013/03/10 09:45
-        - date: 2013/03/11 05:40
-        - date: 2013/03/24 10:30
-        - date: 2013/05/25 21:37
-        - date: 2013/05/26 00:28
-        - date: 2013/05/26 19:55
-        - date: 2013/06/08 14:20
-        - date: 2013/08/19 18:30
-        - date: 2013/10/14 00:10
-        - date: 2013/12/24 22:25
-        - date: 2014/05/18 18:00
-        - date: 2014/05/18 22:40
-        - date: 2015/05/17 22:40
-        - date: 2015/06/20 19:10
-
     - name: omake_baby
       elonaval_page: baby
+      wikia_page: Baby
       version_type: date_with_slash
       derived_from:
         name: omake
@@ -1913,6 +1902,7 @@ variants:
     - name: omake_LSD
       long_name: Elona omake LSD
       elonaval_page: LSD
+      wikia_page: LSD
       derived_from:
         name: omake
         version: 2013/12/24
@@ -1988,9 +1978,10 @@ variants:
     - name: oo
       long_name: omake overhaul
       elonaval_page: overhaul
+      wikia_page: Omake_overhaul
       derived_from:
         name: omake
-        version: 2015/06/20 19:10
+        version: 2012/03/14 01:22
       version_type: date_with_slash
       releases:
         - date: 2012/01/06 21:29
@@ -2306,15 +2297,26 @@ variants:
           port_of:
             - name: omake
               desc: \- base を omake(2015/06/20)にアップグレード。
-        - date: 2016/02/\14 18:51
+        - date: 2016/02/14 18:51
         - date: 2016/02/27 19:33
         - date: 2016/04/17 14:00
+        - date: 2019/02/23 17:36
+        - date: 2019/03/10 13:15
+          port_of:
+            - name: oor
+              desc: \- Elona omake overhaul readjust の変更を取り込ませてもらいました。
+        - date: 2019/03/16 16:56
+        - date: 2019/03/21 12:39
+        - date: 2019/03/23 12:13
+        - date: 2020/03/01 12:34
+          link: http://seacolorswind.sakura.ne.jp/file/omake_overhaul.zip
 
     - name: oo_EN
       long_name: omake overhaul English
       authors:
         - Doorknob, KI
       website: https://elona.fandom.com/wiki/Thread:28909
+      wikia_page: Omake_Overhaul_English
       derived_from:
         name: oo
         version: 2016/04/17 14:00
@@ -2329,6 +2331,7 @@ variants:
       authors:
         - KI
       website: https://elona.fandom.com/wiki/Thread:28909
+      wikia_page: Omake_Overhaul_English_hack
       derived_from:
         name: oo_EN
         version: 2018/07/12
@@ -2337,7 +2340,7 @@ variants:
         - date: 2018/07/22
         - date: 2018/07/23
           port_of:
-            - name: custom
+            - name: plus_custom
               desc: Port english Act 1 cutscenes from E+C.
         - date: 2018/07/24
         - date: 2018/07/26
@@ -2421,6 +2424,7 @@ variants:
 
     - name: oom
       long_name: omake overhaul modify
+      wikia_page: Modify
       derived_from:
         name: oo
         version: 20150620
@@ -2574,112 +2578,107 @@ variants:
       long_name: oom Ex Sukutu Edition
       authors:
         - ungoliant
+      wikia_page: Omake_overhaul_modify_sukutu_edition
       derived_from:
         name: oom_Ex
         version: 20170307fix
       version_type: date_with_slash
       releases:
-        - version: 2018/05/17 fix
-          date: 2018/05/17
-        - date: 2018/05/17
-        - date: 2018/05/13
+        - date: 2018/01/27
           port_of:
             - name: oor
               desc:
-               - ・トラッシュカンにアイテムが放り込まれるのが PC、NPC、マップ上のどこかにトラッシュカンがあるときのみに(oor より)
-               - ・トラッシュカンにアイテムが放り込まれるとき破壊判定回数を増やした(oor より)
-               - ・自物件以外でも開封、使用出来るように(oor より)
-               - ・トラッシュカンが破壊されにくくなるように(oor より)
-               - ・称号を取得したときオフの状態で取得するように(oor より)
-               - ・ポーション、杖を合成して強化するとき祝福や呪いがつかないように(oor より)
-        - version: 2018/04/30 fix2
-          date: 2018/04/30
-        - version: 2018/04/30 fix
-          date: 2018/04/30
-        - date: 2018/04/30
-          port_of:
-            - name: oor
-              desc: ・サンドバッグで吊られている NPC は敵対していてもハウスボードで移動させることができるように(oor より)
-        - version: 2018/04/16 fix3
-          date: 2018/04/16
-        - version: 2018/04/16 fix2
-          date: 2018/04/16
-        - version: 2018/04/16 fix
-          date: 2018/04/16
-        - date: 2018/04/16
-        - version: 2018/04/07 fix2
-          date: 2018/04/07
-        - version: 2018/04/07 fix
-          date: 2018/04/07
-        - date: 2018/04/07
-          port_of:
-            - name: me
-              desc: ・クミロミ信仰時の生命の輪廻が必ず発動するように(Me より)
-            - name: mma
-              desc:
-                - ・召喚された神、神の下僕などが特定の神を信仰して生成されるように(MMA より)
-                - ・ CNPC の初期信仰を設定できるように(MMA より)
-            - name: elm
-              desc: ・ BM のエンチャント強度が規模によって上がるように(elm より)
-            - name: oor
-              desc: ・各武器・乗馬・窃盗スキルのエンチャントが付与されるように(oor より)
-        - date: 2018/03/28
-        - version: 2018/03/26 テスト版
-          date: 2018/03/26
+                - ・ミラルの小さなメダルの交換品の追加(oor より)
+                - ・ミラルの小さなメダルの交換品に対してエンチャントフィルターを使用できるように(oor より)
+                - ・エーテル病、フィートなどによる主能力、スキルの上限を 999999 に(oor を参考に)
+                - ・家具に素材槌を使った場合、木製にならないように(oor より)
+        - date: 2018/01/28
+        - date: 2018/01/30
+        - version: 2018/01/30 fix
+          date: 2018/01/30
+        - date: 2018/01/31
           port_of:
             - name: oor
               desc:
-                - ・エンチャント「攻撃対象からマナを吸収する」を強化(oor より)
-                - ・称号が未取得でもカウントが表示されるように(oor より)
-                - ・カウントが表示される称号を増加(oor より)
-                - ・カウントが表示される称号を増加(oor より)
-            - name: elm
-              desc: ・相手が酔っている場合ユニーク NPC とでも気持ちいいことができるように(elm より)
-        - version: 2018/03/23 fix
-          date: 2018/03/23
-        - date: 2018/03/23
-          port_of:
-            - name: oor
-              desc:
-                - ・日付更新時にトラッシュカンの中身が削除されないように(oor より)
-                - ・種族特攻エンチャントがエンチャント強度によって威力が上がるように(oor より)
-        - date: 2018/03/17
-        - date: 2018/03/16
-          port_of:
-            - name: mma
-              desc: ・妹の死体を食べた NPC は 1/4 の確率で妹になるように(MMA より)
-            - name: oor
-              desc:
-                - ・既に習得済みの魔法の効果・範囲・属性しか自作魔法を作成できない制限を撤廃(oor より)
-                - ・鈍足の効果の上限 50 を撤廃。代わりに元の速度の半分を上限に(oor より)
-        - date: 2018/03/13
-        - date: 2018/03/12
-        - date: 2018/03/10
-          port_of:
-            - name: mma
-              desc: ・設置可能なアイテム数の限界に由来するアイテム破壊が起きたときにトラッシュカンの中に格納されるように(MMA より)
-                - ・レシマスの最下層にゼームが生成される条件にゲームフラグがメインシナリオ未終了の場合も含むように(MMA より)
-                - ・メッセージ中の♪、♪1 が改行で行頭に来る場合は」や！などと同じく行末に連結するように(MMA より)
-                - ・ログメッセージ中の♪1 が改行で分断されないように(MMA より)
+                - ・自作魔法のストックがオーバーフローしないように(oor を参考)
+                - ・ Lv2000 の鍛冶のハンマーにも経験値が入るように(oor より)
+                - ・ PC が対象だと、ランダムイベントで無い呪いに対して、祈祷師フィートと称号効果が発生しないのを修正(oor より)
+                - ・聖なる武器がアイテム No0 にあると経験値が入らないのを修正(oor より)
+                - ・公式版のように、すくつのヴェスダが篭手を落とすように(oor より)
+                - ・混沌 3 神を初回撃破時、願いの杖を落とすように(oor より)
+                - ・ serverList.を 1 にしてるとやたらとダイアログが出るのを出ないように(oor より)
+                - ・ wizard モードの gain_spact で未定義のスキルまで覚えてしまうのを修正(oor より)
+                - ・ wizard モードの gain_spact で、omake 以降のスキルを覚える際に公式版用の変数に書き込んでいたのを修正(oor より)
+                - ・物理ダメージの OF が起こらないように(oor より)(OF 対策できてなかった)
+                - ・邪武器が解呪され消滅する際、ログとエフェクトで知らせるように(oor より)
+                - ・聖武器を育成しやすいように(oor を参考に)
 
-        - date: 2018/03/09
+        - date: 2018/02/01
+        - version: 2018/02/01 fix
+          date: 2018/02/01
+        - date: 2018/02/02
+        - date: 2018/02/03
+        - version: 2018/02/02 fix
+          date: 2018/02/02
           port_of:
             - name: oor
-              desc: ・アイテムの個数がオーバーフローしないように(oor より)
-            - name: mma_hack
-              desc:
-                - ・ペットの特殊行動率を作戦から設定できるように(MMAh より)
-                - ・全員に命令するで作戦を開いたときは適正距離、移動率、特殊行動率、魔法書の使用率は設定できないように(MMAh より)
-        - version: 2018/03/03 fix
-          date: 2018/03/03
-        - date: 2018/03/03
-        - date: 2018/03/01
+              desc: ・魔物呼びのエンチャントのバグを修正(oor より)
+        - date: 2018/02/05
           port_of:
-            - name: elm
+            - name: oor
               desc:
-                - ・既に持っているアイテムの納入依頼は星が黒表示に。素材を持っている納入依頼は灰色表示に(elm より)
-                - ・演奏依頼が成功で終わったときは、拾い損ねたおひねりと NPC ドロップアイテムをカジノっぽく回収できるように(elm より)
-
+                - ・所持金がオーバーフローしないように(oor より)
+                - ・称号[廃人]が ON のときすくつの任意の階層に帰還できるように(oor より)
+        - date: 2018/02/06
+        - version: 2018/02/05 fix
+          date: 2018/02/05
+          port_of:
+            - name: oor
+              desc:
+                - ・癒し手でバフ/デバフを解除できるように(oor より)
+        - date: 2018/02/07
+          port_of:
+            - name: oor
+              desc:
+                - ・ダメージ OF を起こさないように(oor より)(まだ後でいじりたい)
+                - ・鍛冶のエンチャント継承にて、特定の条件下でエンチャントが継承されないことがあるのを修正(oor より)
+        - date: 2018/02/08
+          port_of:
+            - name: oor
+              desc: ・一部のフィートを強化(筋力、耐久、魅力、PV 系のフィートの上昇量を経験レベル依存に)(oor より)
+        - date: 2018/02/12
+        - date: 2018/02/15
+          port_of:
+            - name: mma
+              desc:
+                - ・ペットの適正距離、移動率を変更できるように(MMA より)
+                - ・コンフィグから設定するとペットの HP 数値表示機能(MMA より)
+            - name: oor
+              desc:
+                - ・ペットが魔法書の魔法を使う確率を変更できるように(oor より)
+                - ・依頼の報酬を拾う時、予め設置してあるイスやベッドの拾う順番を一番下に(oor より)
+                - ・ハウスボードから倉庫、牧場、畑に設置できるアイテム数を拡張できるように(oor より)
+                - ・祭壇に捧げる時、所持品より足元の祭壇を優先するように(oor より)
+                - ・フィート「グッドコミュニケーション」の 2, 3 段階目を取ると上限が上がる代わりに確率が低下するのを修正(oor より)
+                - ・エーテル病「あなたの体は獣に近づいた。」の音耐性弱体化に下限を設けた(oor より)
+                - ・投擲の技能が十分高いときに投げたアイテムが必ず当たるように(oor より)
+                - ・アニメーション 14 番(採掘、ツボ破壊、モンスターボール投擲)の表示位置が誤っていたのを修正(oor より)
+                - ・フィート「酒場で歌い続けた経験が歌唱の技術を高める」を習得すると、技能の歌唱も習得するように(oor より)
+                - ・フィート「軍人の知り合いから矢弾の倹約術を教わる」を銃器スキルが無くても習得できるように(oor より)
+            - name: URW
+              desc:
+                - ・信仰していない神の祭壇に水を置くと呪われるように(URW より)
+        - version: 2018/02/15 fix
+          date: 2018/02/15
+        - version: 2018/02/15 fix2
+          date: 2018/02/15
+        - date: 2018/02/16
+        - version: 2018/02/16 fix
+          date: 2018/02/16
+        - date: 2018/02/22
+          port_of:
+            - name: oor
+              desc: ・ペットに栽培を任せた時、畑マップを出たあと 24 時間以内に戻って収穫しても仕事しないのを修正(oor より)
         - date: 2018/02/28
           port_of:
             - name: mma
@@ -2705,107 +2704,109 @@ variants:
               desc:
                 - ・消費期限のある食品に呪われていない加速のポーションを調合すると消費期限が近くなるように(MMAh より)
                 - ・消費期限のある食品に呪われていない鈍足のポーションを調合すると腐らなくなるように(MMAh より)
-
-
-        - date: 2018/02/22
+        - date: 2018/03/01
+          port_of:
+            - name: elm
+              desc:
+                - ・既に持っているアイテムの納入依頼は星が黒表示に。素材を持っている納入依頼は灰色表示に(elm より)
+                - ・演奏依頼が成功で終わったときは、拾い損ねたおひねりと NPC ドロップアイテムをカジノっぽく回収できるように(elm より)
+        - date: 2018/03/03
+        - version: 2018/03/03 fix
+          date: 2018/03/03
+        - date: 2018/03/09
           port_of:
             - name: oor
-              desc: ・ペットに栽培を任せた時、畑マップを出たあと 24 時間以内に戻って収穫しても仕事しないのを修正(oor より)
-        - version: 2018/02/16 fix
-          date: 2018/02/16
-        - date: 2018/02/16
-        - version: 2018/02/15 fix2
-          date: 2018/02/15
-        - version: 2018/02/15 fix
-          date: 2018/02/15
-        - date: 2018/02/15
+              desc: ・アイテムの個数がオーバーフローしないように(oor より)
+            - name: mma_hack
+              desc:
+                - ・ペットの特殊行動率を作戦から設定できるように(MMAh より)
+                - ・全員に命令するで作戦を開いたときは適正距離、移動率、特殊行動率、魔法書の使用率は設定できないように(MMAh より)
+        - date: 2018/03/10
           port_of:
             - name: mma
-              desc:
-                - ・ペットの適正距離、移動率を変更できるように(MMA より)
-                - ・コンフィグから設定するとペットの HP 数値表示機能(MMA より)
-            - name: oor
-              desc:
-                - ・ペットが魔法書の魔法を使う確率を変更できるように(oor より)
-                - ・依頼の報酬を拾う時、予め設置してあるイスやベッドの拾う順番を一番下に(oor より)
-                - ・ハウスボードから倉庫、牧場、畑に設置できるアイテム数を拡張できるように(oor より)
-                - ・祭壇に捧げる時、所持品より足元の祭壇を優先するように(oor より)
-                - ・フィート「グッドコミュニケーション」の 2, 3 段階目を取ると上限が上がる代わりに確率が低下するのを修正(oor より)
-                - ・エーテル病「あなたの体は獣に近づいた。」の音耐性弱体化に下限を設けた(oor より)
-                - ・投擲の技能が十分高いときに投げたアイテムが必ず当たるように(oor より)
-                - ・アニメーション 14 番(採掘、ツボ破壊、モンスターボール投擲)の表示位置が誤っていたのを修正(oor より)
-                - ・フィート「酒場で歌い続けた経験が歌唱の技術を高める」を習得すると、技能の歌唱も習得するように(oor より)
-                - ・フィート「軍人の知り合いから矢弾の倹約術を教わる」を銃器スキルが無くても習得できるように(oor より)
-            - name: URW
-              desc:
-                - ・信仰していない神の祭壇に水を置くと呪われるように(URW より)
-        - date: 2018/02/12
-        - date: 2018/02/08
+              desc: ・設置可能なアイテム数の限界に由来するアイテム破壊が起きたときにトラッシュカンの中に格納されるように(MMA より)
+                - ・レシマスの最下層にゼームが生成される条件にゲームフラグがメインシナリオ未終了の場合も含むように(MMA より)
+                - ・メッセージ中の♪、♪1 が改行で行頭に来る場合は」や！などと同じく行末に連結するように(MMA より)
+                - ・ログメッセージ中の♪1 が改行で分断されないように(MMA より)
+        - date: 2018/03/12
+        - date: 2018/03/13
+        - date: 2018/03/16
           port_of:
+            - name: mma
+              desc: ・妹の死体を食べた NPC は 1/4 の確率で妹になるように(MMA より)
             - name: oor
-              desc: ・一部のフィートを強化(筋力、耐久、魅力、PV 系のフィートの上昇量を経験レベル依存に)(oor より)
-        - date: 2018/02/07
+              desc:
+                - ・既に習得済みの魔法の効果・範囲・属性しか自作魔法を作成できない制限を撤廃(oor より)
+                - ・鈍足の効果の上限 50 を撤廃。代わりに元の速度の半分を上限に(oor より)
+        - date: 2018/03/17
+        - date: 2018/03/23
           port_of:
             - name: oor
               desc:
-                - ・ダメージ OF を起こさないように(oor より)(まだ後でいじりたい)
-                - ・鍛冶のエンチャント継承にて、特定の条件下でエンチャントが継承されないことがあるのを修正(oor より)
-        - date: 2018/02/06
-        - version: 2018/02/05 fix
-          date: 2018/02/05
+                - ・日付更新時にトラッシュカンの中身が削除されないように(oor より)
+                - ・種族特攻エンチャントがエンチャント強度によって威力が上がるように(oor より)
+        - version: 2018/03/23 fix
+          date: 2018/03/23
+        - date: 2018/03/28
+        - version: 2018/03/26 テスト版
+          date: 2018/03/26
           port_of:
             - name: oor
               desc:
-                - ・癒し手でバフ/デバフを解除できるように(oor より)
-        - date: 2018/02/05
+                - ・エンチャント「攻撃対象からマナを吸収する」を強化(oor より)
+                - ・称号が未取得でもカウントが表示されるように(oor より)
+                - ・カウントが表示される称号を増加(oor より)
+                - ・カウントが表示される称号を増加(oor より)
+            - name: elm
+              desc: ・相手が酔っている場合ユニーク NPC とでも気持ちいいことができるように(elm より)
+        - date: 2018/04/07
+          port_of:
+            - name: me
+              desc: ・クミロミ信仰時の生命の輪廻が必ず発動するように(Me より)
+            - name: mma
+              desc:
+                - ・召喚された神、神の下僕などが特定の神を信仰して生成されるように(MMA より)
+                - ・ CNPC の初期信仰を設定できるように(MMA より)
+            - name: elm
+              desc: ・ BM のエンチャント強度が規模によって上がるように(elm より)
+            - name: oor
+              desc: ・各武器・乗馬・窃盗スキルのエンチャントが付与されるように(oor より)
+        - version: 2018/04/07 fix
+          date: 2018/04/07
+        - version: 2018/04/07 fix2
+          date: 2018/04/07
+        - date: 2018/04/16
+        - version: 2018/04/16 fix
+          date: 2018/04/16
+        - version: 2018/04/16 fix2
+          date: 2018/04/16
+        - version: 2018/04/16 fix3
+          date: 2018/04/16
+        - date: 2018/04/30
+          port_of:
+            - name: oor
+              desc: ・サンドバッグで吊られている NPC は敵対していてもハウスボードで移動させることができるように(oor より)
+        - version: 2018/04/30 fix
+          date: 2018/04/30
+        - version: 2018/04/30 fix2
+          date: 2018/04/30
+        - date: 2018/05/13
           port_of:
             - name: oor
               desc:
-                - ・所持金がオーバーフローしないように(oor より)
-                - ・称号[廃人]が ON のときすくつの任意の階層に帰還できるように(oor より)
-        - date: 2018/02/03
-        - version: 2018/02/02 fix
-          date: 2018/02/02
-          port_of:
-            - name: oor
-              desc: ・魔物呼びのエンチャントのバグを修正(oor より)
-        - date: 2018/02/02
-        - version: 2018/02/01 fix
-          date: 2018/02/01
-        - date: 2018/02/01
-        - date: 2018/01/31
-          port_of:
-            - name: oor
-              desc:
-                - ・自作魔法のストックがオーバーフローしないように(oor を参考)
-                - ・ Lv2000 の鍛冶のハンマーにも経験値が入るように(oor より)
-                - ・ PC が対象だと、ランダムイベントで無い呪いに対して、祈祷師フィートと称号効果が発生しないのを修正(oor より)
-                - ・聖なる武器がアイテム No0 にあると経験値が入らないのを修正(oor より)
-                - ・公式版のように、すくつのヴェスダが篭手を落とすように(oor より)
-                - ・混沌 3 神を初回撃破時、願いの杖を落とすように(oor より)
-                - ・ serverList.を 1 にしてるとやたらとダイアログが出るのを出ないように(oor より)
-                - ・ wizard モードの gain_spact で未定義のスキルまで覚えてしまうのを修正(oor より)
-                - ・ wizard モードの gain_spact で、omake 以降のスキルを覚える際に公式版用の変数に書き込んでいたのを修正(oor より)
-                - ・物理ダメージの OF が起こらないように(oor より)(OF 対策できてなかった)
-                - ・邪武器が解呪され消滅する際、ログとエフェクトで知らせるように(oor より)
-                - ・聖武器を育成しやすいように(oor を参考に)
-
-        - version: 2018/01/30 fix
-          date: 2018/01/30
-        - date: 2018/01/30
-        - date: 2018/01/28
-        - date: 2018/01/27
-          port_of:
-            - name: oor
-              desc:
-                - ・ミラルの小さなメダルの交換品の追加(oor より)
-                - ・ミラルの小さなメダルの交換品に対してエンチャントフィルターを使用できるように(oor より)
-                - ・エーテル病、フィートなどによる主能力、スキルの上限を 999999 に(oor を参考に)
-                - ・家具に素材槌を使った場合、木製にならないように(oor より)
+               - ・トラッシュカンにアイテムが放り込まれるのが PC、NPC、マップ上のどこかにトラッシュカンがあるときのみに(oor より)
+               - ・トラッシュカンにアイテムが放り込まれるとき破壊判定回数を増やした(oor より)
+               - ・自物件以外でも開封、使用出来るように(oor より)
+               - ・トラッシュカンが破壊されにくくなるように(oor より)
+               - ・称号を取得したときオフの状態で取得するように(oor より)
+               - ・ポーション、杖を合成して強化するとき祝福や呪いがつかないように(oor より)
+        - date: 2018/05/17
+        - version: 2018/05/17 fix
+          date: 2018/05/17
 
     - name: oomSEST
       long_name: omake overhaul modify Sukutu Edition South Tyris
-      website: http://yuu111.f5.si/redmine/projects/southtyris-se/wiki
+      wikia_page: Omake_Overhaul_modify_Sukutu_Edition_South_Tyris
       derived_from:
         name: oomSE
       version_type: date_with_slash
@@ -2858,10 +2859,37 @@ variants:
         - date: 2020/07/23
         - date: 2020/07/24
 
-
+    - name: mewmew
+      wikia_page: Mewmew
+      derived_from:
+        name: elona
+        version: 1.22(開発版)
+      releases:
+        - date: 2011/02/24 23:59:22
+        - date: 2011/02/25 17:47:10
+        - date: 2011/02/26 01:00:03
+        - date: 2011/02/27 20:26:14
+        - date: 2011/03/01 09:02:31
+        - date: 2011/03/01 22:04:13
+        - date: 2011/03/01 22:04:13
+        - date: 2011/03/03 18:23:54
+        - date: 2011/03/03 20:35:51
+        - date: 2011/03/05 16:12:44
+        - date: 2011/03/10 09:36:25
+        - date: 2011/03/12 15:40:19
+        - date: 2011/03/13 08:34:34
+        - date: 2011/03/14 10:18:18
+        - date: 2011/03/24 20:04:55
+        - date: 2011/03/28 18:09:13
+        - date: 2011/03/29 13:30:43
+        - date: 2011/03/30 05:43:07
+        - date: 2011/03/30 23:36:32
+        - date: 2011/04/02 23:55:58 # (?)
+        - date: 2011/07/04 22:30:17
 
     - name: mma
       long_name: MMA
+      wikia_page: MMA
       derived_from:
         name: omake
       version_type: date_with_slash
@@ -3510,6 +3538,7 @@ variants:
     - name: mma/tt
       long_name: MMA/TrashThrow
       desc: Developed concurrently with MMA.
+      wikia_page: TrashThrow
       derived_from:
         name: mma
       version_type: date_no_slash_t
@@ -3999,294 +4028,6 @@ variants:
         version: 20130906
       version_type: date_no_slash
       releases:
-        - date: 2018/07/21 22:56
-        - date: 2018/07/08 23:54
-          link: https://drive.google.com/open?id=1ZgEP8frAfXsO8CO1HjKKZwrUN9GmTP10
-          port_of:
-            - name: oom_Ex
-              desc:
-                - 　・ user/graphic フォルダに fruitTrees.bmp があれば果実の木を実る果実ごとに差し替えられるように(oomEx より)
-        - date: 2018/07/07 18:24
-          link: https://drive.google.com/open?id=1WwYhHwP2_ZYX1G83G29PaQM1hkaY\-Z7e
-        - date: 2018/07/03 23:53
-          link: https://drive.google.com/open?id=15P91KBMynRj_2K7gBtCOh1rUyPOKisRF
-          port_of:
-            - name: oo
-              desc:
-                - 　・カスタムアイテムの不確定名が正式名称になってしまう問題を修正(omake_overhaul より)
-                - 　・ CNPC の「userSpact.」で定義されたスキルを読み込むように(omake_overhaul より)
-            - name: oor
-              desc:
-                - 　・カスタムゴッドの「specialpoweralias.」で英語名のみを定義したとき日本語環境下でも英語名を定義するように(oor より)
-                - 　・ CNPC の「userSpact.」で定義されたスキルの使用を作戦から指示できるように(oor より)
-                - 　・[z]でアイテムの情報を切り替えたとき技能, 能力, 維持, 一部の無効のエンチャントを表示できるように(ore_hack, oor より)
-            - name: ore_hack
-              desc:
-                - 　・[z]でアイテムの情報を切り替えたとき技能, 能力, 維持, 一部の無効のエンチャントを表示できるように(ore_hack, oor より)
-        - date: 2018/06/30 20:08
-          link: https://drive.google.com/open?id=1yCjHmPTDazy2E89oYfuqf9XNQj\-5TIGR
-          port_of:
-            - name: oo
-              desc:
-                - 　・死亡回数を日誌[j]で確認できるように(omake_overhaul より)
-                - 　・作戦に陣形の項目を追加し前衛と後衛を指示できるように(omake_overhaul, oor より)
-            - name: oor
-              desc:
-                - 　・作戦に陣形の項目を追加し前衛と後衛を指示できるように(omake_overhaul, oor より)
-                - 　・ペットはサンドバッグに吊るされた NPC を押しのけないように(oor より)
-                - 　・マテリアルの表示順を変更した(oor より)
-        - version: 20180624.1 11:49
-          date: 2018/06/24 11:49
-          link: https://drive.google.com/open?id=1IP9Mfm4uS_8V5OkRks1HkudldvS2bKNg
-        - date: 2018/06/24 01:02
-        - date: 2018/06/23 23:19
-        - date: 2018/06/22 23:46
-          link: https://drive.google.com/open?id=1zRCLVJTePTmoh9u7ddHSBNBnZW5Yx6YN
-        - date: 2018/06/18 23:38
-          link: https://drive.google.com/open?id=1EmwEGXmSdSgYimbUiG\-Ki5GLtvaZiY\-i
-        - date: 2018/06/14 19:38
-          link: https://drive.google.com/open?id=1Y7c015XhX0R3M1Mpz5KOUXpEf2vJLRbP
-        - date: 2018/06/13 18:46
-          link: https://drive.google.com/open?id=1u1HebUiWFL5VeR2xJHVYC\-h6TUkFuZBH
-        - date: 2018/06/10 21:25
-        - date: 2018/06/09 07:13
-        - date: 2018/06/08 21:06
-        - date: 2018/06/04 18:19
-          port_of:
-            - name: oor
-              desc:
-                - 　・ Ctrl キーを押しながら果実の木の上に移動したとき自動で体当たりするように(oor より)
-        - date: 2018/06/03 03:08
-        - date: 2018/06/02 18:30
-          port_of:
-            - name: foobar
-              desc:
-                - 　・ NPC がポーションを飲むと同時にポーションを盗むとポーションの効果を得つつポーションを盗める問題を修正(foobar より)
-        - date: 2018/05/16 21:52
-          link: https://drive.google.com/open?id=1Lzv0n\-mBMqyEQbn_J9K4M8OsPigYZKzk
-        - date: 2018/05/15 23:14
-          link: https://drive.google.com/open?id=16U947swjI4vUXezn9d16EORh9vXWWj7u
-          port_of:
-            - name: oor
-              desc:
-                - 　・同種ポーション調合で強化されたポーションは祝福や呪いが付かないように(oor より)
-        - date: 2018/05/05 16:02
-          link: https://drive.google.com/open?id=1vLWiVw6rt_QiK8WOkKKVSTdg8xH838po
-        - date: 2018/05/01 23:31
-          port_of:
-            - name: oor
-              desc:
-                - 　・素材箱を開けたときスタックオーバーフローが発生する可能性があった問題を修正(oor より)
-                - 　・主能力 0 の状態で主能力が下がるとフリーズする問題を修正(oor より)
-                - 　・吊るされた又はダメージ無効化した自爆生物が誘爆する問題を修正(oor より)
-                - 　・サンドバッグに吊るされた NPC は敵対状態でもハウスボードで移動できるように(oor より)
-                - 　・称号の獲得判定は PC のターン開始時のみ行なうように(oor より)
-        - date: 2018/04/22 22:48
-        - date: 2018/04/09 23:22
-        - date: 2018/04/03 23:39
-        - date: 2018/03/28 17:56
-        - date: 2018/03/26 23:33
-        - version: 20180318.1 21:35
-          date: 2018/03/18 21:35
-        - date: 2018/03/18 18:51
-        - version: 20180315.2 19:26
-          date: 2018/03/15 19:26
-        - version: 20180315.1 15:18
-          date: 2018/03/15 15:18
-        - date: 2018/03/15 01:18
-        - date: 2018/03/14 18:16
-        - date: 2018/03/10 21:22
-        - date: 2018/03/07 19:22
-          port_of:
-            - name: ore_hack
-              desc:
-                - 　・設定からペットの空腹を「知らせる」にしたとき以下のメッセージを表示するように(ore_hack より)
-        - date: 2018/03/01 02:57
-        - date: 2018/02/28 04:12
-        - date: 2018/02/23 23:20
-          port_of:
-            - name: oom_Ex
-              desc:
-                - 　・新しい冒険者を作成するとき、最初に異名を選ぶように(oomEx より)
-        - date: 2018/02/11 23:10
-        - date: 2018/02/07 14:18
-        - date: 2018/02/04 01:34
-        - date: 2018/02/03 02:00
-        - date: 2018/02/02 22:27
-          port_of:
-            - name: oom_Ex
-              desc:
-                - 　・祝福された名前の巻物では最初にページ数を選べるように(oomEx より)
-            - name: omake_LSD
-              desc:
-                - 　・ CNPC 生成時の年齢、身長、体重、口調を固定できるように(omake_LSD より)
-        - date: 2018/01/12 22:55
-          link: https://www.axfc.net/u/3879842/elona
-          port_of:
-            - name: oom_Ex
-              desc:
-                - 　・ダメージ表示とポップアップが掲示板の依頼とカジノの画面に被らないように(oomEx より)
-        - date: 2017/12/02 22:17
-          link: https://www.axfc.net/u/3867724/elona
-          port_of:
-            - name: oo
-              desc:
-                - 　・新しい冒険者を作成時、マイナスフィート「無魔法」と「清廉潔白」を取得できるように(omake_overhaul より、フィートポイントは増えません)
-                - 　・ペットがホイッスルを使って敵のヘイトを取るように(omake_overhaul より)
-            - name: oom_Ex
-              desc:
-                - 　・称号「お父様」を獲得するとレシピのアイテム製作時、一度に 100 個まで作れるように(oomEx より)
-        - date: 2017/11/02 22:22
-          link: https://www.axfc.net/u/3859314/elona
-        - date: 2017/09/01 22:28
-          link: https://www.axfc.net/u/3840720/elona
-        - date: 2017/08/10 21:27
-          link: https://www.axfc.net/u/3833047/elona
-        - date: 2017/08/06 22:23
-        - date: 2017/07/25 00:45
-        - date: 2017/07/24 01:18
-        - date: 2017/07/23 02:52
-        - date: 2017/07/22 21:29
-          port_of:
-            - name: oo
-              desc:
-                - 　・内蔵の o_class.csv に trait の列を追加(omake_overhaul より)
-                - 　　・ペットもフィートを取得できるように(omake_overhaul より)
-                - 　　・探知、見切り、回避、詠唱、交渉、信仰のスキルが上昇するフィートはスキルレベルではなくスキルの潜在能力が伸びやすくなるように(omake_overhaul より)
-                - 　　・格闘家のフィートはスキルの上昇ではなく格闘ダメージに補正がかかるように(omake_overhaul より、ランク 2 までで倍率はランク毎に+20\%になってます)
-            - name: oor
-              desc:
-                - 　　・「ペットフィート」又は「petfeat」を願うとペットのフィート(faction)を初期化できるように(oomEx より、取得できるフィート数も初期化されます)
-        - date: 2017/06/30 23:42
-          link: https://www.axfc.net/u/3820437/elona
-        - date: 2017/04/16 11:07
-        - date: 2017/04/12 23:55
-        - date: 2017/04/07 22:55
-        - date: 2017/04/02 04:13
-        - date: 2017/03/10 22:35
-        - date: 2017/03/02 03:57
-        - date: 2017/02/23 18:43
-        - date: 2017/02/20 01:24
-        - date: 2017/02/19 22:31
-        - date: 2017/02/18 12:46
-        - date: 2017/02/17 17:19
-        - date: 2017/02/15 21:38
-          port_of:
-            - name: oo
-              desc:
-                - 　・探知スキルがあるとき周囲を調べる(s)事で敵の気配が分かるように(omake_overhaul より)
-        - date: 2017/02/04 22:46
-          link: https://www.axfc.net/u/3772022/elona
-          port_of:
-            - name: oo
-              desc:
-                - 　・一部のネフィアの NPC が派閥の範囲内で出現するように(omake_overhaul より)
-                - 　　・不思議のネフィアが生成されるように(omake_overhaul より)
-                - 　　・生き武器の成長の選択肢を増やした(omake_overhaul より)
-        - date: 2017/01/22 22:48
-          link: https://www.axfc.net/u/3767678/elona
-          port_of:
-            - name: oo
-              desc:
-                - 　・凄腕の黒天使の出現条件を変更した(omake_overhaul より)
-            - name: oom
-              desc:
-                - 　・ omake ショートカットと凄腕の黒天使のキルカウンターの格納領域が被っている問題を修正(oom より)
-        - date: 2016/12/23 03:09
-          link: https://www.axfc.net/u/3755442/elona
-        - date: 2016/12/04 22:37
-          link: https://www.axfc.net/u/3748503/elona
-        - date: 2016/10/02 22:56
-          link: https://www.axfc.net/u/3725107/elona
-        - date: 2016/01/27 21:53
-          link: http://www1.axfc.net/u/3608780.zip/elona
-        - date: 2016/01/17 01:05
-          link: http://www1.axfc.net/u/3602318.zip
-        - date: 2015/11/24 22:17
-          link: http://www1.axfc.net/u/3572464.zip/elona
-          port_of:
-            - name: mma
-              desc:
-                - 　・襲撃イベントの敵レベルを再調整。MMA の計算式と同じでキャラクターレベルの代わりに名声レベルを使用するように
-        - date: 2015/11/14 05:59
-          link: http://www1.axfc.net/u/3566497.zip/elona
-        - date: 2015/11/13 20:50
-        - date: 2015/10/31 09:57
-          link: http://www1.axfc.net/u/3558582.zip/elona
-        - date: 2015/10/30 21:50
-        - date: 2015/10/29 18:23
-        - date: 2015/10/09 19:28
-          link: http://www1.axfc.net/u/3547221.zip/elona
-          port_of:
-            - name: ore_hack
-              desc:
-                - 　・お店に名前を付けられるように(ore_hack より)
-                - 　・お店の商品を重ねずに置くと少し高く売れるように(ore_hack より)
-                - 　・お店に非売品エリアを設けられるように(ore_hack より)
-                - 　・お店にベッドを置くと宿泊料が取れるように(ore_hack より)
-            - name: omake_baby
-              desc:
-                - 　・ゲーム内時間またはリアル時間で 7/24 の間はベイベーの日になるように(omake_baby より)
-                - 　・稀に行商ベイベーとベイベー団に遭遇するように(omake_baby より)
-            - name: oo
-              desc:
-                - 　・ベイベーの日にパーティー場へ行くと吟遊詩人が多く生成されるように(omake_overhaul より)
-                - 　・妹の日には謎の種の実から高確率で妹が収穫できるように(omake_overhaul より)
-        - date: 2015/10/02 21:11
-          link: http://www1.axfc.net/u/3543793.zip/elona
-        - date: 2015/09/23 05:32
-          link: http://www1.axfc.net/u/3538476.zip/elona
-        - date: 2015/09/18 20:11
-          link: http://www1.axfc.net/u/3535890.zip/elona
-          port_of:
-            - name: URW
-              version: 2012/11/13
-              desc:
-                - 　・祝福された*鑑定*の巻物でバックパックのアイテムを全て鑑定するように(URW より)
-        - date: 2015/09/12 11:35
-        - date: 2015/09/12 01:00
-          link: http://www1.axfc.net/u/3532613.zip/elona
-        - date: 2015/09/11 22:53
-          port_of:
-            - name: omake
-              version: 20150620
-              desc:
-                - ベースにする omake のバージョンを 20130819 から 20150620 へ
-            - name: ore_hack
-              desc:
-                - 　・大事なものはふかふかパンの材料、魔力の抽出、錬金術の杖等の対象に表示しないように(ore_hack より)
-        - date: 2015/09/05 14:45
-          link: http://www1.axfc.net/u/3529385.zip/elona
-        - date: 2015/09/05 13:16
-          port_of:
-            - name: ore_hack
-              desc:
-                - 　・空っぽの箱は中身のある箱よりリストの下に表示されるように(ore_hack より)
-        - date: 2015/08/27 21:41
-          link: http://www1.axfc.net/u/3524700.zip/elona
-        - date: 2015/08/25 23:38
-        - date: 2015/08/25 20:27
-          port_of:
-            - name: ore_hack
-              desc:
-                - 　・スキルの成長ログを表示できるように(ore_hack より)
-        - date: 2015/08/14 20:56
-          port_of:
-            - name: oo
-              desc:
-                - 　・神々の休戦地の祭壇は乗っ取れないように(omake_overhaul より)
-        - date: 2015/08/13 23:37
-          link: http://www1.axfc.net/u/3517052
-        - date: 2015/08/12 21:55
-          port_of:
-            - name: ore_hack
-              desc:
-                - 　・お店の販売ログをジャーナルから見られるように(ore_hack より)
-        - date: 2015/08/06 17:38
-        - date: 2015/08/05 19:07
-        - date: 2015/08/04 11:46
-        - date: 2015/08/04 05:11
-        - date: 2015/08/04 03:32
         - date: 2015/08/03 23:32
           port_of:
             - name: ore_hack
@@ -4313,12 +4054,301 @@ variants:
                 - 　　　・盗賊団の頭領を倒したとき名声が上昇するように(omake_overhaul より)
                 - 　　・ omake_overhaul の名声システムの一部取り込んだ
                 - 　　・ omake_overhaul の特殊ネフィアの一部取り込んだ(仕様が違うネフィアもあります)
+        - date: 2015/08/04 03:32
+        - date: 2015/08/04 05:11
+        - date: 2015/08/04 11:46
+        - date: 2015/08/05 19:07
+        - date: 2015/08/06 17:38
+        - date: 2015/08/12 21:55
+          port_of:
+            - name: ore_hack
+              desc:
+                - 　・お店の販売ログをジャーナルから見られるように(ore_hack より)
+        - date: 2015/08/13 23:37
+          link: http://www1.axfc.net/u/3517052
+        - date: 2015/08/14 20:56
+          port_of:
+            - name: oo
+              desc:
+                - 　・神々の休戦地の祭壇は乗っ取れないように(omake_overhaul より)
+        - date: 2015/08/25 20:27
+          port_of:
+            - name: ore_hack
+              desc:
+                - 　・スキルの成長ログを表示できるように(ore_hack より)
+        - date: 2015/08/25 23:38
+        - date: 2015/08/27 21:41
+          link: http://www1.axfc.net/u/3524700.zip/elona
+        - date: 2015/09/05 13:16
+          port_of:
+            - name: ore_hack
+              desc:
+                - 　・空っぽの箱は中身のある箱よりリストの下に表示されるように(ore_hack より)
+        - date: 2015/09/05 14:45
+          link: http://www1.axfc.net/u/3529385.zip/elona
+        - date: 2015/09/11 22:53
+          port_of:
+            - name: omake
+              version: 20150620
+              desc:
+                - ベースにする omake のバージョンを 20130819 から 20150620 へ
+            - name: ore_hack
+              desc:
+                - 　・大事なものはふかふかパンの材料、魔力の抽出、錬金術の杖等の対象に表示しないように(ore_hack より)
+        - date: 2015/09/12 01:00
+          link: http://www1.axfc.net/u/3532613.zip/elona
+        - date: 2015/09/12 11:35
+        - date: 2015/09/18 20:11
+          link: http://www1.axfc.net/u/3535890.zip/elona
+          port_of:
+            - name: URW
+              version: 2012/11/13
+              desc:
+                - 　・祝福された*鑑定*の巻物でバックパックのアイテムを全て鑑定するように(URW より)
+        - date: 2015/09/23 05:32
+          link: http://www1.axfc.net/u/3538476.zip/elona
+        - date: 2015/10/02 21:11
+          link: http://www1.axfc.net/u/3543793.zip/elona
+        - date: 2015/10/09 19:28
+          link: http://www1.axfc.net/u/3547221.zip/elona
+          port_of:
+            - name: ore_hack
+              desc:
+                - 　・お店に名前を付けられるように(ore_hack より)
+                - 　・お店の商品を重ねずに置くと少し高く売れるように(ore_hack より)
+                - 　・お店に非売品エリアを設けられるように(ore_hack より)
+                - 　・お店にベッドを置くと宿泊料が取れるように(ore_hack より)
+            - name: omake_baby
+              desc:
+                - 　・ゲーム内時間またはリアル時間で 7/24 の間はベイベーの日になるように(omake_baby より)
+                - 　・稀に行商ベイベーとベイベー団に遭遇するように(omake_baby より)
+            - name: oo
+              desc:
+                - 　・ベイベーの日にパーティー場へ行くと吟遊詩人が多く生成されるように(omake_overhaul より)
+                - 　・妹の日には謎の種の実から高確率で妹が収穫できるように(omake_overhaul より)
+        - date: 2015/10/29 18:23
+        - date: 2015/10/30 21:50
+        - date: 2015/10/31 09:57
+          link: http://www1.axfc.net/u/3558582.zip/elona
+        - date: 2015/11/13 20:50
+        - date: 2015/11/14 05:59
+          link: http://www1.axfc.net/u/3566497.zip/elona
+        - date: 2015/11/24 22:17
+          link: http://www1.axfc.net/u/3572464.zip/elona
+          port_of:
+            - name: mma
+              desc:
+                - 　・襲撃イベントの敵レベルを再調整。MMA の計算式と同じでキャラクターレベルの代わりに名声レベルを使用するように
+        - date: 2016/01/17 01:05
+          link: http://www1.axfc.net/u/3602318.zip
+        - date: 2016/01/27 21:53
+          link: http://www1.axfc.net/u/3608780.zip/elona
+        - date: 2016/10/02 22:56
+          link: https://www.axfc.net/u/3725107/elona
+        - date: 2016/12/04 22:37
+          link: https://www.axfc.net/u/3748503/elona
+        - date: 2016/12/23 03:09
+          link: https://www.axfc.net/u/3755442/elona
+        - date: 2017/01/22 22:48
+          link: https://www.axfc.net/u/3767678/elona
+          port_of:
+            - name: oo
+              desc:
+                - 　・凄腕の黒天使の出現条件を変更した(omake_overhaul より)
+            - name: oom
+              desc:
+                - 　・ omake ショートカットと凄腕の黒天使のキルカウンターの格納領域が被っている問題を修正(oom より)
+        - date: 2017/02/04 22:46
+          link: https://www.axfc.net/u/3772022/elona
+          port_of:
+            - name: oo
+              desc:
+                - 　・一部のネフィアの NPC が派閥の範囲内で出現するように(omake_overhaul より)
+                - 　　・不思議のネフィアが生成されるように(omake_overhaul より)
+                - 　　・生き武器の成長の選択肢を増やした(omake_overhaul より)
+        - date: 2017/02/15 21:38
+          port_of:
+            - name: oo
+              desc:
+                - 　・探知スキルがあるとき周囲を調べる(s)事で敵の気配が分かるように(omake_overhaul より)
+        - date: 2017/02/17 17:19
+        - date: 2017/02/18 12:46
+        - date: 2017/02/19 22:31
+        - date: 2017/02/20 01:24
+        - date: 2017/02/23 18:43
+        - date: 2017/03/02 03:57
+        - date: 2017/03/10 22:35
+        - date: 2017/04/02 04:13
+        - date: 2017/04/07 22:55
+        - date: 2017/04/12 23:55
+        - date: 2017/04/16 11:07
+        - date: 2017/06/30 23:42
+          link: https://www.axfc.net/u/3820437/elona
+        - date: 2017/07/22 21:29
+          port_of:
+            - name: oo
+              desc:
+                - 　・内蔵の o_class.csv に trait の列を追加(omake_overhaul より)
+                - 　　・ペットもフィートを取得できるように(omake_overhaul より)
+                - 　　・探知、見切り、回避、詠唱、交渉、信仰のスキルが上昇するフィートはスキルレベルではなくスキルの潜在能力が伸びやすくなるように(omake_overhaul より)
+                - 　　・格闘家のフィートはスキルの上昇ではなく格闘ダメージに補正がかかるように(omake_overhaul より、ランク 2 までで倍率はランク毎に+20\%になってます)
+            - name: oor
+              desc:
+                - 　　・「ペットフィート」又は「petfeat」を願うとペットのフィート(faction)を初期化できるように(oomEx より、取得できるフィート数も初期化されます)
+        - date: 2017/07/23 02:52
+        - date: 2017/07/24 01:18
+        - date: 2017/07/25 00:45
+        - date: 2017/08/06 22:23
+        - date: 2017/08/10 21:27
+          link: https://www.axfc.net/u/3833047/elona
+        - date: 2017/09/01 22:28
+          link: https://www.axfc.net/u/3840720/elona
+        - date: 2017/11/02 22:22
+          link: https://www.axfc.net/u/3859314/elona
+        - date: 2017/12/02 22:17
+          link: https://www.axfc.net/u/3867724/elona
+          port_of:
+            - name: oo
+              desc:
+                - 　・新しい冒険者を作成時、マイナスフィート「無魔法」と「清廉潔白」を取得できるように(omake_overhaul より、フィートポイントは増えません)
+                - 　・ペットがホイッスルを使って敵のヘイトを取るように(omake_overhaul より)
+            - name: oom_Ex
+              desc:
+                - 　・称号「お父様」を獲得するとレシピのアイテム製作時、一度に 100 個まで作れるように(oomEx より)
+        - date: 2018/01/12 22:55
+          link: https://www.axfc.net/u/3879842/elona
+          port_of:
+            - name: oom_Ex
+              desc:
+                - 　・ダメージ表示とポップアップが掲示板の依頼とカジノの画面に被らないように(oomEx より)
+        - date: 2018/02/02 22:27
+          port_of:
+            - name: oom_Ex
+              desc:
+                - 　・祝福された名前の巻物では最初にページ数を選べるように(oomEx より)
+            - name: omake_LSD
+              desc:
+                - 　・ CNPC 生成時の年齢、身長、体重、口調を固定できるように(omake_LSD より)
+        - date: 2018/02/03 02:00
+        - date: 2018/02/04 01:34
+        - date: 2018/02/07 14:18
+        - date: 2018/02/11 23:10
+        - date: 2018/02/23 23:20
+          port_of:
+            - name: oom_Ex
+              desc:
+                - 　・新しい冒険者を作成するとき、最初に異名を選ぶように(oomEx より)
+        - date: 2018/02/28 04:12
+        - date: 2018/03/01 02:57
+        - date: 2018/03/07 19:22
+          port_of:
+            - name: ore_hack
+              desc:
+                - 　・設定からペットの空腹を「知らせる」にしたとき以下のメッセージを表示するように(ore_hack より)
+        - date: 2018/03/10 21:22
+        - date: 2018/03/14 18:16
+        - date: 2018/03/15 01:18
+        - version: 20180315.1 15:18
+          date: 2018/03/15 15:18
+        - version: 20180315.2 19:26
+          date: 2018/03/15 19:26
+        - date: 2018/03/18 18:51
+        - version: 20180318.1 21:35
+          date: 2018/03/18 21:35
+        - date: 2018/03/26 23:33
+        - date: 2018/03/28 17:56
+        - date: 2018/04/03 23:39
+        - date: 2018/04/09 23:22
+        - date: 2018/04/22 22:48
+        - date: 2018/05/01 23:31
+          port_of:
+            - name: oor
+              desc:
+                - 　・素材箱を開けたときスタックオーバーフローが発生する可能性があった問題を修正(oor より)
+                - 　・主能力 0 の状態で主能力が下がるとフリーズする問題を修正(oor より)
+                - 　・吊るされた又はダメージ無効化した自爆生物が誘爆する問題を修正(oor より)
+                - 　・サンドバッグに吊るされた NPC は敵対状態でもハウスボードで移動できるように(oor より)
+                - 　・称号の獲得判定は PC のターン開始時のみ行なうように(oor より)
+        - date: 2018/05/05 16:02
+          link: https://drive.google.com/open?id=1vLWiVw6rt_QiK8WOkKKVSTdg8xH838po
+        - date: 2018/05/15 23:14
+          link: https://drive.google.com/open?id=16U947swjI4vUXezn9d16EORh9vXWWj7u
+          port_of:
+            - name: oor
+              desc:
+                - 　・同種ポーション調合で強化されたポーションは祝福や呪いが付かないように(oor より)
+        - date: 2018/05/16 21:52
+          link: https://drive.google.com/open?id=1Lzv0n\-mBMqyEQbn_J9K4M8OsPigYZKzk
+        - date: 2018/06/02 18:30
+          port_of:
+            - name: foobar
+              desc:
+                - 　・ NPC がポーションを飲むと同時にポーションを盗むとポーションの効果を得つつポーションを盗める問題を修正(foobar より)
+        - date: 2018/06/03 03:08
+        - date: 2018/06/04 18:19
+          port_of:
+            - name: oor
+              desc:
+                - 　・ Ctrl キーを押しながら果実の木の上に移動したとき自動で体当たりするように(oor より)
+        - date: 2018/06/08 21:06
+        - date: 2018/06/09 07:13
+        - date: 2018/06/10 21:25
+        - date: 2018/06/13 18:46
+          link: https://drive.google.com/open?id=1u1HebUiWFL5VeR2xJHVYC\-h6TUkFuZBH
+        - date: 2018/06/14 19:38
+          link: https://drive.google.com/open?id=1Y7c015XhX0R3M1Mpz5KOUXpEf2vJLRbP
+        - date: 2018/06/18 23:38
+          link: https://drive.google.com/open?id=1EmwEGXmSdSgYimbUiG\-Ki5GLtvaZiY\-i
+        - date: 2018/06/22 23:46
+          link: https://drive.google.com/open?id=1zRCLVJTePTmoh9u7ddHSBNBnZW5Yx6YN
+        - date: 2018/06/23 23:19
+        - date: 2018/06/24 01:02
+        - date: 2018/06/30 20:08
+          link: https://drive.google.com/open?id=1yCjHmPTDazy2E89oYfuqf9XNQj\-5TIGR
+          port_of:
+            - name: oo
+              desc:
+                - 　・死亡回数を日誌[j]で確認できるように(omake_overhaul より)
+                - 　・作戦に陣形の項目を追加し前衛と後衛を指示できるように(omake_overhaul, oor より)
+            - name: oor
+              desc:
+                - 　・作戦に陣形の項目を追加し前衛と後衛を指示できるように(omake_overhaul, oor より)
+                - 　・ペットはサンドバッグに吊るされた NPC を押しのけないように(oor より)
+                - 　・マテリアルの表示順を変更した(oor より)
+        - version: 20180624.1 11:49
+          date: 2018/06/24 11:49
+          link: https://drive.google.com/open?id=1IP9Mfm4uS_8V5OkRks1HkudldvS2bKNg
+        - date: 2018/07/03 23:53
+          link: https://drive.google.com/open?id=15P91KBMynRj_2K7gBtCOh1rUyPOKisRF
+          port_of:
+            - name: oo
+              desc:
+                - 　・カスタムアイテムの不確定名が正式名称になってしまう問題を修正(omake_overhaul より)
+                - 　・ CNPC の「userSpact.」で定義されたスキルを読み込むように(omake_overhaul より)
+            - name: oor
+              desc:
+                - 　・カスタムゴッドの「specialpoweralias.」で英語名のみを定義したとき日本語環境下でも英語名を定義するように(oor より)
+                - 　・ CNPC の「userSpact.」で定義されたスキルの使用を作戦から指示できるように(oor より)
+                - 　・[z]でアイテムの情報を切り替えたとき技能, 能力, 維持, 一部の無効のエンチャントを表示できるように(ore_hack, oor より)
+            - name: ore_hack
+              desc:
+                - 　・[z]でアイテムの情報を切り替えたとき技能, 能力, 維持, 一部の無効のエンチャントを表示できるように(ore_hack, oor より)
+        - date: 2018/07/07 18:24
+          link: https://drive.google.com/open?id=1WwYhHwP2_ZYX1G83G29PaQM1hkaY\-Z7e
+        - date: 2018/07/08 23:54
+          link: https://drive.google.com/open?id=1ZgEP8frAfXsO8CO1HjKKZwrUN9GmTP10
+          port_of:
+            - name: oom_Ex
+              desc:
+                - 　・ user/graphic フォルダに fruitTrees.bmp があれば果実の木を実る果実ごとに差し替えられるように(oomEx より)
+        - date: 2018/07/21 22:56
 
     - name: foobar
       authors:
         - KI
         - Ruin0x11
       website: https://elonafoobar.com/
+      wikia_page: Elona_Foobar
       derived_from:
         name: elona
         version: 1.22(開発版)

@@ -98,7 +98,13 @@ END
     return unless x
 
     svg.g(id: variant.name) do
-      svg.a('xlink:href' => "dood") do
+      if variant.link
+        svg.text_(x: x, y: "-15") do
+          svg.a(href: variant.link, title: variant.display_name) do
+            svg.text variant.name
+          end
+        end
+      else
         svg.text_(x: x, y: "-15") do
           svg.text variant.name
         end
@@ -131,6 +137,7 @@ END
         if release.port_of
           release.port_of.each do |port|
             next unless port[:version]
+            next unless @y_positions[port[:name]]
             tx = if port[:version]
                    @positions[port[:name]][port[:version]]
                  end
