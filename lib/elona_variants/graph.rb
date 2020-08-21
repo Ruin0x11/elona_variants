@@ -28,7 +28,7 @@ class ElonaVariants::Graph
       @positions[variant.name] = pos
     end
 
-    @end_year = 2020
+    @end_year = 2022
     @width = discr(Date.new(@end_year, 06, 01))
     @height = 2580
     @start_x = 0

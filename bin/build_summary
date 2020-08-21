@@ -1,18 +1,23 @@
 #!/usr/bin/env ruby
 
 require "date"
-require "nokogiri"
 require "yaml"
+require "nokogiri"
+require "pandoc-ruby"
 
 require_relative "../lib/elona_variants"
 
 @variants = ElonaVariants.load(File.join(__dir__, "../data/variants.yml"))
 
-@details = {}
+@details = ElonaVariants.load_details(File.join(__dir__, "../data/details.yml"))
 
 @lookup = {}
 @variants.each do |variant|
   @lookup[variant.name] = variant
+end
+
+def github_raw_link(file)
+  "https://raw.githubusercontent.com/Ruin0x11/elona_variants/master/#{file}"
 end
 
 def format_date(date)
@@ -22,16 +27,18 @@ end
 def write_info(doc)
   latest_date = @variants.filter_map { |v| v.latest_release.date }.max
 
+  doc.h1 "Elona Variants"
+
   doc.p do
-    doc.text "This page will attempt to collect the major features of each Elona variant in an easily consumable overview. This is to better understand what features could be ported OpenNefia through its mod system."
+    doc.text "This page will attempt to collect the major features of each Elona variant in one place. This is to better understand what features across all the variants could be ported OpenNefia through its mod system."
   end
 
   doc.p do
-    doc.text "Because each variant has so many changes, it's probably impractical to list them all here. For now I'll focus on the features that have the most importance to people."
+    doc.text "Because each variant has so many changes, it's probably impractical to list them all here. For now I'll focus on the features that seem to have the most importance to people."
   end
 
   doc.p do
-    doc.text "Each variant can also have a mod identifier associated with it. In OpenNefia, we can implement \"modpacks\" by simply creating an empty mod that specifies a bunch of related mods as dependencies."
+    doc.text "Each variant can also have a mod identifier associated with it. In OpenNefia, we could implement \"modpacks\" by simply creating an empty mod that specifies a bunch of related mods as dependencies."
   end
 
   doc.p do
@@ -41,12 +48,12 @@ def write_info(doc)
       doc.text "Ruin0x11/elona_variants"
     end
 
-    doc.text ". It is current as of #{format_date(latest_date)}, and will probably go out of date quickly. If there's a feature you want to see a mod created for, feel free to open a pull request that adds it there."
+    doc.text ". The dates are current as of #{format_date(latest_date)}. If there's a feature you want to see a mod created for, feel free to open a pull request that adds it there."
   end
 end
 
 def write_variant_table(doc)
-  doc.h2 "Table of Variants"
+  doc.h1 "Table of Variants"
 
   doc.table do
     doc.thead do
@@ -66,7 +73,7 @@ def write_variant_table(doc)
         doc.tr do
           doc.th do
             if @details[variant.name]
-              doc.a(href: "##{variant.display_name}") { doc.text variant.name }
+              doc.a(href: "##{variant.name}") { doc.text variant.name }
             else
               doc.text variant.name
             end
@@ -121,18 +128,75 @@ def write_variant_table(doc)
 end
 
 def write_variant_lineage(doc)
-  doc.h2 "Lineage of Variants"
+  doc.h1 "Lineage of Variants"
 
-  graph = ElonaVariants::Graph.new @variants
-  svg = graph.build
+  doc.text "Click "
+  doc.a(href: github_raw_link("data/lineage.svg")) do
+    doc.text "here"
+  end
+  doc.text " for a graph showing the release history of each variant."
+end
 
-  doc << svg.to_xml
+def write_variant_details(doc)
+  doc.h1 "Variant Details"
+
+  @details.each do |variant_name, detail|
+    variant = @lookup[variant_name]
+
+    doc.h2 variant.name
+
+    doc.table do
+      doc.thead do
+        doc.tr do
+          doc.th { doc.text "Name" }
+          doc.th { doc.text "Description" }
+          doc.th { doc.text "Added In" }
+          doc.th { doc.text "Links" }
+          doc.th { doc.text "Images" }
+        end
+      end
+      doc.tbody do
+        detail.features.each do |feature|
+          doc.tr do
+            doc.th do
+              doc.text feature[:name]
+            end
+
+            doc.th do
+              doc.text feature[:desc]
+            end
+
+            doc.th do
+              if feature[:added_in]
+                doc.text feature[:added_in]
+              end
+            end
+
+            doc.th do
+              feature[:links].each_with_index do |link, index|
+                doc.a(href: link) { doc.text "[#{index+1}]"}
+                doc.text " "
+              end
+            end
+
+            doc.th do
+              feature[:images].each_with_index do |image, index|
+                doc.a(href: image) { doc.text "[#{index+1}]"}
+                doc.text " "
+              end
+            end
+          end
+        end
+      end
+    end
+  end
 end
 
 def write_body(doc)
   write_info(doc)
   write_variant_table(doc)
   write_variant_lineage(doc)
+  write_variant_details(doc)
 end
 
 builder = Nokogiri::HTML::Builder.new do |doc|
@@ -143,4 +207,7 @@ builder = Nokogiri::HTML::Builder.new do |doc|
   end
 end
 
-puts builder.to_xml
+html = builder.to_html
+markdown = PandocRuby.convert(html, { from: :html, to: :gfm }, "--wrap=none")
+
+puts markdown

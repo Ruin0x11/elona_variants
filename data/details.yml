@@ -1,8 +1,68 @@
 details:
   plus:
-  custom:
+    features:
+      - name: Pet Evolution
+        desc: You can evolve certain kinds of pets using special "heart" items.
+        links:
+          - https://elona.fandom.com/wiki/Pet_Evolution
+      - name: AP
+        desc: Defeating tougher enemies gives you AP, which you can spend on extra perks. Your current AP is shown in your character sheet.
+        links:
+          - https://elona.fandom.com/wiki/AP
+      - name: Artifact Fusion
+        desc: You can upgrade certain artifact or unique items with a fusion component item.
+        links:
+          - https://elona.fandom.com/wiki/Artifact_fusion
+      - name: Dōjō
+        desc: A new location for passively training pets.
+        links:
+          - https://elona.fandom.com/wiki/Doujou
+        images:
+          - Map-doujyou.webp
+      - name: Random Profile
+        desc: You can choose to roll a random profile when you create your character. It is purely for cosmetic purposes, and appears in your character sheet.
+
+  plus_custom:
     features:
       - name: Custom Pet AI
-      - desc: In Custom, you can customize how pets behave through a new menu.
-      - images:
-          - data/images/custom/pet_ai.png
+        desc: You can customize how pets behave through a new menu.
+        added_in: 1.51.4
+        links:
+          - https://elona.fandom.com/wiki/User_blog:AnnaBannana/New_Features_in_Elona_Custom_1.51.4#Customizeable_AI
+        images:
+          - Elonamod.webp
+          - pet_ai_2.jpg
+      - name: Pet Spell/Abilities
+        desc: You can teach your pets any skill or spell that you already know.
+        added_in: 1.51.4
+        links:
+          - https://elona.fandom.com/wiki/User_blog:AnnaBannana/New_Features_in_Elona_Custom_1.51.4#Spell.2FAbility_System
+
+  omake:
+    features:
+      - name: Titles
+        desc: You can obtain titles upon fulfilling certain requirements. Some of these titles come with special perks that can be toggled on and off at will.
+        images:
+          - titles.png
+      - name: Autopickup
+        desc: You can automatically pick up or destroy items on the ground based on a filter.
+        links:
+          - https://elona.fandom.com/wiki/Autopickup
+
+  oo:
+    features:
+      - name: Difficulty based on degree of progress
+        desc: Changes the formulas for many game mechanics to be based on a degree of progress instead of the player's level.
+        notes: This is quite a far-reaching change. In OpenNefia, all of these formulas would have to be modularized into separate functions, so they can be overridden using advice or similar.
+        links:
+          - https://elona.fandom.com/wiki/Omake_overhaul#Game_difficulty_is_now_based_on_current_degree_of_progress
+      - name: Factions
+        desc: Characters now belong to factions, which determines their attitude towards one another.
+        links:
+          - https://elona.fandom.com/wiki/Omake_overhaul#Factions
+      - name: Smithing
+        desc: Allows you to create and upgrade equipment while training constitution using the new "blacksmith hammer" item.
+        links:
+          - https://elona.fandom.com/wiki/Smithing
+        images:
+          - smithing.png
