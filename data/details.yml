@@ -66,6 +66,60 @@ details:
           - https://elona.fandom.com/wiki/Smithing
         images:
           - smithing.png
+      - name: Spellmaking
+        desc: Allows you to create custom magic.
+        added_in: 2013/01/13 17:34
+        links:
+          - https://wikiwiki.jp/elonaval/overhaul/TIPS#iada8fc5
+        images:
+          - spellmaking.png
+
+  oom:
+    features:
+      - name: Enchantment Filtering
+        desc: Allows you to filter items in the inventory menu by enchantment.
+        links:
+          - http://zeffi.web.fc2.com/oom_readme.html#N0004
+        images:
+          - enchant.gif
+      - name: Damage Popups
+        desc: Displays damage popups, which are color-coded by damage type. Lets you merge damage between extra attacks and separate weapons, and allows you to change the display of added buffs, applied status effects, evasion and triggered skills. You can also configure the font size and speed.
+        notes: The damage merging between weapons/extra attacks will be really annoying to get right without just the right amount of information passed from the combat event hooks.
+        links:
+          - http://zeffi.web.fc2.com/oom_readme.html#N0006
+        images:
+          - damage.png
+      - name: Skill Tracker Extension
+        desc: Improves the skill tracker with spell stock/potential information and increases the maximum number of tracked skills to 20. Tracked skills on pets will now be preserved so long as the pet continues to exist. The category of each tracked skill is color-coded for easier viewing.
+        links:
+          - http://zeffi.web.fc2.com/oom_readme.html#N0007
+        images:
+          - strack.png
+      - name: Target Information Extension
+        desc: Extends the information provided by targeting an enemy to include hexes/buffs, ammo, resistances, status effects, HP/MP, current target, and job.
+        links:
+          - http://zeffi.web.fc2.com/oom_readme.html#N0009
+        images:
+          - target.png
+      - name: Autoequip Based On Skill
+        desc: Pressing `q` at the equipment screen and selecting a skill will automatically equip all items you're carrying that possess enchantments which improve that skill.
+        links:
+          - http://zeffi.web.fc2.com/oom_readme.html#N0022
+      - name: Select Teleport Location
+        desc: Allows you to select an arbitrary position to teleport to. You can also select the position of a dropped item that has a marker feature.
+        links:
+          - http://zeffi.web.fc2.com/oom_readme.html#N0031
+        images:
+          - teleport_location.png
+      - name: Display Chat Bubbles
+        desc: Shows chat bubbles for characters that speak.
+        notes: Probably depends on a global to work. We'd have to add more information about what character is speaking in calls to `Gui.mes()`.
+        links:
+          - http://zeffi.web.fc2.com/oom_readme.html#N2016
+        images:
+          - pop_default.png
+          - pop_chara.png
+
 
   elona_extender:
     desc: Not actually a variant, but an external program which adds some useful features.
