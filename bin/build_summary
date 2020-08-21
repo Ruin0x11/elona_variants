@@ -30,7 +30,7 @@ def write_info(doc)
   doc.h1 "Elona Variants"
 
   doc.p do
-    doc.text "This page will attempt to collect the major features of each variant of Elona in one place. This is to better understand what features across all the variants could be ported OpenNefia through its mod system, without having to constantly jump between various wikis and changelogs."
+    doc.text "This page will attempt to collect the major features of each variant of Elona in one place. This is to better understand what features across all the variants could be ported OpenNefia using its mod system, without having to constantly jump between various wikis and changelogs."
   end
 
   doc.p do
@@ -38,7 +38,7 @@ def write_info(doc)
   end
 
   doc.p do
-    doc.text "Each variant can also have a mod identifier associated with it. In OpenNefia, we could implement \"modpacks\" by simply creating an empty mod that specifies a bunch of related mods as dependencies."
+    doc.text "Each variant could also have a mod identifier associated with it. In OpenNefia, we could implement \"modpacks\" by simply creating an empty mod that specifies a bunch of related mods as dependencies."
   end
 
   doc.p do

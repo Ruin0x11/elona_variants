@@ -493,6 +493,7 @@ variants:
 
     - name: amylona
       long_name: Amylona
+      webpage: https://old.reddit.com/r/Elona/comments/7gddb7/amylona_a_minor_variant_of_elonapluscustom/
       derived_from:
         name: plus_custom # ???
         version: E+C 1.71.1 # ???
@@ -2534,6 +2535,7 @@ variants:
       long_name: Elona OMOD
       authors:
         - ztjal.info
+      webpage: https://elonaomod.ztjal.info/
       derived_from:
         name: elona
         version: 1.22(開発版)

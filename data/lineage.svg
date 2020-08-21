@@ -265,7 +265,9 @@ a:hover {
       <line stroke="black" x1="5157" x2="5157" y1="-5" y2="10"/>
     </g>
     <g id="amylona">
-      <text x="4504" y="-15">amylona</text>
+      <text x="4504" y="-15">
+        <a href="https://old.reddit.com/r/Elona/comments/7gddb7/amylona_a_minor_variant_of_elonapluscustom/" title="Amylona">amylona</a>
+      </text>
       <line stroke="#0A0" x1="4504" x2="4076" y1="0" y2="-100"/>
       <circle stroke="#0A0" cx="4504" r="10"/>
       <rect x="4504" y="-5" width="50" height="15" fill="#AE9A00"/>
@@ -1454,7 +1456,9 @@ a:hover {
       <line stroke="black" x1="4410" x2="4410" y1="-5" y2="10"/>
     </g>
     <g id="omod">
-      <text x="3949" y="-15">omod</text>
+      <text x="3949" y="-15">
+        <a href="https://elonaomod.ztjal.info/" title="Elona OMOD">omod</a>
+      </text>
       <line stroke="#0A0" x1="3949" x2="1566" y1="0" y2="-1750"/>
       <circle stroke="#0A0" cx="3949" r="10"/>
       <rect x="3949" y="-5" width="549" height="15" fill="#AE9A00"/>

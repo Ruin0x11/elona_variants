@@ -1,25 +1,60 @@
 details:
   plus:
     features:
+      - name: Game Modes
+        desc: Adds a list of game modes you can choose from during character creation, including one with permadeath.
+        links:
+          - https://wikiwiki.jp/elonaplus/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0#vc8f8a93
+        images:
+          - game_modes.webp
       - name: Pet Evolution
         desc: You can evolve certain kinds of pets using special "heart" items.
         links:
           - https://elona.fandom.com/wiki/Pet_Evolution
+          - https://wikiwiki.jp/elonaplus/%E3%83%9A%E3%83%83%E3%83%88%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0#ee77ef09
       - name: AP
         desc: Defeating tougher enemies gives you AP, which you can spend on extra perks. Your current AP is shown in your character sheet.
         links:
           - https://elona.fandom.com/wiki/AP
+          - https://wikiwiki.jp/elonaplus/%EF%BC%A1%EF%BC%B0
       - name: Artifact Fusion
         desc: You can upgrade certain artifact or unique items with a fusion component item.
         links:
           - https://elona.fandom.com/wiki/Artifact_fusion
+          - https://wikiwiki.jp/elonaplus/%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E5%90%88%E6%88%90
       - name: Dōjō
         desc: A new location for passively training pets.
         links:
           - https://elona.fandom.com/wiki/Doujou
+          - https://wikiwiki.jp/elonaplus/%E9%81%93%E5%A0%B4
         images:
           - Map-doujyou.webp
-      - name: Random Profile
+      - name: Discarded Ranch
+        desc: A new location for depositing pets you don't want in your party, creatable with a deed.
+        links:
+          - https://elona.fandom.com/wiki/Discarded_ranch
+          - https://wikiwiki.jp/elonaplus/%E7%89%A9%E4%BB%B6#n6317e0f
+      - name: Gauge Attacks
+        desc: A new set of special actions that consume part of a "power gauge." This gauge can be refilled by attacking, being attacked, and through various other means.
+        links:
+          - https://wikiwiki.jp/elonaplus/%E6%AD%A6%E5%99%A8%E7%89%B9%E6%AE%8A%E6%8A%80
+      - name: Tag Teams
+        desc: Allows two allies to occupy the same tile. The first ally decides movement while the second acts independently. There are many subtle behaviors with this mechanic, such as AP gain being shared between both characters.
+        notes: As with riding, this will need an engine feature allowing for more than one character to occupy a tile, and getting the "primary" character on a tile for the purposes of things like movement or attacking/defense. Also, this feature can be combined with riding, allowing up to 3 characters to occupy a single tile.
+        links:
+          - https://elona.fandom.com/wiki/Tag_organization
+          - https://wikiwiki.jp/elonaplus/%E3%83%9A%E3%83%83%E3%83%88%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0#c789822a
+      - name: Extended Main Quest
+        desc: Adds a second and third act to the main quest, part of which takes place in South Tyris.
+        links:
+          - https://elona.fandom.com/wiki/Main_Quest_(Elona%2B)
+      - name: Meaningful Pet Skills
+        desc: Various changes to make certain skills meaningful when learned by pets. One example is Cooking, where pets will make breakfast that trains your potential when waking up in the morning.
+        links:
+          - https://wikiwiki.jp/elonaplus/%E3%83%9A%E3%83%83%E3%83%88%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0#c2231003
+        images:
+          - pet_cooking.jpg
+      - name: Personal Background
         desc: You can choose to roll a random profile when you create your character. It is purely for cosmetic purposes, and appears in your character sheet.
 
   plus_custom:
