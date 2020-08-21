@@ -83,6 +83,8 @@ details:
         desc: You can automatically pick up or destroy items on the ground based on a filter.
         links:
           - https://elona.fandom.com/wiki/Autopickup
+      - name: Adventurer Parties
+        desc: Adventurers will now form parties with one another. The party leader's name will be displayed above each party member's character chip.
 
   oo:
     features:

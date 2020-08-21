@@ -89,10 +89,11 @@ Click [here](https://raw.githubusercontent.com/Ruin0x11/elona_variants/master/da
 
 ## omake
 
-| Name       | Description                                                                                                                                      | Added In | Links                                             | Images                                                                                                 |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Titles     | You can obtain titles upon fulfilling certain requirements. Some of these titles come with special perks that can be toggled on and off at will. |          |                                                   | [\[1\]](https://raw.githubusercontent.com/Ruin0x11/elona_variants/master/data/images/omake/titles.png) |
-| Autopickup | You can automatically pick up or destroy items on the ground based on a filter.                                                                  |          | [\[1\]](https://elona.fandom.com/wiki/Autopickup) |                                                                                                        |
+| Name               | Description                                                                                                                                      | Added In | Links                                             | Images                                                                                                 |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Titles             | You can obtain titles upon fulfilling certain requirements. Some of these titles come with special perks that can be toggled on and off at will. |          |                                                   | [\[1\]](https://raw.githubusercontent.com/Ruin0x11/elona_variants/master/data/images/omake/titles.png) |
+| Autopickup         | You can automatically pick up or destroy items on the ground based on a filter.                                                                  |          | [\[1\]](https://elona.fandom.com/wiki/Autopickup) |                                                                                                        |
+| Adventurer Parties | Adventurers will now form parties with one another. The party leader's name will be displayed above each party member's character chip.          |          |                                                   |                                                                                                        |
 
 ## oo
 
